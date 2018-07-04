@@ -67,8 +67,8 @@
 \contentsline {subsubsection}{\numberline {5.4.2.3}PyCharm}{47}{subsubsection.5.4.2.3}
 \contentsline {subsubsection}{\numberline {5.4.2.4}Arduino IDE}{49}{subsubsection.5.4.2.4}
 \contentsline {subsubsection}{\numberline {5.4.2.5}Notepad++}{50}{subsubsection.5.4.2.5}
-\contentsline {subsubsection}{\numberline {5.4.2.6}Filezilla}{50}{subsubsection.5.4.2.6}
-\contentsline {subsubsection}{\numberline {5.4.2.7}Putty}{51}{subsubsection.5.4.2.7}
+\contentsline {subsubsection}{\numberline {5.4.2.6}Filezilla}{51}{subsubsection.5.4.2.6}
+\contentsline {subsubsection}{\numberline {5.4.2.7}Putty}{52}{subsubsection.5.4.2.7}
 \contentsline {chapter}{\numberline {6}Results}{53}{chapter.6}
 \contentsline {section}{\numberline {6.1}Studied cases}{53}{section.6.1}
 \contentsline {section}{\numberline {6.2}Analysis of the results obtained}{54}{section.6.2}
