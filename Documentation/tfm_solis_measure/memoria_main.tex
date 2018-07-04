@@ -1,0 +1,108 @@
+\documentclass[oneside,numbers]{ezthesis}
+\usepackage[british,spanish]{babel}
+\usepackage[T1]{fontenc} % tildes reales. Codificación T1.
+\usepackage[utf8x]{inputenc}
+\usepackage{listings}
+\usepackage{eurosym}
+\lstset{language=sh, breaklines=true, basicstyle=\footnotesize}
+\usepackage{url}
+\usepackage{fixltx2e}
+\usepackage{amsmath}
+\usepackage{float}
+%\usepackage[none]{hyphenat}
+\usepackage{epstopdf}
+\usepackage{wrapfig}
+%\usepackage{graphicx, subfigure}
+%para códigos
+\usepackage{xcolor}
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
+
+%% # Datos del documento #
+%% Nota que los acentos se deben escribir: \'a, \'e, \'i, etc.
+%% La letra n con tilde es: \~n.
+
+
+
+\title{Sensores para la medición de la capacidad de infiltración de suelos}
+\degree{Máster en Ingeniería Informática}
+\supervisor{Pablo García Rodríguez \\ Pablo Durán}
+\institution{Universidad de Extremadura}
+\faculty{Escuela Politécnica de Cáceres}
+\department{Departamento de Sistemas de Información (Por determinar)}
+
+%% # M'argenes del documento #
+%%
+%% Quitar el comentario en la siguiente linea para austar los m'argenes del
+%% documento. Leer la documentaci'on de "geometry" para m'as informaci'on.
+
+%\geometry{top=40mm,bottom=33mm,inner=40mm,outer=25mm}
+
+%% El siguiente comando agrega ligas activas en el documento para las
+%% referencias cruzadas y citas bibliogr'aficas. Tiene que ser *la 'ultima*
+%% instrucci'on antes de \begin{document}.
+\hyperlinking
+\begin{document}
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\chaptername}{Chapter}
+\renewcommand{\tablename}{Table}
+\renewcommand{\bibname}{References and bibliography}
+\renewcommand{\listfigurename}{List of figures}
+%% En esta secci'on se describe la estructura del documento de la tesis.
+%% Consulta los reglamentos de tu universidad para determinar el orden
+%% y la cantidad de secciones que debes de incluir.
+
+%% # Portada de la tesis #
+%% Mirar el archivo "titlepage.tex" para los detalles.
+\include{portada}
+\pagenumbering{roman} % Para comenzar la numeracion de paginas en numeros romanos
+\chapter*{}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\thispagestyle{empty}
+\newpage
+ \include{cita}
+
+%% # 'Indices y listas de contenido #
+%% Quitar los comentarios en las lineas siguientes para obtener listas de
+%% figuras y cuadros/tablas.
+
+
+%% # Cap'itulos #
+%% Por cada cap'itulo hay que crear un nuevo archivo e incluirlo aqu'i.
+%% Mirar el archivo "intro.tex" para un ejemplo y recomendaciones para
+%% escribir.
+
+\include{0_Resumen}
+
+\tableofcontents
+\newpage
+%\listoftables
+\listoffigures
+\newpage
+\pagenumbering{arabic} % Para comenzar la numeracion de paginas en numeros romanos
+\include{1_Introduccion}
+\include{2_Estado_Arte}
+\include{5_Requirements}
+\include{6_Design}
+\include{3_Material_Metodo}
+\include{4_Resultados_Discusion}
+\include{7_Conclusiones}
+\include{9_Appendix}
+\include{8_Agradecimientos}
+%\include{7_glosario}
+\appendix
+\nocite{*}
+\bibliography{biblio_tfm}
+\bibliographystyle{plain}
+%% Cap'itulos incluidos despues del comando \appendix aparecen como ap'endices
+%% de la tesis. 
+%\include{apendiceA}
+%\include{apendiceB}
+%\include{apendiceC}
+
+
+\end{document}

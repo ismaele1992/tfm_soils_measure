@@ -1,0 +1,403 @@
+/*************************************************************
+
+ Plantilla CSS del Atlas de Petrologia Sedimentaria
+
+ Autor:       Francisco Javier Lopez Acevedo
+ e-mail:      lopace@geo.ucm.es  
+ Fecha:       25 de septiembre de 2008
+ Fecha2:	  7 de agosto de 2011
+ Version:     2.1
+ URL Web:     http://www.ucm.es/info/petrosed/
+
+*************************************************************/
+
+
+/* ---------- Formateo de CSS, por Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html -------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	clear: both;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img { border: none; }
+	
+
+
+
+/* ---------- Propiedades del fondo -------------- */
+
+body {
+	font: 1em Arial, Georgia, Helvetica, sans-serif;
+	background-color:#486D94;
+	margin: 0;
+	padding: 2em; /* separacion con el borde superior de la pantalla */
+	text-align: center;
+}
+
+
+
+
+/* ---------- Propiedades del formato de texto -------------- */
+
+h1 /* Texto del encabezado */ {
+	font-size: 2em;
+	color: #000;
+	padding: 40px 30px;
+	text-shadow: 4px 4px 4px #000;
+}
+
+
+h2 /* Titulo principal de parrafo */ {
+	font-size: 1.8em;
+	color: #111;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+
+h3 /* Titulo secundario de parrafo */ {
+	font-size: 1.4em;
+	color: #111;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+
+p {
+	margin-bottom: 1em;
+}
+
+
+li {
+	margin-left: 30px;	
+	margin-bottom: 0.3em;
+}
+
+
+
+
+/* ---------- Propiedades de los enlaces generales -------------- */
+
+a {
+	color:#06F;
+}
+
+
+a:hover {
+	color:#06C;
+}
+
+
+
+
+/* ---------- Propiedades de las imagenes ----------*/
+
+img.cajetin {
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+/* ---------- Propiedades de las imagenes ----------*/
+
+abbr {
+	
+	border-bottom: 1px dotted;
+}
+
+
+
+
+/* ---------- Propiedades del contenedor -------------- */
+
+.AtlasPetrografico #caja { 
+	width: 940px;  /* ancho del cuerpo */
+	background: #FFFFFF;
+	margin: 0 auto; /* se pone en auto para centrar la pagina */
+	text-align: justify;
+	padding: 1.1em;
+	border-radius: 20px;
+} 
+
+
+
+
+/* ---------- Propiedades del encabezado -------------- */
+
+.AtlasPetrografico #encabezado {
+	height: 200px;
+	background-image: url(img/encabezado.jpg);
+	border-bottom: 1px solid #fff;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+} 
+
+
+
+
+/* ---------- Propiedades del menu desplegable -------------- */
+
+.AtlasPetrografico .menu {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font: 0.8em arial;
+}
+
+
+.AtlasPetrografico .menu ul {
+	background: #486d94;
+	height: 40px;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+
+.AtlasPetrografico .menu li {
+	margin: 0;
+	float: left;
+	padding: 0;
+	border-right:1px solid #ffffff;
+}
+
+
+.AtlasPetrografico .menu li a {
+	background: #486d94;
+	color:#ffffff;
+	display:block;
+	line-height: 40px;
+	margin: 0;
+	padding: 0 25px;
+	text-align: center;
+	text-decoration:none;
+}
+	
+	
+.AtlasPetrografico .menu li a:hover, .AtlasPetrografico .menu ul li:hover a {
+	background:#4682b4;
+}
+
+
+.AtlasPetrografico .menu li ul {
+	background:#333333;
+	display:none;
+	height:auto;
+	padding:0;
+	margin:0;
+	border:0;
+	position:absolute;
+	width:221px;
+	z-index:200;
+}
+		
+		
+.AtlasPetrografico .menu li:hover ul {
+	display:block;
+}
+		
+		
+.AtlasPetrografico .menu li li {
+	border-right:1px solid #ffffff;
+	display:block;
+	float:none;
+	margin:0;
+	padding:0;
+	width:221px;
+}
+		
+		
+.AtlasPetrografico .menu li:hover li a {
+	background:none;
+}
+		
+		
+.AtlasPetrografico .menu li ul a {
+	display:block;
+	height:40px;
+	font-style:normal;
+	margin:0;
+	padding:0 10px 0 15px;
+	text-align:left;
+}
+		
+		
+.AtlasPetrografico .menu li ul a:hover, .AtlasPetrografico .menu li ul li:hover a {
+	background:#2580a2;
+	border:0;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+
+.AtlasPetrografico .menu p {
+	clear:left;
+}
+
+
+
+
+/* ---------- Propiedades del contenido -------------- */
+
+.AtlasPetrografico #contenido { 
+	margin: 40px 20px 0 20px;  /* distancia de separacion con el menu */
+	line-height: 1.4em;
+	background: #fff;
+}
+
+
+
+
+/* ---------- Propiedades del cajetin -------------- */
+
+.AtlasPetrografico #cajetin { 
+	min-height:230px;
+	line-height: 1.4em;
+	background: #fff;
+}
+
+
+
+
+/* ---------- Propiedades del pie de pagina -------------- */
+
+.AtlasPetrografico #pie { 
+	margin-top: 60px; /* distancia de separacion con el contenido */
+	padding-top: 10px;
+	height: 50px;
+	line-height: 1.8em;
+	border-top:1px solid #222;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+
+.AtlasPetrografico #pie p {
+	margin-bottom: 0;	
+}
+
+
+.AtlasPetrografico #pieA {
+	float: left;
+	width: 470px;
+}
+
+
+.AtlasPetrografico #pieB {
+	float: right;
+	text-align: right;
+	width: auto;
+}
+
+
+
+
+/* ---------- Propiedades del formulario de contacto -------------- */
+
+
+form#contact fieldset {
+	padding: 10px 20px 20px 20px;
+	margin: 0 auto;
+	border: 0;
+	background-color: #fff;
+	width: 350px;
+	text-align: left;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px #d3d3d3; 
+}
+
+form#contact input[type="text"], input[type="url"], 
+input[type="email"], input[type="tel"], textarea {
+	margin: 3px 0 0 0;
+	padding: 6px; 
+	width: 335px; 
+	font-family: arial, sans-serif; 
+	font-size: 12px; 
+	border: 1px solid #ccc;
+    background-color: #FFFFFF;
+}
+
+form#contact textarea {
+	width: 335px; 
+	height: 150px;
+}
+
+form#contact label {
+	display: block;
+	font-size: 13px;
+	color: #666;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+form#contact label.error { 
+	width: 270px;
+	margin: 3px 0 0 0;
+	display: block;
+	color: #cf0101;                              
+	font-size: 11px; 
+	text-align: right;
+}
+
+form#contact .placeholder {
+	color: #aaa;
+}
+
+form#contact .button {
+	display: inline-block;
+	margin: 15px 0 0 90px;
+	padding: 5px 15px 5px 15px;
+	background-color: #ff9e00;
+	border: none;
+	color: #fff;
+	border-radius: 15px;
+}
+
+form#contact .button:hover {
+	background-color: #fc8500;
+	cursor: pointer;
+}
+
+form#contact .button:active {
+	margin-top: 16px;
+	background-color: #f08004;
+	cursor: pointer;
+}
