@@ -1,0 +1,34 @@
+qemu-system-arm -kernel ./kernel-qemu-4.4.34-jessie -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -hda 2017-11-29-raspbian-stretch.qcow -cpu arm1176 -m 1024 -M versatilepb -no-reboot -serial stdio -net nic -net user -net tap,ifname=VIRTUAL,script=no,downscript=no
+
+qemu-system-arm -kernel ./kernel-qemu-4.4.34-jessie -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -hda 2017-11-29-raspbian-stretch.qcow -cpu raspi2 -m 1024 -M versatilepb -no-reboot -serial stdio -net nic -net user -net tap,ifname=VIRTUAL,script=no,downscript=no
+
+qemu-system-arm -kernel kernel-qemu-4.4.34-jessie -cpu arm1176 -m 256 -M versatilepb -no-reboot -serial stdio -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw init=/bin/bash" -drive "file=2017-11-29-raspbian-stretch.img,index=0,media=disk,format=raw" -redir tcp:2222::22
+
+qemu-system-arm -kernel kernel-qemu-4.4.34-jessie -cpu arm1176 -m 256 -M versatilepb -serial stdio -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -drive "file=2017-11-29-raspbian-stretch.img,index=0,media=disk,format=raw" -redir tcp:2222::22 -net nic -net user -net tap,ifname=VIRTUAL,script=no,downscript=no
+
+
+#RESIZE IMG
+
+qemu-img resize 2017-11-29-raspbian-stretch.img +10G
+
+
+#CREATE SD ON VB
+
+"C:\Program Files\Oracle\VirtualBox\VBoxManage" internalcommands createrawvmdk -filename "C:\Users\USHUARIO\Desktop\sdcard.vmdk" -rawdisk "\\.\PHYSICALDRIVE1"
+resize2fs /dev/sda2 10G
+
+#OPEN PORT FIREWALL
+
+/sbin/iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 27017 -j ACCEPT
+/sbin/iptables -A INPUT -m state --state NEW -m udp -p udp --dport 27017 -j ACCEPT
+/sbin/iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+service iptables save
+
+
+qemu-img convert -f raw -O qcow2 2017-11-29-raspbian-stretch.img 2017-11-29-raspbian-stretch.qcow
+
+qemu-img resize 2017-11-29-raspbian-stretch.qcow +6G
+
+-drive "file=\\.\PhysicalDrive1,index=0,media=disk"
+
+qemu-system-arm -kernel kernel-qemu-4.4.34-jessie -cpu arm1176 -m 256 -M versatilepb -serial stdio -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -drive "file=2017-11-29-raspbian-stretch.img,index=0,media=disk" 
