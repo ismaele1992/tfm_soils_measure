@@ -23,13 +23,12 @@
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Soil Moisture Evolution in an Earth Dam }}{57}{figure.6.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces How to display MongoDB service when it is running }}{66}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces MongoDB's service is active }}{67}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Start MongoDB's service }}{68}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Stop MongoDB's service }}{68}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Putty's interface }}{72}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Loggin into Raspberry Pi }}{73}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Loggin into Raspberry Pi with its password }}{74}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Network adapters Raspberry Pi }}{76}{figure.8.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces IP address of the router }}{77}{figure.8.9}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces How to display MongoDB service when it is running }}{66}{figure.1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces MongoDB's service is active }}{67}{figure.1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Start MongoDB's service }}{68}{figure.1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Stop MongoDB's service }}{68}{figure.1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Putty's interface }}{72}{figure.1.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Loggin into Raspberry Pi }}{73}{figure.1.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Loggin into Raspberry Pi with its password }}{74}{figure.1.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Network adapters Raspberry Pi }}{76}{figure.1.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces IP address of the router }}{77}{figure.1.9}

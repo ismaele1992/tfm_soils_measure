@@ -27,12 +27,12 @@
 \contentsline {chapter}{\numberline {4}Design}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Architecture of the system}{17}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Data center processor}{19}{subsection.4.1.1}
-\contentsline {subsubsection}{Data center storage}{20}{section*.8}
-\contentsline {subsubsection}{Data center manager}{20}{section*.9}
-\contentsline {subsubsection}{Data center controller}{21}{section*.10}
+\contentsline {subsubsection}{Data center storage}{20}{section*.9}
+\contentsline {subsubsection}{Data center manager}{20}{section*.10}
+\contentsline {subsubsection}{Data center controller}{21}{section*.11}
 \contentsline {subsection}{\numberline {4.1.2}Sensor controller}{21}{subsection.4.1.2}
-\contentsline {subsubsection}{Data structures}{22}{section*.11}
-\contentsline {subsubsection}{Upgrades on sensors}{22}{section*.12}
+\contentsline {subsubsection}{Data structures}{22}{section*.12}
+\contentsline {subsubsection}{Upgrades on sensors}{22}{section*.13}
 \contentsline {section}{\numberline {4.2}Information flow}{23}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Sensor information flow}{24}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Storage information flow}{24}{subsection.4.2.2}
@@ -47,8 +47,8 @@
 \contentsline {subsection}{\numberline {5.2.1}NoSQL database}{32}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}NodeJS}{33}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Python 2.7.13}{34}{subsection.5.2.3}
-\contentsline {subsubsection}{API MongoDB}{35}{section*.13}
-\contentsline {subsubsection}{API Sensor's readings}{36}{section*.14}
+\contentsline {subsubsection}{API MongoDB}{35}{section*.14}
+\contentsline {subsubsection}{API Sensor's readings}{36}{section*.15}
 \contentsline {subsection}{\numberline {5.2.4}Scripting}{36}{subsection.5.2.4}
 \contentsline {section}{\numberline {5.3}Methods}{37}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Querying methods used in NoSQL databases}{37}{subsection.5.3.1}
@@ -58,41 +58,40 @@
 \contentsline {subsection}{\numberline {5.3.5}Methods used for calibrating sensors}{40}{subsection.5.3.5}
 \contentsline {section}{\numberline {5.4}Resources}{41}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Hardware}{41}{subsection.5.4.1}
-\contentsline {subsubsection}{Microcontrollers}{41}{section*.15}
-\contentsline {subsubsection}{Sensors}{42}{section*.16}
-\contentsline {subsubsection}{Network devices}{44}{section*.17}
+\contentsline {subsubsection}{Microcontrollers}{41}{section*.16}
+\contentsline {subsubsection}{Sensors}{42}{section*.17}
+\contentsline {subsubsection}{Network devices}{44}{section*.18}
 \contentsline {subsection}{\numberline {5.4.2}Software}{44}{subsection.5.4.2}
-\contentsline {subsubsection}{3T Studio}{45}{section*.18}
-\contentsline {subsubsection}{Microsoft Excel}{46}{section*.19}
-\contentsline {subsubsection}{PyCharm}{47}{section*.20}
-\contentsline {subsubsection}{Arduino IDE}{49}{section*.21}
-\contentsline {subsubsection}{Notepad++}{50}{section*.22}
-\contentsline {subsubsection}{Filezilla}{51}{section*.23}
-\contentsline {subsubsection}{Putty}{52}{section*.24}
+\contentsline {subsubsection}{3T Studio}{45}{section*.19}
+\contentsline {subsubsection}{Microsoft Excel}{46}{section*.20}
+\contentsline {subsubsection}{PyCharm}{47}{section*.21}
+\contentsline {subsubsection}{Arduino IDE}{49}{section*.22}
+\contentsline {subsubsection}{Notepad++}{50}{section*.23}
+\contentsline {subsubsection}{Filezilla}{51}{section*.24}
+\contentsline {subsubsection}{Putty}{52}{section*.25}
 \contentsline {chapter}{\numberline {6}Results}{53}{chapter.6}
 \contentsline {section}{\numberline {6.1}Studied cases}{53}{section.6.1}
 \contentsline {section}{\numberline {6.2}Analysis of the obtained results}{55}{section.6.2}
 \contentsline {chapter}{\numberline {7}Conclusions and future lines}{59}{chapter.7}
 \contentsline {section}{\numberline {7.1}Conclusions}{59}{section.7.1}
 \contentsline {section}{\numberline {7.2}Future lines}{60}{section.7.2}
-\contentsline {chapter}{\numberline {8}Appendix}{62}{chapter.8}
-\contentsline {section}{\numberline {8.1}User manual}{62}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}How to reboot the full system}{62}{subsection.8.1.1}
-\contentsline {subsubsection}{Restart network system}{63}{section*.25}
-\contentsline {subsubsection}{Restart the database}{64}{section*.26}
-\contentsline {subsubsection}{Restart the sensor system and the Raspberry PI}{65}{section*.27}
-\contentsline {subsection}{\numberline {8.1.2}How to manage MongoDB}{65}{subsection.8.1.2}
-\contentsline {subsubsection}{See the current version of MongoDB}{65}{section*.28}
-\contentsline {subsubsection}{Check mongod service}{66}{section*.29}
-\contentsline {subsubsection}{Start MongoDB service}{67}{section*.30}
-\contentsline {subsubsection}{Stop MongoDB service}{68}{section*.31}
-\contentsline {subsubsection}{How to manage MongoDB with no services installed in the system}{69}{section*.32}
-\contentsline {subsubsection}{Check MongoDB network connection}{71}{section*.33}
-\contentsline {section}{\numberline {8.2}Solution to frequent problems}{71}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Remote access to Raspberry Pi}{72}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Moving the measure system}{74}{subsection.8.2.2}
-\contentsline {subsubsection}{How to see Raspberry Pi\IeC {\textquoteright }s network address}{75}{section*.34}
-\contentsline {subsubsection}{How to proceed when the database is corrupt}{77}{section*.35}
-\contentsline {section}{\numberline {8.3}Limits of the system}{78}{section.8.3}
-\contentsline {chapter}{\numberline {9}Acknowledgment}{80}{chapter.9}
-\contentsline {chapter}{References and bibliography}{81}{section*.36}
+\contentsline {chapter}{\numberline {A}Appendix}{62}{chapter.1}
+\contentsline {section}{\numberline {A.1}User manual}{62}{section.1.1}
+\contentsline {subsection}{\numberline {A.1.1}How to reboot the full system}{62}{subsection.1.1.1}
+\contentsline {subsubsection}{Restart network system}{63}{section*.26}
+\contentsline {subsubsection}{Restart the database}{64}{section*.27}
+\contentsline {subsubsection}{Restart the sensor system and the Raspberry PI}{65}{section*.28}
+\contentsline {subsection}{\numberline {A.1.2}How to manage MongoDB}{65}{subsection.1.1.2}
+\contentsline {subsubsection}{See the current version of MongoDB}{65}{section*.29}
+\contentsline {subsubsection}{Check mongod service}{66}{section*.30}
+\contentsline {subsubsection}{Start MongoDB service}{67}{section*.31}
+\contentsline {subsubsection}{Stop MongoDB service}{68}{section*.32}
+\contentsline {subsubsection}{How to manage MongoDB with no services installed in the system}{69}{section*.33}
+\contentsline {subsubsection}{Check MongoDB network connection}{71}{section*.34}
+\contentsline {section}{\numberline {A.2}Solution to frequent problems}{71}{section.1.2}
+\contentsline {subsection}{\numberline {A.2.1}Remote access to Raspberry Pi}{72}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Moving the measure system}{74}{subsection.1.2.2}
+\contentsline {subsubsection}{How to see Raspberry Pi\IeC {\textquoteright }s network address}{75}{section*.35}
+\contentsline {subsubsection}{How to proceed when the database is corrupt}{77}{section*.36}
+\contentsline {section}{\numberline {A.3}Limits of the system}{78}{section.1.3}
+\contentsline {chapter}{References and bibliography}{80}{section*.37}

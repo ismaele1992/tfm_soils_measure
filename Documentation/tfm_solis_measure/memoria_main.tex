@@ -53,6 +53,7 @@
 \renewcommand{\listfigurename}{List of figures}
 \renewcommand{\figurename}{Fig.}
 \addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
+\pagenumbering{gobble}
 %% En esta secci'on se describe la estructura del documento de la tesis.
 %% Consulta los reglamentos de tu universidad para determinar el orden
 %% y la cantidad de secciones que debes de incluir.
@@ -66,6 +67,7 @@
 %\thispagestyle{empty}}
 \newpage
 \include{cita}
+\include{8_Agradecimientos}
 
 %% # 'Indices y listas de contenido #
 %% Quitar los comentarios en las lineas siguientes para obtener listas de
@@ -94,8 +96,10 @@
 \include{3_Material_Metodo}
 \include{4_Resultados_Discusion}
 \include{7_Conclusiones}
+\setcounter{chapter}{0}
+\renewcommand{\thechapter}{\Alph{chapter}}
 \include{9_Appendix}
-\include{8_Agradecimientos}
+
 %\include{7_glosario}
 \appendix
 \nocite{*}
