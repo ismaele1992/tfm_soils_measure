@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  5 JUL 2018 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  5 JUL 2018 11:48
 entering extended mode
 **./memoria_main.tex
 (memoria_main.tex
@@ -465,16 +465,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
-) (memoria_main.aux (portada.aux)
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- (cita.aux) (0_Resumen.aux) (1_Introduccion.aux)
-(2_Estado_Arte.aux) (5_Requirements.aux) (6_Design.aux) (3_Material_Metodo.aux
-
-LaTeX Warning: Label `PYCHARM' multiply defined.
-
-) (4_Resultados_Discusion.aux) (7_Conclusiones.aux) (9_Appendix.aux)
-(8_Agradecimientos.aux))
+) (memoria_main.aux)
 \openout1 = `memoria_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -943,96 +934,13 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
 [8
 
-]) (memoria_main.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 25.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 25.
- [9
+])
 
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-]
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 56.
- [10]
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 85.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 85.
- [11])
 \tf@toc=\write4
 \openout4 = `memoria_main.toc'.
 
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand >>
@@ -1057,41 +965,16 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 84.
- [12] (memoria_main.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
- [13
+[9
 
-])
+
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write5
 \openout5 = `memoria_main.lof'.
 
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand >>
@@ -1116,11 +999,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 87.
- [14]
+[10
+
+]
 \openout2 = `1_Introduccion.aux'.
 
-
-(1_Introduccion.tex
+ (1_Introduccion.tex
 Chapter 1.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 7.
@@ -1134,6 +1018,22 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 7.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 7.
+
+Package natbib Warning: Citation `noauthor_arduino_nodate-1' on page 1 undefine
+d on input line 12.
+
+
+Package natbib Warning: Citation `jjtorres_hardware_2014' on page 1 undefined o
+n input line 12.
+
+
+Package natbib Warning: Citation `ltd_leadership_nodate' on page 1 undefined on
+ input line 12.
+
+
+Package natbib Warning: Citation `ltd_-profile_nodate' on page 1 undefined on i
+nput line 12.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
@@ -1219,6 +1119,31 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 47.
+
+
+Package natbib Warning: Citation `noauthor_que_2012' on page 2 undefined on inp
+ut line 53.
+
+
+Package natbib Warning: Citation `powerdata_big_nodate' on page 2 undefined on 
+input line 53.
+
+
+Package natbib Warning: Citation `noauthor_how_2015' on page 2 undefined on inp
+ut line 53.
+
+
+Package natbib Warning: Citation `noauthor_concepto_nodate' on page 2 undefined
+ on input line 53.
+
+
+Package natbib Warning: Citation `noauthor_nosql_2015' on page 2 undefined on i
+nput line 53.
+
+
+Package natbib Warning: Citation `noauthor_nosql_nodate' on page 2 undefined on
+ input line 53.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand >>
@@ -1250,6 +1175,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
+
+
+Package natbib Warning: Citation `noauthor_chapter_nodate' on page 2 undefined 
+on input line 94.
+
+
+Package natbib Warning: Citation `noauthor_information_2017' on page 2 undefine
+d on input line 94.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
@@ -1418,6 +1351,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
+
+Package natbib Warning: Citation `smart_room_controller' on page 5 undefined on
+ input line 39.
+
+
+Package natbib Warning: Citation `diy_blokefollow_watering_nodate' on page 5 un
+defined on input line 41.
+
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
 Package babel Info: Redefining spanish shorthand <<
@@ -1445,6 +1386,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
 [5]
+
+Package natbib Warning: Citation `benn_automated_2006' on page 6 undefined on i
+nput line 43.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand >>
@@ -1992,13 +1937,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 128.
  [13]
-<IMGS/waterfall_methodology.png, id=721, 1204.5pt x 903.375pt>
+<IMGS/waterfall_methodology.png, id=529, 1204.5pt x 903.375pt>
 File: IMGS/waterfall_methodology.png Graphic file (type png)
 <use IMGS/waterfall_methodology.png>
 Package pdftex.def Info: IMGS/waterfall_methodology.png  used on input line 131
 .
 (pdftex.def)             Requested size: 240.89574pt x 180.6718pt.
-<IMGS/spiral-model.jpg, id=723, 569.12625pt x 303.1325pt>
+<IMGS/spiral-model.jpg, id=531, 569.12625pt x 303.1325pt>
 File: IMGS/spiral-model.jpg Graphic file (type jpg)
 <use IMGS/spiral-model.jpg>
 Package pdftex.def Info: IMGS/spiral-model.jpg  used on input line 140.
@@ -2033,12 +1978,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 144.
  [14 <./IMGS/waterfall_methodology.png>]
-<IMGS/v_model.png, id=731, 441.65pt x 245.91875pt>
+<IMGS/v_model.png, id=540, 441.65pt x 245.91875pt>
 File: IMGS/v_model.png Graphic file (type png)
 <use IMGS/v_model.png>
 Package pdftex.def Info: IMGS/v_model.png  used on input line 149.
 (pdftex.def)             Requested size: 220.82445pt x 122.95906pt.
-<IMGS/Scrum.png, id=732, 909.3975pt x 418.56375pt>
+<IMGS/Scrum.png, id=541, 909.3975pt x 418.56375pt>
 File: IMGS/Scrum.png Graphic file (type png)
 <use IMGS/Scrum.png>
 Package pdftex.def Info: IMGS/Scrum.png  used on input line 158.
@@ -2185,7 +2130,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<IMGS/SYSTEM_SCHEMA.png, id=750, 2258.4375pt x 1139.00531pt>
+<IMGS/SYSTEM_SCHEMA.png, id=561, 2258.4375pt x 1139.00531pt>
 File: IMGS/SYSTEM_SCHEMA.png Graphic file (type png)
 <use IMGS/SYSTEM_SCHEMA.png>
 Package pdftex.def Info: IMGS/SYSTEM_SCHEMA.png  used on input line 23.
@@ -2798,7 +2743,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<IMGS/ARDUINO_MEGA.png, id=805, 3011.25pt x 1518.67375pt>
+<IMGS/ARDUINO_MEGA.png, id=617, 3011.25pt x 1518.67375pt>
 File: IMGS/ARDUINO_MEGA.png Graphic file (type png)
 <use IMGS/ARDUINO_MEGA.png>
 Package pdftex.def Info: IMGS/ARDUINO_MEGA.png  used on input line 22.
@@ -2847,7 +2792,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
 [28 <./IMGS/ARDUINO_MEGA.png>]
-<IMGS/RPI_3.JPG, id=811, 1027.84pt x 1027.84pt>
+<IMGS/RPI_3.JPG, id=624, 1027.84pt x 1027.84pt>
 File: IMGS/RPI_3.JPG Graphic file (type jpg)
 <use IMGS/RPI_3.JPG>
 Package pdftex.def Info: IMGS/RPI_3.JPG  used on input line 49.
@@ -2937,7 +2882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<IMGS/LIVE_BOX_2.png, id=820, 717.68124pt x 323.2075pt>
+<IMGS/LIVE_BOX_2.png, id=634, 717.68124pt x 323.2075pt>
 File: IMGS/LIVE_BOX_2.png Graphic file (type png)
 <use IMGS/LIVE_BOX_2.png>
 Package pdftex.def Info: IMGS/LIVE_BOX_2.png  used on input line 106.
@@ -3717,7 +3662,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 318.
 [42]
-<IMGS/FC-28.png, id=873, 401.5pt x 301.125pt>
+<IMGS/FC-28.png, id=688, 401.5pt x 301.125pt>
 File: IMGS/FC-28.png Graphic file (type png)
 <use IMGS/FC-28.png>
 Package pdftex.def Info: IMGS/FC-28.png  used on input line 321.
@@ -3895,7 +3840,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 370.
 [45]
-<IMGS/3T_STUDIO.png, id=887, 1027.84pt x 620.3175pt>
+<IMGS/3T_STUDIO.png, id=703, 1027.84pt x 620.3175pt>
 File: IMGS/3T_STUDIO.png Graphic file (type png)
 <use IMGS/3T_STUDIO.png>
 Package pdftex.def Info: IMGS/3T_STUDIO.png  used on input line 374.
@@ -3975,7 +3920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
-<IMGS/PYCHARM.jpg, id=893, 2569.6pt x 1497.595pt>
+<IMGS/PYCHARM.jpg, id=710, 2569.6pt x 1497.595pt>
 File: IMGS/PYCHARM.jpg Graphic file (type jpg)
 <use IMGS/PYCHARM.jpg>
 Package pdftex.def Info: IMGS/PYCHARM.jpg  used on input line 399.
@@ -4070,7 +4015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
-<IMGS/ARDUINO_IDE.png, id=902, 451.6875pt x 385.44pt>
+<IMGS/ARDUINO_IDE.png, id=720, 451.6875pt x 385.44pt>
 File: IMGS/ARDUINO_IDE.png Graphic file (type png)
 <use IMGS/ARDUINO_IDE.png>
 Package pdftex.def Info: IMGS/ARDUINO_IDE.png  used on input line 432.
@@ -4169,7 +4114,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 450.
  [50 <./IMGS/ARDUINO_IDE.png>]
-<IMGS/FILEZILLA.png, id=912, 431.6125pt x 272.01625pt>
+<IMGS/FILEZILLA.png, id=732, 431.6125pt x 272.01625pt>
 File: IMGS/FILEZILLA.png Graphic file (type png)
 <use IMGS/FILEZILLA.png>
 Package pdftex.def Info: IMGS/FILEZILLA.png  used on input line 453.
@@ -4235,7 +4180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
  []
 
-<IMGS/PUTTY.PNG, id=919, 349.305pt x 332.74312pt>
+<IMGS/PUTTY.PNG, id=739, 349.305pt x 332.74312pt>
 File: IMGS/PUTTY.PNG Graphic file (type png)
 <use IMGS/PUTTY.PNG>
 Package pdftex.def Info: IMGS/PUTTY.PNG  used on input line 472.
@@ -4315,40 +4260,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 [53
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 Package babel Info: Redefining spanish shorthand <<
@@ -4375,7 +4319,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 37.
- [54]
+[54]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand >>
@@ -4413,7 +4357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<IMGS/secado_ideal.jpg, id=933, 583.17876pt x 450.68375pt>
+<IMGS/secado_ideal.jpg, id=754, 583.17876pt x 450.68375pt>
 File: IMGS/secado_ideal.jpg Graphic file (type jpg)
 <use IMGS/secado_ideal.jpg>
 Package pdftex.def Info: IMGS/secado_ideal.jpg  used on input line 54.
@@ -4452,7 +4396,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-<IMGS/results_measures.jpeg, id=938, 670.00313pt x 325.215pt>
+<IMGS/results_measures.jpeg, id=760, 670.00313pt x 325.215pt>
 File: IMGS/results_measures.jpeg Graphic file (type jpg)
 <use IMGS/results_measures.jpeg>
 Package pdftex.def Info: IMGS/results_measures.jpeg  used on input line 65.
@@ -4523,41 +4467,41 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 83.
 [57 <./IMGS/results_measures.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 101.
 [58])
 \openout2 = `7_Conclusiones.aux'.
 
@@ -4993,7 +4937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-<IMGS/check_mongodb_is_running.PNG, id=998, 320.69812pt x 65.49469pt>
+<IMGS/check_mongodb_is_running.PNG, id=821, 320.69812pt x 65.49469pt>
 File: IMGS/check_mongodb_is_running.PNG Graphic file (type png)
 <use IMGS/check_mongodb_is_running.PNG>
 Package pdftex.def Info: IMGS/check_mongodb_is_running.PNG  used on input line 
@@ -5040,7 +4984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-<IMGS/mongodb_status.PNG, id=1004, 616.55344pt x 124.96687pt>
+<IMGS/mongodb_status.PNG, id=828, 616.55344pt x 124.96687pt>
 File: IMGS/mongodb_status.PNG Graphic file (type png)
 <use IMGS/mongodb_status.PNG>
 Package pdftex.def Info: IMGS/mongodb_status.PNG  used on input line 141.
@@ -5108,7 +5052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<IMGS/start_mongodb_service.PNG, id=1010, 328.97906pt x 31.61812pt>
+<IMGS/start_mongodb_service.PNG, id=836, 328.97906pt x 31.61812pt>
 File: IMGS/start_mongodb_service.PNG Graphic file (type png)
 <use IMGS/start_mongodb_service.PNG>
 Package pdftex.def Info: IMGS/start_mongodb_service.PNG  used on input line 158
@@ -5136,7 +5080,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<IMGS/stop_mongodb_service.PNG, id=1011, 680.5425pt x 138.5175pt>
+<IMGS/stop_mongodb_service.PNG, id=837, 680.5425pt x 138.5175pt>
 File: IMGS/stop_mongodb_service.PNG Graphic file (type png)
 <use IMGS/stop_mongodb_service.PNG>
 Package pdftex.def Info: IMGS/stop_mongodb_service.PNG  used on input line 175.
@@ -5357,7 +5301,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<IMGS/putty_interface.PNG, id=1031, 339.51843pt x 324.46219pt>
+<IMGS/putty_interface.PNG, id=858, 339.51843pt x 324.46219pt>
 File: IMGS/putty_interface.PNG Graphic file (type png)
 <use IMGS/putty_interface.PNG>
 Package pdftex.def Info: IMGS/putty_interface.PNG  used on input line 264.
@@ -5392,7 +5336,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 270.
  [72 <./IMGS/putty_interface.PNG>]
-<IMGS/loggin_putty.PNG, id=1037, 494.59781pt x 313.17pt>
+<IMGS/loggin_putty.PNG, id=865, 494.59781pt x 313.17pt>
 File: IMGS/loggin_putty.PNG Graphic file (type png)
 <use IMGS/loggin_putty.PNG>
 Package pdftex.def Info: IMGS/loggin_putty.PNG  used on input line 283.
@@ -5429,7 +5373,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 290.
 [73 <./IMGS/loggin_putty.PNG>]
-<IMGS/loggin_putty_pass.PNG, id=1045, 496.10344pt x 310.91156pt>
+<IMGS/loggin_putty_pass.PNG, id=875, 496.10344pt x 310.91156pt>
 File: IMGS/loggin_putty_pass.PNG Graphic file (type png)
 <use IMGS/loggin_putty_pass.PNG>
 Package pdftex.def Info: IMGS/loggin_putty_pass.PNG  used on input line 294.
@@ -5531,7 +5475,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 335.
 [75]
-<IMGS/ifconfig_raspberry_pi.PNG, id=1056, 521.69907pt x 362.85562pt>
+<IMGS/ifconfig_raspberry_pi.PNG, id=886, 521.69907pt x 362.85562pt>
 File: IMGS/ifconfig_raspberry_pi.PNG Graphic file (type png)
 <use IMGS/ifconfig_raspberry_pi.PNG>
 Package pdftex.def Info: IMGS/ifconfig_raspberry_pi.PNG  used on input line 344
@@ -5564,7 +5508,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 354.
  [76 <./IMGS/ifconfig_raspberry_pi.PNG>]
-<IMGS/router_address.PNG, id=1062, 391.4625pt x 92.59593pt>
+<IMGS/router_address.PNG, id=893, 391.4625pt x 92.59593pt>
 File: IMGS/router_address.PNG Graphic file (type png)
 <use IMGS/router_address.PNG>
 Package pdftex.def Info: IMGS/router_address.PNG  used on input line 365.
@@ -5828,25 +5772,30 @@ LaTeX Info: Redefining \% on input line 25.
  (cita.aux) (0_Resumen.aux)
 (1_Introduccion.aux) (2_Estado_Arte.aux) (5_Requirements.aux) (6_Design.aux)
 (3_Material_Metodo.aux) (4_Resultados_Discusion.aux) (7_Conclusiones.aux)
-(9_Appendix.aux) (8_Agradecimientos.aux))
+(9_Appendix.aux) (8_Agradecimientos.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `memoria_main.out' has not changed.
 (rerunfilecheck)             Checksum: 08BC36E36923192DE4D9A07DB29E8054;7297.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 11682 strings out of 493305
- 170793 string characters out of 3138865
- 278881 words of memory out of 3000000
- 14579 multiletter control sequences out of 15000+200000
+ 11638 strings out of 493305
+ 168984 string characters out of 3138865
+ 268901 words of memory out of 3000000
+ 14567 multiletter control sequences out of 15000+200000
  16171 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,58p,1051b,748s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,58p,1051b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ecbi1200.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ecbx2488.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\
@@ -5863,9 +5812,9 @@ a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\US
 HUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on memoria_main.pdf (99 pages, 6050520 bytes).
+Output written on memoria_main.pdf (95 pages, 6015686 bytes).
 PDF statistics:
- 1761 PDF objects out of 2073 (max. 8388607)
- 337 named destinations out of 1000 (max. 500000)
+ 1601 PDF objects out of 1728 (max. 8388607)
+ 333 named destinations out of 1000 (max. 500000)
  912 words of extra memory for PDF output out of 10000 (max. 10000000)
 
