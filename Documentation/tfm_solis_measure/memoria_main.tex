@@ -60,13 +60,12 @@
 %% # Portada de la tesis #
 %% Mirar el archivo "titlepage.tex" para los detalles.
 \include{portada}
-\pagenumbering{roman} % Para comenzar la numeracion de paginas en numeros romanos
 \chapter*{}
-\setcounter{tocdepth}{3}
-\setcounter{secnumdepth}{3}
-\thispagestyle{empty}
+%\setcounter{tocdepth}{3}
+%\texttt{\setcounter{secnumdepth}{3}
+%\thispagestyle{empty}}
 \newpage
- \include{cita}
+\include{cita}
 
 %% # 'Indices y listas de contenido #
 %% Quitar los comentarios en las lineas siguientes para obtener listas de
@@ -77,7 +76,9 @@
 %% Por cada cap'itulo hay que crear un nuevo archivo e incluirlo aqu'i.
 %% Mirar el archivo "intro.tex" para un ejemplo y recomendaciones para
 %% escribir.
+\pagenumbering{roman}
 
+\thispagestyle{empty}
 \include{0_Resumen}
 
 \tableofcontents
