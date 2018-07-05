@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  5 JUL 2018 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  5 JUL 2018 19:27
 entering extended mode
 **./memoria_main.tex
 (memoria_main.tex
@@ -569,7 +569,7 @@ Package epstopdf Info: Source file: <IMGS/LOGO_UNEX.eps>
 d-to.pdf IMGS/LOGO_UNEX.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<IMGS/LOGO_UNEX-eps-converted-to.pdf, id=391, 197.73875pt x 291.0875pt>
+<IMGS/LOGO_UNEX-eps-converted-to.pdf, id=279, 197.73875pt x 291.0875pt>
 File: IMGS/LOGO_UNEX-eps-converted-to.pdf Graphic file (type pdf)
 <use IMGS/LOGO_UNEX-eps-converted-to.pdf>
 Package pdftex.def Info: IMGS/LOGO_UNEX-eps-converted-to.pdf  used on input lin
@@ -585,7 +585,7 @@ Package epstopdf Info: Source file: <IMGS/LOGO_EPCC.eps>
 d-to.pdf IMGS/LOGO_EPCC.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<IMGS/LOGO_EPCC-eps-converted-to.pdf, id=392, 219.82124pt x 166.6225pt>
+<IMGS/LOGO_EPCC-eps-converted-to.pdf, id=280, 219.82124pt x 166.6225pt>
 File: IMGS/LOGO_EPCC-eps-converted-to.pdf Graphic file (type pdf)
 <use IMGS/LOGO_EPCC-eps-converted-to.pdf>
 Package pdftex.def Info: IMGS/LOGO_EPCC-eps-converted-to.pdf  used on input lin
@@ -1963,13 +1963,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 128.
  [13]
-<IMGS/waterfall_methodology.png, id=524, 1204.5pt x 903.375pt>
+<IMGS/waterfall_methodology.png, id=412, 1204.5pt x 903.375pt>
 File: IMGS/waterfall_methodology.png Graphic file (type png)
 <use IMGS/waterfall_methodology.png>
 Package pdftex.def Info: IMGS/waterfall_methodology.png  used on input line 131
 .
 (pdftex.def)             Requested size: 240.89574pt x 180.6718pt.
-<IMGS/spiral-model.jpg, id=526, 569.12625pt x 303.1325pt>
+<IMGS/spiral-model.jpg, id=414, 569.12625pt x 303.1325pt>
 File: IMGS/spiral-model.jpg Graphic file (type jpg)
 <use IMGS/spiral-model.jpg>
 Package pdftex.def Info: IMGS/spiral-model.jpg  used on input line 140.
@@ -2004,12 +2004,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 144.
  [14 <./IMGS/waterfall_methodology.png>]
-<IMGS/v_model.png, id=535, 441.65pt x 245.91875pt>
+<IMGS/v_model.png, id=423, 441.65pt x 245.91875pt>
 File: IMGS/v_model.png Graphic file (type png)
 <use IMGS/v_model.png>
 Package pdftex.def Info: IMGS/v_model.png  used on input line 149.
 (pdftex.def)             Requested size: 220.82445pt x 122.95906pt.
-<IMGS/Scrum.png, id=536, 909.3975pt x 418.56375pt>
+<IMGS/Scrum.png, id=424, 909.3975pt x 418.56375pt>
 File: IMGS/Scrum.png Graphic file (type png)
 <use IMGS/Scrum.png>
 Package pdftex.def Info: IMGS/Scrum.png  used on input line 158.
@@ -2156,7 +2156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<IMGS/SYSTEM_SCHEMA.png, id=556, 2258.4375pt x 1139.00531pt>
+<IMGS/SYSTEM_SCHEMA.png, id=444, 2258.4375pt x 1139.00531pt>
 File: IMGS/SYSTEM_SCHEMA.png Graphic file (type png)
 <use IMGS/SYSTEM_SCHEMA.png>
 Package pdftex.def Info: IMGS/SYSTEM_SCHEMA.png  used on input line 23.
@@ -2707,7 +2707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<IMGS/ARDUINO_MEGA.png, id=616, 3011.25pt x 1518.67375pt>
+<IMGS/ARDUINO_MEGA.png, id=505, 3011.25pt x 1518.67375pt>
 File: IMGS/ARDUINO_MEGA.png Graphic file (type png)
 <use IMGS/ARDUINO_MEGA.png>
 Package pdftex.def Info: IMGS/ARDUINO_MEGA.png  used on input line 22.
@@ -2756,7 +2756,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
 [28 <./IMGS/ARDUINO_MEGA.png>]
-<IMGS/RPI_3.JPG, id=623, 1027.84pt x 1027.84pt>
+<IMGS/RPI_3.JPG, id=512, 1027.84pt x 1027.84pt>
 File: IMGS/RPI_3.JPG Graphic file (type jpg)
 <use IMGS/RPI_3.JPG>
 Package pdftex.def Info: IMGS/RPI_3.JPG  used on input line 49.
@@ -2846,7 +2846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<IMGS/LIVE_BOX_2.png, id=633, 717.68124pt x 323.2075pt>
+<IMGS/LIVE_BOX_2.png, id=522, 717.68124pt x 323.2075pt>
 File: IMGS/LIVE_BOX_2.png Graphic file (type png)
 <use IMGS/LIVE_BOX_2.png>
 Package pdftex.def Info: IMGS/LIVE_BOX_2.png  used on input line 106.
@@ -3577,7 +3577,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 318.
 [42]
-<IMGS/FC-28.png, id=691, 401.5pt x 301.125pt>
+<IMGS/FC-28.png, id=580, 401.5pt x 301.125pt>
 File: IMGS/FC-28.png Graphic file (type png)
 <use IMGS/FC-28.png>
 Package pdftex.def Info: IMGS/FC-28.png  used on input line 321.
@@ -3731,7 +3731,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 370.
 [45]
-<IMGS/3T_STUDIO.png, id=708, 1027.84pt x 620.3175pt>
+<IMGS/3T_STUDIO.png, id=597, 1027.84pt x 620.3175pt>
 File: IMGS/3T_STUDIO.png Graphic file (type png)
 <use IMGS/3T_STUDIO.png>
 Package pdftex.def Info: IMGS/3T_STUDIO.png  used on input line 374.
@@ -3787,7 +3787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
-<IMGS/PYCHARM.jpg, id=716, 2569.6pt x 1497.595pt>
+<IMGS/PYCHARM.jpg, id=605, 2569.6pt x 1497.595pt>
 File: IMGS/PYCHARM.jpg Graphic file (type jpg)
 <use IMGS/PYCHARM.jpg>
 Package pdftex.def Info: IMGS/PYCHARM.jpg  used on input line 399.
@@ -3869,7 +3869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
-<IMGS/ARDUINO_IDE.png, id=727, 451.6875pt x 385.44pt>
+<IMGS/ARDUINO_IDE.png, id=616, 451.6875pt x 385.44pt>
 File: IMGS/ARDUINO_IDE.png Graphic file (type png)
 <use IMGS/ARDUINO_IDE.png>
 Package pdftex.def Info: IMGS/ARDUINO_IDE.png  used on input line 432.
@@ -3943,7 +3943,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 450.
  [50 <./IMGS/ARDUINO_IDE.png>]
-<IMGS/FILEZILLA.png, id=741, 431.6125pt x 272.01625pt>
+<IMGS/FILEZILLA.png, id=630, 431.6125pt x 272.01625pt>
 File: IMGS/FILEZILLA.png Graphic file (type png)
 <use IMGS/FILEZILLA.png>
 Package pdftex.def Info: IMGS/FILEZILLA.png  used on input line 453.
@@ -3997,7 +3997,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
  []
 
-<IMGS/PUTTY.PNG, id=749, 349.305pt x 332.74312pt>
+<IMGS/PUTTY.PNG, id=638, 349.305pt x 332.74312pt>
 File: IMGS/PUTTY.PNG Graphic file (type png)
 <use IMGS/PUTTY.PNG>
 Package pdftex.def Info: IMGS/PUTTY.PNG  used on input line 472.
@@ -4174,7 +4174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<IMGS/secado_ideal.jpg, id=765, 583.17876pt x 450.68375pt>
+<IMGS/secado_ideal.jpg, id=654, 583.17876pt x 450.68375pt>
 File: IMGS/secado_ideal.jpg Graphic file (type jpg)
 <use IMGS/secado_ideal.jpg>
 Package pdftex.def Info: IMGS/secado_ideal.jpg  used on input line 54.
@@ -4213,7 +4213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-<IMGS/results_measures.jpeg, id=771, 670.00313pt x 325.215pt>
+<IMGS/results_measures.jpeg, id=660, 670.00313pt x 325.215pt>
 File: IMGS/results_measures.jpeg Graphic file (type jpg)
 <use IMGS/results_measures.jpeg>
 Package pdftex.def Info: IMGS/results_measures.jpeg  used on input line 65.
@@ -4693,7 +4693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-<IMGS/check_mongodb_is_running.PNG, id=836, 320.69812pt x 65.49469pt>
+<IMGS/check_mongodb_is_running.PNG, id=725, 320.69812pt x 65.49469pt>
 File: IMGS/check_mongodb_is_running.PNG Graphic file (type png)
 <use IMGS/check_mongodb_is_running.PNG>
 Package pdftex.def Info: IMGS/check_mongodb_is_running.PNG  used on input line 
@@ -4740,7 +4740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-<IMGS/mongodb_status.PNG, id=844, 616.55344pt x 124.96687pt>
+<IMGS/mongodb_status.PNG, id=733, 616.55344pt x 124.96687pt>
 File: IMGS/mongodb_status.PNG Graphic file (type png)
 <use IMGS/mongodb_status.PNG>
 Package pdftex.def Info: IMGS/mongodb_status.PNG  used on input line 141.
@@ -4796,7 +4796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<IMGS/start_mongodb_service.PNG, id=853, 328.97906pt x 31.61812pt>
+<IMGS/start_mongodb_service.PNG, id=742, 328.97906pt x 31.61812pt>
 File: IMGS/start_mongodb_service.PNG Graphic file (type png)
 <use IMGS/start_mongodb_service.PNG>
 Package pdftex.def Info: IMGS/start_mongodb_service.PNG  used on input line 158
@@ -4812,7 +4812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<IMGS/stop_mongodb_service.PNG, id=854, 680.5425pt x 138.5175pt>
+<IMGS/stop_mongodb_service.PNG, id=743, 680.5425pt x 138.5175pt>
 File: IMGS/stop_mongodb_service.PNG Graphic file (type png)
 <use IMGS/stop_mongodb_service.PNG>
 Package pdftex.def Info: IMGS/stop_mongodb_service.PNG  used on input line 175.
@@ -5009,7 +5009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<IMGS/putty_interface.PNG, id=878, 339.51843pt x 324.46219pt>
+<IMGS/putty_interface.PNG, id=767, 339.51843pt x 324.46219pt>
 File: IMGS/putty_interface.PNG Graphic file (type png)
 <use IMGS/putty_interface.PNG>
 Package pdftex.def Info: IMGS/putty_interface.PNG  used on input line 264.
@@ -5044,7 +5044,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 270.
  [72 <./IMGS/putty_interface.PNG>]
-<IMGS/loggin_putty.PNG, id=885, 494.59781pt x 313.17pt>
+<IMGS/loggin_putty.PNG, id=774, 494.59781pt x 313.17pt>
 File: IMGS/loggin_putty.PNG Graphic file (type png)
 <use IMGS/loggin_putty.PNG>
 Package pdftex.def Info: IMGS/loggin_putty.PNG  used on input line 283.
@@ -5081,7 +5081,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 290.
 [73 <./IMGS/loggin_putty.PNG>]
-<IMGS/loggin_putty_pass.PNG, id=895, 496.10344pt x 310.91156pt>
+<IMGS/loggin_putty_pass.PNG, id=784, 496.10344pt x 310.91156pt>
 File: IMGS/loggin_putty_pass.PNG Graphic file (type png)
 <use IMGS/loggin_putty_pass.PNG>
 Package pdftex.def Info: IMGS/loggin_putty_pass.PNG  used on input line 294.
@@ -5171,7 +5171,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 335.
 [75]
-<IMGS/ifconfig_raspberry_pi.PNG, id=907, 521.69907pt x 362.85562pt>
+<IMGS/ifconfig_raspberry_pi.PNG, id=796, 521.69907pt x 362.85562pt>
 File: IMGS/ifconfig_raspberry_pi.PNG Graphic file (type png)
 <use IMGS/ifconfig_raspberry_pi.PNG>
 Package pdftex.def Info: IMGS/ifconfig_raspberry_pi.PNG  used on input line 344
@@ -5204,7 +5204,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 354.
  [76 <./IMGS/ifconfig_raspberry_pi.PNG>]
-<IMGS/router_address.PNG, id=914, 391.4625pt x 92.59593pt>
+<IMGS/router_address.PNG, id=803, 391.4625pt x 92.59593pt>
 File: IMGS/router_address.PNG Graphic file (type png)
 <use IMGS/router_address.PNG>
 Package pdftex.def Info: IMGS/router_address.PNG  used on input line 365.
@@ -5464,131 +5464,41 @@ Package natbib Warning: Citation(s) may have changed.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package rerunfilecheck Info: File `memoria_main.out' has not changed.
+(rerunfilecheck)             Checksum: FBA5FBECE5782E44D01725872CD900CA;4885.
 
-
-Package rerunfilecheck Warning: File `memoria_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `memoria_main.out':
-(rerunfilecheck)             Before: 08BC36E36923192DE4D9A07DB29E8054;7297
-(rerunfilecheck)             After:  FBA5FBECE5782E44D01725872CD900CA;4885.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 11661 strings out of 493305
- 169255 string characters out of 3138865
+ 11605 strings out of 493305
+ 168024 string characters out of 3138865
  268901 words of memory out of 3000000
- 14567 multiletter control sequences out of 15000+200000
+ 14539 multiletter control sequences out of 15000+200000
  16171 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,58p,1051b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.8.2.2.2} has been referenced but do
-es not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.2.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.2.6} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.2.5} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.2.4} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.2.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.2.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.1.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.8.1.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.7} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.6} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.5} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.4} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.1.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.4.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.2.3.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.2.3.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.1.2.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.1.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.1.1.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.1.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.1.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
- <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbi1200.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecbx2488.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\USHUARIO\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\USH
-UARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> 
-<C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1728.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecrm1440.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\USHUARIO\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\USHU
-ARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on memoria_main.pdf (95 pages, 6015881 bytes).
+ <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecbi1200.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecbx2488.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\USHUARIO\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\USHUARIO\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\U
+SHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecbx1728.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecrm1440.pk> <C:\Users\USHUARIO\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\USHUARIO\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\USHUARIO\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\US
+HUARIO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on memoria_main.pdf (95 pages, 6005497 bytes).
 PDF statistics:
- 1623 PDF objects out of 1728 (max. 8388607)
- 356 named destinations out of 1000 (max. 500000)
- 912 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1506 PDF objects out of 1728 (max. 8388607)
+ 328 named destinations out of 1000 (max. 500000)
+ 688 words of extra memory for PDF output out of 10000 (max. 10000000)
 
