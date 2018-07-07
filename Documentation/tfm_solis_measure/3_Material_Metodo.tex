@@ -1,21 +1,22 @@
 
 \chapter{Materials and methods of study}
+\newpage
 
 This section of the memory explains the aspects related to the materials used to build the project. Additionally, it describes the methods used to obtain results and the technologies applied to develop the system.
 
 \section{Materials}
 
-To carry out this project, it was necessary to use numerous components supplied by the \textit{University of Extremadura}. These components are characterized by their diversity and their reduced cost. The prototype designed for the study uses free hardware components. Free hardware components have good capabilities like their flexibility when building a system.\\
+To carry out this project, it was necessary to use numerous components supplied by the \textit{University of Extremadura}. These components are characterized by their diversity and their reduced cost. The prototype designed for the study uses free hardware components. Free hardware components have good features like their flexibility when building a system is required.\\
 
-It was decided to used the aforementioned components since the manufacturer provides a lot of documentation. Thanks to the documentation of these components it is possible to develop new features and provide flexibility and customization to the final user.\\
+It was decided to used the aforementioned components since the manufacturer provides a lot of documentation. The documentation of these components allows to develop new features and provide flexibility and customization to the final user.\\
 
-The most important components used in this study are the following.
+There are several components which form part of this study. These components are hardware devices and software features. Also, tools and frameworks are relevant in this project. All of them allow to develop the desired solution. This information is listed in this section.
 
 \subsection{Arduino Mega}
 
 It is more powerful than Arduino Uno, Arduino Nano and Arduino Micro. It has more available connections used as inputs and outputs. Thus, making possible to create more complex systems.\\
 
-In this study we decided to use and Arduino Mega because it is a device which scales better than the other models. Having a higher number of available connections allows the developer to extend easily the system.\\
+In this study we decided to use and Arduino Mega because it is a device which scales better than other models. Having a higher number of available connections allows the developer to extend easily the system.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -24,19 +25,19 @@ In this study we decided to use and Arduino Mega because it is a device which sc
 \end{centering}
 \end{figure}
 
-\textit{Arduino} allows programming its boards using its framework, \textit{Arduino IDE}. With this framework it is possible to develop small and powerful programs which allow the control all the functions available in the system. The programs are developed in the C programming language using the \textit{Arduino IDE}. The \textit{Arduino IDE} includes many libraries and allows the developer to create his own libraries.\\
+\textit{Arduino} is an embedded board which allows to program it using its framework, \textit{Arduino IDE}. With this framework it is possible to develop small and powerful programs which allow the control all the functions available in the system. The programs are developed in the C programming language using the \textit{Arduino IDE}. The \textit{Arduino IDE} includes many libraries and allows the developer to create his own libraries to customize the control of this board..\\
 
 The most important capabilities of the \textit{Arduino Mega} are described in the following points.
 
 \begin{itemize}
 
-\item \textbf{\textit{Analogical outputs}}.
+\item \textbf{\textit{Analogical outputs}}. These interfaces allow the programmer to read and control sensors. The read voltage of the sensors goes from the 0 value to 1023 value.
 
-\item \textbf{\textit{Digital outputs}}.
+\item \textbf{\textit{Digital outputs}}. The modulation of the read signal uses binary values instead of curves to represent the information. Also, there are digital signal which convert the output values to analogical signals using the \textit{PWM} technology.
 
-\item \textbf{\textit{Processor}}.
+\item \textbf{\textit{Processor}}. This processor is a microcontroller board base on the ATmega2560. Its throughput reaches 16MIPS at 16MHz which is enough for embedded systems.
 
-\item \textbf{\textit{Memory RAM}}.
+\item \textbf{\textit{Flash Memory}}. This memory is used to upload the developed software. Also, there is a section in this memory which is dedicated to the bootloader of the device. This bootloader allows the device to boot up.
 
 \end{itemize}
 
@@ -51,15 +52,15 @@ It is an ARM-based microcontroller. This device has a processor used in mobile d
 \end{centering}
 \end{figure}
 
-In this study we decided to use a \textit{Raspberry PI 3} with \textit{Raspbian Freezy} as platform. This platform has a really good support and it is proven to be stable.\\
+This project works with a \textit{Raspberry PI 3} using \textit{Raspbian Freezy} as operative system. This platform has a good support and it is proven to be stable. The community of Raspbian is strong and brings customized solutions for embedded systems.\\
 
-\textit{Raspberry PI 3} is a device that has useful capabilities e.g. storing information coming from sensors. It is able to manage a NoSQL database managing petitions and queries coming from users and developers.\\
+\textit{Raspberry PI 3} is a device that has useful features e.g. storing information coming from sensors. It is able to manage a NoSQL database managing petitions and queries coming from users and developers.\\
 
-The most important capabilities of the device are enumerated as follows.
+The most outstanding features of the device are enumerated as follows.
 
 \begin{itemize}
 
-\item \textit{Mobility}. This device is small and easy to move to other places due to its wireless adapter.
+\item \textit{Mobility}. This device is small and easy to move to other places due to its wireless adapters.
 
 \item \textit{Portability}. It is possible to install platforms in external storage and run the installed platform in every Raspberry PI 3.
 
@@ -73,31 +74,31 @@ Knowing the capabilities of this device, in the following section it will be ana
 
 \begin{itemize}
 
-\item \textit{Processor}.
+\item \textit{Processor}. It is based on ARM architecture. These processors have a low consumption power and good performance. Parallel and concurrent programs can be deployed such as a solution for complex systems.
 
-\item \textit{Graphic processor}.
+\item \textit{Graphic processor}. This microcontroller allows to process images and textures. It is appropriated to develop solution where image processing is required.
 
-\item \textit{Memory RAM}.
+\item \textit{Memory RAM}. It uses 1GB LPDDR2 memory which is just enough to run simple and advanced applications.
 
-\item \textit{GPIO connections}.
+\item \textit{GPIO connections}. All these interfaces are used to connect peripheral and sensors. Sensors are programmed over these interfaces. It is common interface used in embedded systems.
 
-\item \textit{SD slot}.
+\item \textit{SD slot}. This socket allows to connect a SD card where the operative system is deployed. It supports large and fast SD cards which are dedicated to the operative system and applications.
 
-\item \textit{HDMI output}.
+\item \textit{HDMI output}. Used to connect monitors and big screens.
 
-\item \textit{Mini-Jack output}.
+\item \textit{Mini-Jack output}. Allows to connect the device to audio systems. Also, it is used to connect sensors which requires this connector.
 
-\item \textit{USB ports}.
+\item \textit{USB ports}. These interfaces are used to connect external peripheral devices.
 
-\item \textit{Ethernet interface}.
+\item \textit{Ethernet interface}. It has a standard 1Gbit Ethernet via \textit{RJ45}.
 
-\item \textit{Wi-Fi adapter}.
+\item \textit{Wi-Fi adapter}. It is integrated in the board and provides mobility to customized systems.
 
 \end{itemize}
 
 \subsection{Router}
 
-It is a necessary component to create a network that allows the user to connect to the system and retrieve all information needed. There are some possibilities to initialize a connection with the system, but using a separate network is more useful. The user can use a mobile device forgetting about using a physical connection to the system. Of course, it is possible to use a physical connection, but it would be a limitation for the user.\\
+It is a useful component which creates a network to allow the user to connect to the system and retrieve all information needed. There are some possibilities to initialize a connection with the system, but using a separate network is better. The user can use a mobile device forgetting about using a physical connection to the system. The RJ45 connector could be used but limits the mobility of the system.\\
 
 The brand of the router used is a Livebox 2. Its features are enough to control and access the main system.\\
 
@@ -112,141 +113,141 @@ The router is used to create a communication between the \textit{Raspberry PI 3}
 
 In case it is needed to modify some parameters of the configuration of the system, this network helps the administrator to manage them.\\
 
-The router has a direct connection to the \textit{Raspberry PI 3} via an Ethernet Cable. We decided to use this connection because it is a reliable media. Using a wireless connection might create problems in the communication, generating latency to the access of the system and complicating the querying of information in real time.
+The router has a direct connection to the \textit{Raspberry PI 3} via an Ethernet Cable. It was decided to use this connection because it is a reliable media. Using a wireless connection might create problems in the communication, generating latency and jitter to the access of the system and complicating the querying of information in real time.
 
 \subsection{Laptop}
 
 The user will use this device to query information from the system. With the laptop, we can use some tools to retrieve some information from the system. It is useful to use because we can generate some graphics after analysing the information of the database.\\
 
-With the laptop, we can create an \textit{SSH} connection to the system to manage its processes. We can use a \textit{SSH} connection to run processes of the database or to control processes related to the backend.\\
+With the laptop, we can create an \textit{SSH} connection to the system to manage its processes. We can use a \textit{SSH} connection to run processes of the database or to control processes related to the backend. This remote connection allows the administrator of the system to manage it directly.\\
 
-The user can use all kinds of operating systems. The \textit{SSH} connection is independent from the operating system. \\
+The user can use several operating systems. The \textit{SSH} connection is independent from the operating system. \\
 
 This laptop should include the following software programs.
 
 \begin{itemize}
 
-\item \textit{3T Studio}.
+\item \textit{3T Studio}. This software is used to query the database. Also, it allows to export the information of the database in \textit{JSON}, excel or \textit{CSV}.
 
-\item \textit{Putty or a remote manager for SSH connections}.
+\item \textit{Putty or a remote manager for SSH connections}. To start a remote connection to the system.
 
-\item \textit{Microsoft Excel or other similar editors}.
+\item \textit{Microsoft Excel or other similar editors}. To interpret the obtained results of the queries.
 
 \end{itemize}
 
 \section{Technology}
 
-In this part of the document, the technology used in this project will be explained. This project tries to find the best technology alternative.
+In this part of the document, the technology used in this project is explained. This project looks for the appropriate technology to build the system decreasing its costs associate to hardware components and maintenance.
 
 \subsection{NoSQL database}
 
-In this project, we decided to use this technology because of its flexibility. With \textit{NoSQL} databases, we can store all kind of information in a system. When it is necessary to store no structural information, \textit{NoSQL} databases work really good. It is not necessary to indicate to the system which kind of information you want store. NoSQL systems don't mind the structure of the information, they just store it.\\
+In this project, it was decided to use NoSQL technology because of its flexibility. With \textit{NoSQL} databases, we can store all kind of information in a system. When it is necessary to store no structural information, \textit{NoSQL} databases work have a good performance. It is not required to indicate to the system which kind of information is desired to store. NoSQL systems do not mind the structure of the information, they just store it.\\
 
-Another important capability of the \textit{NoSQL} databases is that it is possible to store information in real time. In this project, one the most important purposes was storing during long time information. This system has a lot of humidity sensors, and those sensors get information about the materials during all time.\\
+Other important feature of the \textit{NoSQL} databases is the possibility to store information in real time. In this project, one the goals was to store during long time information. This system has an amount of humidity sensors, and those sensors measure information about the materials during long periods of time.\\
 
-It is important to say that the developers can build queries on a easy way. In \textit{NoSQL} systems the information is stored in documents, instead of using tables or table spaces.\\
+Developers can build fast and easy queries. In \textit{NoSQL} systems the information is stored in documents, instead of using tables or table spaces.\\
 
-The administrator of a \textit{NoSQL} database can build operations for optimizing the access to the databases too. This kind of operations are used in \textit{Big Data} systems and use reducing operations.
+The administrator of a \textit{NoSQL} database can build operations to optimize the access to the databases too. This kind of operations are used in \textit{Big Data} systems and use reducing operations.
 
 \subsection{NodeJS}
 
-Using NodeJS in this project it is a good way to manage information from the database system. NodeJS is used in this project as \textit{backend}.\\
+Using NodeJS in this project it is a good way to manage information from the database system. NodeJS is used in this project as \textit{backend} for a web service.\\
 
-NodeJS works as a process waiting for incoming petitions. When NodeJS receives a petition, it processes it and looks for the information in the database. NodeJS is a peculiar language because it works on an asynchronous way. Sometimes it is difficult to debug what it is happening when it is processing the information. If we want to control operations that should work on a synchronous way it is necessary to use \textit{callbacks}. Callbacks help NodeJS to tell what it has to do when an event is presented.\\
+NodeJS works as a process waiting for incoming requests. When NodeJS receives a petition, it processes it and looks for the information in the database. NodeJS works on an asynchronous mode, increasing the performance of a backend. On the other hand, debugging the execution flow of a backed in a hard task to do. If we want to control operations that should work on a synchronous way \textit{callbacks} are required. Callbacks turn the execution flow of NodeJS to a synchronous mode.\\
 
-It could be a problem, but analyzing this technology, we find that it works better than other \textit{PHP} technologies. Being asynchronous helps creating threads that can serve concurrent petitions. This is one of the reasons that we decided to use this technology.\\
+It has a better performance than \textit{PHP} technologies, which are commonly used by web services. The asynchronous mode creates threads that can serve concurrent petitions. This is one of the reasons to deploy this technology.\\
 
-There are lot of webpages that explain why big companies decided to use this technology. Most big companies migrated their \textit{PHP backends} to NodeJS because of it's performance.\\
-
-When we tried to find a solution to the problem that it is being studied, one of the most important requirements was having a good performance in the main system. \textit{NodeJS} helps to find this performance with its capabilities.
+Performance is one of the goals of this project. The microcontrollers used in this study are limited because of their architecture and \textit{NodeJS} increases the performance of the system.
 
 \subsection{Python 2.7.13}
 
-\textit{Python} is one of the most important components in this project. It is used for controlling the information incoming from the network of the sensors. We developed a part of the \textit{backend} in \textit{Python}. This part of the backend is a simple program that receives information coming from the \textit{Arduino}. The \textit{Arduino Mega} is directly connected to the \textit{Raspberry PI 3} using an \textit{USB} cable. We decided to use this connection because it is simple to control the information sending with this cable.\\
+\textit{Python} is one of the most important components in this project. It is used to control the information which comes from the network of the sensors. Part of the \textit{backend} is developed using \textit{Python}. This part of the backend is a simple program which receives information coming from the \textit{Arduino}. The \textit{Arduino Mega} is directly connected to the \textit{Raspberry PI 3} using an \textit{USB} cable creating a serial communication. It was decided to use this protocol because it is a reliable media used by microcontrollers based on embedded systems.\\
 
-The \textit{Raspberry PI 3} has a process developed in \textit{Python} which is listening for the information coming from the \textit{Serial Port}. \textit{Python} has some libraries for controlling \textit{Serial} connections. The \textit{Python} program controls the opening, reading and closing operations on the \textit{Serial Port} with an \textit{API} that we've developed. The \textit{Python} program uses some libraries for storing the information transmitted by the \textit{Arduino Mega}. When the \textit{Python} program detects new information in the \textit{Serial Port} it checks the information received and if this information is valid, it stores it in a \textit{NoSQL} database. If the information received is not valid, the program discards the information received. The information sent by the \textit{Arduino Mega} has an special structure. The Python program knows the structure of the messages and it analyzes the messages trying to parse the information received.\\
+The \textit{Raspberry PI 3} has a process developed in \textit{Python} which is listening to the information coming from the \textit{Serial Port}. \textit{Python} has some libraries to control \textit{Serial} connections. The \textit{Python} program controls the opening, reading and closing operations on the \textit{Serial Port} with a customized \textit{API} we have developed. The \textit{Python} program uses some libraries to store the information transmitted by the \textit{Arduino Mega}. When the \textit{Python} program detects new information in the \textit{Serial Port} it checks the information received and if this information is valid, it stores it in a \textit{NoSQL} database. If the information received is not valid, the program discards the information received. The information sent by the \textit{Arduino Mega} has an special structure. The Python program knows the structure of the messages and it analyzes the messages trying to parse the information received.\\
 
-The information sent by the \textit{Arduino Mega} has the structure \textit{\textbf{sensor-id \# temperature \# humidity \# date}}. As we can see, the information is delimited by the character \textbf{\textit{\#}}.\\
+The information sent by the \textit{Arduino Mega} has the structure \textit{\textbf{sensor-id \# temperature \# humidity \# date}}. As it is possible to see, the information is delimited by the character \textbf{\textit{\#}}.\\
 
-This program is allocated into the \textit{rc.local} file in the \textit{Raspberry PI 3}. This file allows the \textit{Raspberry PI 3} executing the script when it is turned on. If the script is not specified on the \textit{rc.local} file we should run it from the Raspberry PI 3 console. We can use the \textit{Raspberry PI 3} console via \textit{SSH} for executing scripts or programs.\\
+This program is allocated into the \textit{rc.local} file in the \textit{Raspberry PI 3}. This file allows the \textit{Raspberry PI 3} to execute the script when it is turned on. If the script is not specified on the \textit{rc.local} file we should run it from the Raspberry PI 3 console. We can use the \textit{Raspberry PI 3} console via \textit{SSH} to execute scripts and programs.\\
 
-We decided to use \textit{Python 2.7.13} it is one of the most simplest program languages and because it is efficient and reliable.
+It was decided to use \textit{Python 2.7.13} because it is one of the most simplest program languages and because it is efficient and reliable.
 
 \subsubsection{API MongoDB}
 
-As we commented before, it is necessary to control the information allocated in the \textit{MongoDB's database}. \textit{Python} has some libraries to manage MongoDB's databases. In this project we used the library \textit{pymongo}. This library allows us to create queries for managing the database. It is possible to do all operations allowed by databases with this library.\\
+As it was explained before, To control the information allocated in the \textit{MongoDB's database} is required. \textit{Python} has some libraries to manage MongoDB's databases. This project uses \textit{pymongo} library. This library allows to create queries to manage the database. It is possible to do all operations allowed by databases with this library.\\
 
-In this project, we used this library for inserting and querying information from the database. It is simple to use and there is so much documentation in the official API's webpage. In this webpage we have access to the documentation of the main methods used in this project. Also, there is some information about the installing of this library in Windows, Linux and Mac systems.\\
+The uses this library to inset and query information of the database. The API's webpage brings support to the developer to manage all operations of MongoDB's databases. The documentation of this API is complete and well explained. Also, it supports to install MongoDB systems in Windows, Linux and MacOS.\\
 
-The API manages the database as a JSON file. It is not like in other databases systems, where the information is allocated in table spaces. In MongoDB the information is stored in a document. This document appends information to its ending when the developer wants to store some information. The JSON file allows the database administrator to create operations for optimizing the access to the database, like Map Reduce operations. It is the most common operation in MongoDB's system.\\
+The API manages databases as JSON files. It is not like in other databases systems, where the information is allocated in table spaces. In MongoDB the information is stored in a document. This document appends information to its ending when is required to store structures or variables. The JSON file allows the database administrator to create operations to optimize the access to the database, like Map Reduce operations. It is the most common operation in MongoDB's system.\\
 
-In this project we didn't investigate about how to apply this operations to our database, but it is important to mention that it is possible to do them for future studies. These operations could be done if the database would grow so much and the performance of the databases is reduced by the size of the database.
+The investigation of how to apply map reduce operations in our databases is not carry out, but it is an open point to consider in future studies. These operations could be done if the database grows fast and the performance of the databases is reduced by the size of the database.
 
 \subsubsection{API Sensor's readings}
 
-This API was developed by us for controlling the information sent by the Arduino Mega. This API allows the user to read the information and store it in the MongoDB's database. The API controls readings coming from the COM Port. Also, the API controls the opening and closing operation over the MongoDB's database using the API pymongo.\\
+This API was developed to control the information sent by the Arduino Mega. This API allows the user to read the information and store it in the MongoDB's database. The API controls reads coming from the serial port. Also, the API controls operations such open and close operations over the MongoDB's database using the API pymongo.\\
 
 This API was developed using Python 2.7.13 and could be used for other systems that want to implement the same methods used in this project.\\
 
-This library checks the information received from the network of the sensors and checks if the structure of the information received is correct. If all information received is in the correct way, it stores the information into the database.\\
+This library checks the information received from the network of the sensors and checks if the structure of the information received is valid. If the received information has a valid structure, it stores the information in the database.\\
 
-It is important to say that this library allows the user to connect infinite sensors. If it is needed to use more sensors, the user will not have problems with the support of this feature.
+This library allows the user of the system to connect \textit{N} humidity sensors. With this feature the user will not have problems to connect more sensors.
 
 \subsection{Scripting}
 
-In other sections of this document we talked about the use of \textit{Python}, \textit{MongoDB} and NodeJS. There is an other important part in this project, and this important thing is the using of scripting. Scripting is important in this project because with the use of this tool it is possible to automatize some processes used in this system.\\
+In other sections of this document we talked about the use of \textit{Python}, \textit{MongoDB} and NodeJS. There is an other important part in this project, scripting. Scripting is important in this project because it allows to automatize the processes used by this system.\\
 
-Normally, the user doesn't realize about this function because it is completely transparent for him. With scripting is possible to control the processes related with management of the database and the processes used by getting all the information about the sensors' network. Also, it is possible to manage the information about queries to the database using \textit{NodeJS} as \textit{backend}.\\
+Normally, the user does realize about this function because it is completely transparent. Scripting allows to control the processes related to the management of the database and the processes which use the network of the sensors. Also, it is possible to manage the information of the database using \textit{NodeJS} as \textit{backend}. It runs queries to retrieve the information of the database\\
 
-In this project was necessary to use \textit{Linux Shell scripting}. With the \textit{Linux powershell} we have control of all the processes used by the system.\\
+In this project was necessary to use \textit{Linux Shell scripting}. \textit{Linux powershell} allows the user to control the processes used by the system.\\
 
-It has being developed a script that allows the system to load all processes at the boot up of the \textit{Raspberry PI 3}. It checks the status of the system and if there is nothing running it loads all necessary processes.\\
+There is a script which controls the processes required to run the measure system on the \textit{Raspberry PI 3}. It checks the status of the system and if there is nothing running it loads all required processes.\\
 
 This method uses the \textit{rc.local} configuration file of the Linux System. This file allows the system to call all functions we want to execute at the boot up.
 
 \section{Methods}
 
-In this section, we will talk about all methods used in this project. We will bring a description of the methodology followed for the developing and using all necessary functions in the system. Specially we will talk about the methodology used to obtain all information from the system. At least, it is one of the most important thing of this document, because using the methodology described in the following sections, we will retrieve all information needed to present our results. After that, we can analyze the results and study the conclusions.
+In this section, the methods used in this project are explained. A description of the methodology followed to develop and manage all necessary functions in the system is brought. At least, it is one of the most important topics in this document, because with the methodology described in the following sections, it is possible to obtain the information required to present our results. After that, we can analyze the results and study the conclusions.
 
-\subsection{Querying methods used in NoSQL databases}
+\subsection{Querying methods used by NoSQL databases}
 
-This is one the most important topics of this document. We are using a new technology, which uses different methods for obtaining the information stored in our database.\\
+This is one the most important topics of this document. We are using a new technology, which uses different methods to obtain the information stored in our database.\\
 
-In NoSQL systems, the queries used for managing databases are different from the others used in normal SQL system. We need to understand that NoSQL systems doesn't use data tables. In NoSQL systems, we are using a JSON document as a database. The information is not stored like in normal databases systems, so it is normal to use other methods for retrieving the information we want to manage.\\
+In NoSQL systems, the queries used to manage databases are different from the others used by a normal SQL system. NoSQL systems does not use data tables. In NoSQL systems, a JSON document is used as a database. The information is not stored like in normal databases systems, which changes the way to obtain and to store data.\\
 
-In this project, it was necessary to follow some steps described in MongoDB's guideline. Here, we can get some examples about inserting, updating and retrieving some information from our databases.\\
+In this project, there are some steps to follow which are described in the MongoDB's guideline. Here, there are several examples about how to insert, update and query the information of the database.\\
 
-The language used for this purpose has JSON instructions for getting information from the database. There are some special keywords for querying the information. This special keywords are described in NoSQL documentation too.
+The language used for this purpose has JSON instructions to obtain the information of the database. There are some special keywords to query the information. These special keywords are described in NoSQL documentation too.
 
-\subsection{Methods used for retrieving information from the NoSQL database}
+\subsection{Methods used to retrieve information from the NoSQL database}
 
-Like we described before, we are using a different database system. This database system has a different way for retrieving its information.\\
+Like it was described before, the database system is completely different to the standard ones. This database system has a different way to retrieve its information.\\
 
-In \textit{MongoDB}, is possible to use some techniques for retrieving information from the database. These techniques are the following.
+In \textit{MongoDB}, is possible to use some techniques to manage the information of the database. These techniques are the following.
 
 \begin{itemize}
 
-\item Using normal scripting for queries. This is the most difficult way for managing a \textit{NoSQL} database. It is possible to retrieve the information of the database using a Linux console. If it is necessary to do it, the user has to execute \textit{mongodb} in the Linux terminal and log in with his credentials.\\
+\item Using normal scripting for queries. This is the most difficult way to manage a \textit{NoSQL} database. It is possible to retrieve the information of the database using a Linux console. If it is required to do it, the user has to execute \textit{mongodb} in the Linux terminal and log in with his credentials.\\
 
-In this way, there is no assistant for helping us with the commands used in the console. It is necessary to have a knowledge about the commands used in \textit{MongoDB}.
+On the other hand, there is no assistant to help the user. The only way to obtain information about the commands is typing the option \textit{help} when it is desired to run \textit{mongodb}. A knowledge related to the commands used by \textit{MongoDB} is required.
 
-\item Using a \textit{GUI} program. There are lot of \textit{frameworks} that allows the user to manage his databases and build queries. In this memory it was used \textit{3TStudio} (\textit{MongoCheff} in older versions).\\
+\item Using a \textit{GUI} applications. There are several \textit{frameworks} which allows the user to manage databases and build queries. In this study it was used \textit{3TStudio} (\textit{MongoCheff} in older versions).\\
 
-This framework has an assistance that allows the user to create his own queries. The user only needs information about the location of the database and the credentials used for this database.
+This framework has an assistance that allows the user to create his own queries. The user only needs information about the location of the database and the credentials used by the database.
 
 \end{itemize}
 
-The second option is recommended. Using this option makes more efficient to manage a database with an assistant. The user can build its own queries and check if it is required, the syntax of the queries. It is possible to see the information of the database in real time too.\\
+The second option is recommended. Using this option makes more efficient to manage a database with an assistant. The user can build its own queries and check if it is required, the syntax of them. It is possible to see the information of the database in real time too.\\
 
 The fist option I think is more complicated to use because the user needs to be experimented with the MongoDB console.
 
-\subsection{Methods used for obtaining graphs with the information of the materials}
+\subsection{Methods used to obtain graphs with the information of the materials}
 
-After storing all information in the MongoDB's database, if we want to make an analysis of the data that has been stored, it is required to export the information.\\
+When the information is stored in the MongoDB's database, if we want to make an analysis of the data that is stored, it is required to export the information.\\
 
-If we want to export the information of the database, we can use 3TStudio for retrieving all information we want to export. It is possible to retrieve the information related with the results obtained after executing a MongoDB's query.\\
+If we want to export the information of the database, we can use 3TStudio to retrieve the information we want to export. It is possible to retrieve the information related to the obtained results after the execution of a MongoDB query.\\
 
-With 3TStudio we can select the format of the export. In our case, we decided to export the results in \textit{.csv} format. This format is really useful if we want to make an analysis using the Microsoft tools. We decided to use Microsoft Excel for analyzing the information of the database.\\
+3TStudio allows to select the format to export the information. The results are exported using a \textit{.csv} format. This format is useful if it is required to do an analysis using Microsoft tools. We decided to use Microsoft Excel to analyze the information of the database.\\
+
+%%SEGUIR POR AQUI
 
 Microsoft Excel allows the user to generate graphs and making some calculates of the information that we want to analyze. With Microsoft Excel is really easy to obtain the results in graphs. The user only has to select the information that he wants to analyze and after that, select the graph that he wants to use for interpreting the information.\\
 
@@ -264,7 +265,7 @@ In this analysis we put the information registered from the 4 sensors used in th
 
 \end{itemize}
 
-\subsection{Methods used for compaction}
+\subsection{Methods based on compaction}
 
 \subsection{Methods used for calibrating sensors}
 

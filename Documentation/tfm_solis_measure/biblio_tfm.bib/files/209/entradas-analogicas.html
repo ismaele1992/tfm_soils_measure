@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="es-ES">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="es-ES">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="es-ES"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><iframe sandbox="allow-scripts allow-same-origin" id="155903f7c2d0ab18" allowtransparency="true" marginheight="0" marginwidth="0" hspace="0" vspace="0" style="height:0px;width:0px;display:none;" scrolling="no" src="//ads.pubmatic.com/AdServer/js/showad.js#PIX&amp;kdntuid=1&amp;p=156204&amp;gdpr=1&amp;gdpr_consent=BOQhLW0OQhLW0AAABBENBP4AAAAdKAAA" width="0" frameborder="0" height="0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1475df68c64e7b4" allowtransparency="true" marginheight="0" marginwidth="0" hspace="0" vspace="0" style="height:0px;width:0px;display:none;" scrolling="no" src="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html" width="0" frameborder="0" height="0">
+    </iframe>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Entradas Analógicas | Aprendiendo Arduino</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://aprendiendoarduino.wordpress.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://s2.wp.com/wp-content/themes/pub/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta name="google-site-verification" content="lcGjQEVwkrdIf9RD5yFXCy49ofpOi8ADIF5_7UJmEas">
+<link rel="dns-prefetch" href="https://s2.wp.com/">
+<link rel="dns-prefetch" href="https://s1.wp.com/">
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.pubmine.com/">
+<link rel="dns-prefetch" href="https://x.bidswitch.net/">
+<link rel="dns-prefetch" href="https://static.criteo.net/">
+<link rel="dns-prefetch" href="https://ib.adnxs.com/">
+<link rel="dns-prefetch" href="https://aax.amazon-adsystem.com/">
+<link rel="dns-prefetch" href="https://bidder.criteo.com/">
+<link rel="dns-prefetch" href="https://cas.criteo.com/">
+<link rel="dns-prefetch" href="https://gum.criteo.com/">
+<link rel="dns-prefetch" href="https://ads.pubmatic.com/">
+<link rel="dns-prefetch" href="https://gads.pubmatic.com/">
+<link rel="dns-prefetch" href="https://tpc.googlesyndication.com/">
+<link rel="dns-prefetch" href="https://ad.doubleclick.net/">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://www.googletagservices.com/">
+<link rel="dns-prefetch" href="https://cdn.switchadhub.com/">
+<link rel="dns-prefetch" href="https://delivery.g.switchadhub.com/">
+<link rel="dns-prefetch" href="https://delivery.swid.switchadhub.com/">
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Aprendiendo Arduino » Feed" href="https://aprendiendoarduino.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Aprendiendo Arduino » RSS de los comentarios" href="https://aprendiendoarduino.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Aprendiendo Arduino » Entradas Analógicas RSS de la etiqueta" href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/feed/">
+	<script src="https://s0.2mdn.net/instream/video/client.js" async="" type="text/javascript"></script><script id="twitter-wjs" src="widgets_002.js"></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1516999477h&ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="a_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-fonts-css" href="css.css" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2-1" href="style.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://s2.wp.com/wp-content/themes/pub/twentytwelve/css/ie.css?m=1423935238h&#038;ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-4-1" href="a.css" type="text/css" media="all">
+<script type="text/javascript" src="a_002.js"></script><style type="text/css"></style>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://aprendiendoarduino.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress.com">
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/bbfc45b79aa1fb3ddff3eb547fd835b3?s=32" sizes="16x16">
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/bbfc45b79aa1fb3ddff3eb547fd835b3?s=32" sizes="16x16">
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/bbfc45b79aa1fb3ddff3eb547fd835b3?s=114">
+<link rel="openid.server" href="https://aprendiendoarduino.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://aprendiendoarduino.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://aprendiendoarduino.wordpress.com/osd.xml" title="Aprendiendo Arduino">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Aprendiendo Arduino"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Aprendiendo a manejar Arduino en profundidad"><meta name="msapplication-task" content="name=Suscribirse;action-uri=https://aprendiendoarduino.wordpress.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/bbfc45b79aa1fb3ddff3eb547fd835b3?s=16"><meta name="msapplication-task" content="name=Registrar un blog gratuito;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Ayuda de WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Foros de WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="description" content="Entradas sobre Entradas Analógicas escritas por jecrespom">
+		<script type="text/javascript">
+		function __ATA_CC() {var v = document.cookie.match('(^|;) ?personalized-ads-consent=([^;]*)(;|$)');return v ? 1 : 0;}
+		var __ATA_PP = { pt: 3, ht: 0, tn: 'twentytwelve', amp: false, siteid: 8982, consent: __ATA_CC() };
+		var __ATA = __ATA || {};
+		__ATA.cmd = __ATA.cmd || [];
+		__ATA.criteo = __ATA.criteo || {};
+		__ATA.criteo.cmd = __ATA.criteo.cmd || [];
+		</script>
+		<script type="text/javascript" src="head.js" async=""></script><link rel="stylesheet" type="text/css" href="shCore.css"><link rel="stylesheet" type="text/css" href="shThemeDefault.css"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="ga.js"></script>
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="services.css"><script type="text/javascript" charset="utf-8" async="" src="timeline.js"></script><script src="//s.pubmine.com/outstream.js" async=""></script><style type="text/css">.iowo-adv {overflow: hidden;}.iowo-adv__header {font-family: "Helvetica", Arial, sans-serif !important;font-size: 11.5px !important;text-align: center;position: relative;padding: 5px 0px;letter-spacing: 0.3px !important;font-weight: 300 !important;text-transform: uppercase;color: #aaa}.iowo-adv__close-icon {width: 24px;height: 24px;position: absolute;right: 10px;top: 34px;z-index:10;cursor: pointer;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH4gMQDS4lyDpzXgAAAKlJREFUWMPVV1sOgCAMo9yZU3Bo/THGRKaylTXuF9YW9mCgtbaVw3rvKAl25azWQgb5TcBqESNsWAvscFgceNuwkvy8gZUi3jAx68AkHwpgifiKgShA1BcsIK8PmKfxCKZdqTdkYCRVJF/CmT2ymYoBo7Yj5UprMN6GVYvY/hUCaRJKy1DaiKStWPoYSZ9j6UAiHcmkQ6l0LJd+TDLIn0TULHILu2aRWxw7NqDQ4pqt7KcAAAAASUVORK5CYII=");background-size: contain;}.iowo-adv__close-icon_touch {left: 10px;}.iowo-adv__sound-icon {width: 32px;cursor: pointer;height: 32px;position: absolute;bottom:12px;right:5px;}.iowo-adv__sound-icon_on {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QYcDigM2jawiwAAAbhJREFUWMPtl7FLHFEQxr+ZtwTytLDwmjSnhf+AYrpUBwGvS7F2YqFNQNjieCnsTlPscdxdZ2MVCORIEewMwf/AlEkRCRaSKqQMCrnbGZtVLPRye2/dJcSpdos33292vjfvLfAQ/3tQHkkajcYqM68YY3bjOD7NsjbwFXfOhSLyDgAPBgMBsJFlPXuK10TkLTNf5ZnKmoM9PvuSqh4w8yOfInjCyhcAHBLRtG8LeQLxJyLyiZkreRg4E0AURTOq+pGZ5/LahsEodwN4A+Dxfc6BUdsw9BF3zkWqOq2q+51O5+ckLWDP4p4R0Wtm/uqcW7wvkXFiVkT6YRiaQgGGw+Gaqn4AAGZeqFarTwsF6PV6F0R0eH3oEFUKBXDO1QBsX70bY74U7YGXAObT5/5dp2QRJuyLyGbmOaCq50Re14XYGPPqb/eDOwGCINhJkkRvHrGqOkNEtXHU2+32Z69JGMfxdwDrt5hrL+1vLpHZA9baLQDvSwNoNptirV0DcFQKQArxx1r7AsBxKQApxO8kSeoi8q0UAADodru/giB4LiI/0pl/UigAALRarTMiWhaRurV25+FX65+LSxNniSadskJNAAAAAElFTkSuQmCC");}.iowo-adv__sound-icon_off {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAdBJREFUWIXt1b9r1GAcx/HP840u94jo6mD/Aae24I9NHZSCi5NDO5TO7fLkCTgdt15y4C6IdHFwEpxscRHc1dHB0UFBOvToks/Xxch53j3JExNB6XcMz+X1Ti5PApzO/zLD4fBMm99JF7hzbm86nZ6kafp02Rrv/apz7mrnAd77LRF5BCBR1fvLcJKHIvIqy7JrnQV47zdIPgFgAEBEfjvfDH4RwHmSW50EZFl2g+RzEfn535P8FsABYN9au/vHAc65K2VZvhSRwQz+JUmSjRA+GAy2R6MRZ89lWuArAN6KyKU5/PZ4PP4QgwNAcOs4524ZYy7/UmzMQwBLcefcGsmDJjgQuAPe+5sAXocCF+EAGuNA4BlQ1ZW+8WDA38BbBXSJRwfU4SSnMThQswvqcBE5BHChWiMiGoMDDe9AE7zt1Ab0idcG9I0HA0i+6xsHGn4LvPfrAA4a4Md5np+LCah9BuZxVX1G8mMM0jpgwZXvW2s3AdwB8LnXgEV49ZKZTCafVPUuyaNeAkJ4taYoivcico/kSacBTfBq8jx/Y4x5AKD8caicXxMdoKpnSSZ1eDVFUbwwxuwA+Kqqj2MDFm7DNE2vA9i01u7GvttP55+b71U6NuXe6u9vAAAAAElFTkSuQmCC");}.iowo-adv__timer {position: absolute;bottom:5px;left:5px;min-width: 60px;padding: 3px;color: #aaaaaa;border-radius: 5px;font-family: sans-serif;text-align: center;background-color:black;z-index:10;}.iowo-timeline {position: absolute;bottom:0;left:0;width: 100%;height: 5px;background-color: rgba(0, 0, 0, 0.2);}.iowo-timeline__runner {position: relative;height: 5px;background-color: red;-moz-transition: .5s;-ms-transition: .5s;-o-transition: .5s;-webkit-transition: .5s;transition: .5s;transition-property: max-width;}</style><script type="text/javascript" charset="UTF-8" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=aprendiendoarduino.wordpress.com"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=aprendiendoarduino.wordpress.com"></script></head>
+
+<body class="archive tag tag-entradas-analogicas tag-360850604 mp6 customizer-styles-applied custom-font-enabled single-author highlander-enabled highlander-light infinite-scroll">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+				<hgroup>
+			<h1 class="site-title"><a href="https://aprendiendoarduino.wordpress.com/" title="Aprendiendo Arduino" rel="home">Aprendiendo Arduino</a></h1>
+			<h2 class="site-description">Aprendiendo a manejar Arduino en profundidad</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menú</button>
+			<a class="assistive-text" href="#content" title="Saltar al contenido.">Saltar al contenido.</a>
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="nav-menu"><li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-619"><a href="https://aprendiendoarduino.wordpress.com/cursos/">Cursos Arduino</a>
+<ul class="sub-menu">
+	<li id="menu-item-3372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3372"><a href="https://aprendiendoarduino.wordpress.com/cursos/arduino-avanzado-2018/">Arduino Avanzado 2018</a></li>
+	<li id="menu-item-3119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3119"><a href="https://aprendiendoarduino.wordpress.com/">Iniciación Arduino 2018</a></li>
+	<li id="menu-item-2628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2628"><a href="https://aprendiendoarduino.wordpress.com/cursos/iniciacion-arduino-2017/">Iniciación Arduino 2017</a></li>
+	<li id="menu-item-2331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2331"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-avanzado-2017/">Arduino Avanzado 2017</a></li>
+	<li id="menu-item-1769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1769"><a href="https://aprendiendoarduino.wordpress.com/cursos/programacion-arduino/">Programación Arduino 2017</a></li>
+	<li id="menu-item-1734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-2017/">Curso Arduino 2017</a></li>
+	<li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-avanzado-2016/">Arduino Avanzado 2016</a></li>
+	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-2016-s-e/">Curso Arduino 2016 (S.E.)</a></li>
+	<li id="menu-item-1112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1112"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-2016/">Curso Arduino 2016</a></li>
+	<li id="menu-item-620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-620"><a href="https://aprendiendoarduino.wordpress.com/cursos/arduino-iniciacion-2015/">Curso Iniciación 2015</a></li>
+	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-avanzado/">Curso Avanzado 2014</a></li>
+	<li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="https://aprendiendoarduino.wordpress.com/cursos/curso-arduino-iniciacion/">Curso Iniciación 2014</a></li>
+</ul>
+</li>
+<li id="menu-item-1113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1113"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/">Talleres</a>
+<ul class="sub-menu">
+	<li id="menu-item-3357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3357"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/taller-sigfox-y-arduino/">Taller Sigfox Arduino</a></li>
+	<li id="menu-item-3217" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3217"><a href="https://www.aprendiendoarduino.com/talleres-arduino/arduino-day-2018-logrono/">Arduino Day 2018 Logroño</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3320"><a href="https://www.aprendiendoarduino.com/talleres-arduino/arduino-day-2018-logrono/iniciacion-arduino-para-docentes/">Arduino para Docentes</a></li>
+		<li id="menu-item-3337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3337"><a title="Herramientas y Recursos Pedagógicos Libres Basados en Arduino" href="https://www.aprendiendoarduino.com/talleres-arduino/arduino-day-2018-logrono/herramientas-y-recursos-pedagogicos-libres-basados-en-arduino/">Recursos Pedagógicos</a></li>
+		<li id="menu-item-3338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3338"><a title="Taller Programación Visual Arduino" href="https://www.aprendiendoarduino.com/talleres-arduino/arduino-day-2018-logrono/taller-programacion-visual-arduino/">Programación Visual</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3018"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/redes-lpwan-y-sigfox-con-arduino/">Redes LPWAN y Sigfox</a></li>
+	<li id="menu-item-1636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1636"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/arduino-day-2017/">Arduino Day 2017 Logroño</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1668"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/arduino-day-2017/iot-conectando-dispositivos-con-arduino/">IoT. Conectando Dispositivos con Arduino</a></li>
+		<li id="menu-item-1674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1674"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/arduino-day-2017/taller-iot-conectando-dispositivos-con-arduino/">Taller IoT. Conectando Dispositivos con Arduino</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1572"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/charla-seminario-m-a/">Charla Seminario UR</a></li>
+	<li id="menu-item-1472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1472"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/ur-maker-2016/">UR-Maker 2016</a></li>
+	<li id="menu-item-1114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1114"><a href="https://aprendiendoarduino.wordpress.com/talleres-arduino/arduino-day/">Arduino Day 2016 Logroño</a></li>
+</ul>
+</li>
+<li id="menu-item-757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-757"><a href="https://aprendiendoarduino.wordpress.com/proyectos/">Proyectos</a>
+<ul class="sub-menu">
+	<li id="menu-item-1118" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1118"><a href="https://aprendiendoarduino.wordpress.com/2016/07/06/proyecto-estacion-meteorologica/">Estación meteorológica</a></li>
+	<li id="menu-item-1117" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1117"><a href="https://aprendiendoarduino.wordpress.com/2016/07/06/proyecto-arranque-y-parada-motor-dc/">Arranque-Parada Motor DC</a></li>
+	<li id="menu-item-1116" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1116"><a href="https://aprendiendoarduino.wordpress.com/2016/07/08/proyecto-grabar-datos-de-temperatura-datalogger/">Datalogger Temperatura</a></li>
+	<li id="menu-item-1115" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1115"><a href="https://aprendiendoarduino.wordpress.com/2016/07/08/envio-mensajes-arduino-y-visualizacion-en-tiempo-real/">Mensajes en Tiempo Real</a></li>
+	<li id="menu-item-2255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2255"><a href="https://aprendiendoarduino.wordpress.com/2017/06/29/proyecto-sistema-de-alarma/">Sistema de Alarma</a></li>
+	<li id="menu-item-2839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2839"><a href="https://www.instructables.com/id/Halloween-Candy-Counter/">Halloween Candy Counter</a></li>
+	<li id="menu-item-2943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2943"><a href="https://www.hackster.io/aprendiendoarduino/bike-tracking-system-with-dead-man-alert-22da0b">Sigfox Bike Tracking</a></li>
+</ul>
+</li>
+<li id="menu-item-1047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1047"><a href="https://aprendiendoarduino.wordpress.com/empresas/">Empresas</a>
+<ul class="sub-menu">
+	<li id="menu-item-1049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1049"><a href="https://aprendiendoarduino.wordpress.com/empresas/formacion-empresas/">Formación Empresas</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2833"><a href="https://aprendiendoarduino.wordpress.com/empresas/formacion-empresas/curso-arduino-empresas/">Curso Arduino Empresas</a></li>
+		<li id="menu-item-2834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2834"><a href="http://teinnova.aprendiendoarduino.com/">Curso Teinnova</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048"><a href="https://aprendiendoarduino.wordpress.com/empresas/consultoria/">Consultoría</a></li>
+</ul>
+</li>
+<li id="menu-item-1377" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1377"><a href="https://www.aprendiendoarduino.com/servicios/">Servicios IoT</a></li>
+<li id="menu-item-2947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2947"><a href="https://aprendiendoarduino.wordpress.com/videos/">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-1738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1738"><a href="https://aprendiendoarduino.wordpress.com/videos/curso_arduino/">Curso Arduino Youtube</a></li>
+	<li id="menu-item-2950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2950"><a href="https://aprendiendoarduino.wordpress.com/videos/curso_esp8266/">Curso ESP8266 Youtube</a></li>
+</ul>
+</li>
+<li id="menu-item-621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621"><a href="https://aprendiendoarduino.wordpress.com/articulos/">Artículos</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="https://aprendiendoarduino.wordpress.com/acerca-de/">Acerca de</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<section id="primary" class="site-content">
+		<div id="content" role="main">
+
+					<header class="archive-header">
+				<h1 class="archive-title">Archivo de la etiqueta: <span>Entradas Analógicas</span></h1>
+
+						</header><!-- .archive-header -->
+
+			
+	<article id="post-2774" class="post-2774 post type-post status-publish format-standard hentry category-arduino category-curso-iniciacion-2017 category-entradas-analogicas category-pwm category-salidas-analogicas category-visualino tag-analogread tag-analogwrite tag-arduino tag-conversor-analogico-digital tag-conversor-digital-analogico tag-curso-iniciacion-2017 tag-entradas-analogicas tag-pwm tag-salidas-analogicas tag-tone tag-visualino">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://aprendiendoarduino.wordpress.com/2017/10/22/entradas-y-salidas-analogicas-arduino-pwm/" rel="bookmark">Entradas y Salidas Analógicas Arduino.&nbsp;PWM</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://aprendiendoarduino.wordpress.com/2017/10/22/entradas-y-salidas-analogicas-arduino-pwm/#comments">3 respuestas</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight:400;">Una señal eléctrica analógica es 
+aquella en la que los valores de la tensión o voltaje varían 
+constantemente y pueden tomar cualquier valor. En el caso de la 
+corriente alterna, la señal analógica incrementa su valor con signo 
+eléctrico positivo (+) durante medio ciclo y disminuye a continuación 
+con signo eléctrico negativo (–) en el medio ciclo siguiente.</span></p>
+<p><span style="font-weight:400;">Un sistema de control (como un 
+microcontrolador) no tiene capacidad alguna para trabajar con señales 
+analógicas, de modo que necesita convertir las señales analógicas en 
+señales digitales para poder trabajar con ellas.</span></p>
+<p><span style="font-weight:400;">La señal digital obtenida de una analógica tiene dos propiedades fundamentales:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Valores. Que valor en voltios define 0 y 1. En nuestro caso es tecnología TTL (0 – 5V)</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Resolución analógica: nº de bits que usamos para representar con una notación digital una señal analógica:</span>
+<ul>
+<li style="font-weight:400;"><a href="http://arduino.cc/en/Reference/AnalogReadResolution"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReadResolution</span></a></li>
+<li style="font-weight:400;"><a href="http://arduino.cc/en/Reference/AnalogWriteResolution"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWriteResolution</span></a></li>
+</ul>
+</li>
+</ul>
+<p><span style="font-weight:400;">En el caso de un arduino Uno, el valor
+ de 0 voltios analógico es expresado en digital como B0000000000 (0) y 
+el valor de 5V analógico es expresado en digital como B1111111111 
+(1023). Por lo tanto todo valor analógico intermedio es expresado con un
+ valor entre 0 y 1023, es decir, sumo 1 en binario cada 4,883 mV.</span></p>
+<p><span style="font-weight:400;">Arduino Uno tiene una resolución de 10 bits, es decir, unos valores entre 0 y 1023.</span></p>
+<p><span style="font-weight:400;">Arduino Due tiene una resolución de 12 bits, es decir, unos valores entre 0 y 4095.</span></p>
+<p><span style="font-weight:400;">Diferencia entre señales analógicas y digitales:</span></p>
+<p><img src="c0c8e-conversoranalogicodigital_002.jpg"></p>
+<h3><b>Entradas Analógicas en Arduino</b></h3>
+<p><span style="font-weight:400;">Los microcontroladores de Arduino 
+contienen en la placa un conversor analógico a digital de 6 canales. El 
+conversor tiene una resolución de 10 bits, devolviendo enteros entre 0 y
+ 1023. Los pines analógicos de Arduino también tienen todas las 
+funcionalidades de los pines digitales. Por lo tanto, si necesitamos más
+ pines digitales podemos usar los pines analógicos. La nomenclatura para
+ los pines analógicos es A0, A1, etc…</span></p>
+<p><img src="ArduinoUno_R3_AnalogPins.html"></p>
+<p><span style="font-weight:400;">En arduino los pines analógicos se definen y tienen las propiedades siguientes: </span><a href="http://arduino.cc/en/Tutorial/AnalogInputPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/AnalogInputPins</span></a></p>
+<p><span style="font-weight:400;">En arduino para tratar las entradas y salidas digitales usamos las siguientes funciones:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogReference() – configura la referencia de voltaje usada para la entrada analógica. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogReference"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReference</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead() – lee el valor del pin analógico especificado. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogRead"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogRead</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogWrite()
+ – escribe un valor analógico (onda PWM) al pin especificado. No en 
+todos los pines digitales se puede aplicar PWM. </span><a href="http://arduino.cc/en/Reference/AnalogWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWrite</span></a></li>
+</ul>
+<p><span style="font-weight:400;">En Visualino disponemos de las 
+funciones para leer de entradas analógicas y escribir en salidas 
+analógicas en la agrupación de bloques “Pin Functions”. </span></p>
+<p><img src="pin-functions1.png"></p>
+<p><span style="font-weight:400;">Otras funciones interesantes con entradas/salidas analógicas:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">map(value, fromLow, fromHigh, toLow, toHigh): </span><a href="http://arduino.cc/en/Reference/Map"><span style="font-weight:400;">http://arduino.cc/en/Reference/Map</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">constrain(x, a, b): &nbsp;</span><a href="http://arduino.cc/en/Reference/Constrain"><span style="font-weight:400;">http://arduino.cc/en/Reference/Constrain </span></a></li>
+</ul>
+<p><span style="font-weight:400;">En Visualino estás disponibles las funciones map y random en la agrupación “Math”</span></p>
+<p><img src="math.png"></p>
+<h3><b>Salidas Analógicas. PWM</b></h3>
+<p><span style="font-weight:400;">Como hemos dicho Arduino Uno tiene 
+entradas analógicas que gracias a los conversores analógico digital 
+puede entender ese valor el microcontrolador, pero no tiene salidas 
+analógicas puras y para solucionar esto, usa la técnica de PWM.</span></p>
+<p><span style="font-weight:400;">Algunos pines digitales pueden usarse como salidas analógicas PWM:</span></p>
+<p><img src="Arduino-Uno-Pequeo.jpg"></p>
+<p><span style="font-weight:400;">Las Salidas PWM (Pulse Width 
+Modulation) permiten generar salidas analógicas desde pines digitales. 
+Arduino Uno no posee salidas analógicas puras, sin embargo el Arduino 
+Due sí tiene salidas analógicas puras mediante dos DAC. El </span><a href="http://arduino.cc/en/Main/ArduinoBoardDue"><span style="font-weight:400;">arduino due</span></a><span style="font-weight:400;">,
+ posee dos salidas analógicas puras mediante dos conversores digital a 
+analógico. Estos pines pueden usarse para crear salidas de audio usando 
+la </span><a href="http://arduino.cc/en/Reference/Audio"><span style="font-weight:400;">librería correspondiente</span></a><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">La función para hacer una salida PWM en un pin es:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogWrite()
+ – escribe un valor analógico (onda PWM) al pin especificado. No en 
+todos los pines digitales se puede aplicar PWM. </span><a href="http://arduino.cc/en/Reference/AnalogWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWrite</span></a></li>
+</ul>
+<p><span style="font-weight:400;">En Visualino disponemos de la función 
+analogWrite() para escribir entradas analógicas con PWM en la agrupación
+ de bloques “Pin Functions”.</span></p>
+<p><img src="snag-16-07-03-22-46-32.jpg"></p>
+<p><span style="font-weight:400;">La modulación por ancho de pulsos 
+(también conocida como PWM, siglas en inglés de pulse-width modulation) 
+de una señal o fuente de energía es una técnica en la que se modifica el
+ ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, 
+por ejemplo), ya sea para transmitir información a través de un canal de
+ comunicaciones o para controlar la cantidad de energía que se envía a 
+una carga.</span></p>
+<p><span style="font-weight:400;">El ciclo de trabajo de una señal periódica es el ancho relativo de su parte positiva en relación con el período.</span></p>
+<p><span style="font-weight:400;">duty cycle = (tiempo que la salida está a uno o HIGH)/ (periodo de la función)</span></p>
+<p><img src="350px-Duty_cycle_general.png"></p>
+<p><span style="font-weight:400;">Diferentes valores de una señal PWM:</span></p>
+<p><img src="atmega168a_pwm_02_lrg.jpg"></p>
+<p><span style="font-weight:400;">En este ejemplo se ve cómo simular con PWM una onda sinusoidal analógica.</span></p>
+<p><img src="300px-Pulse_density_modulation.png"></p>
+<p><b>En Arduino la frecuencia de PWM es de 500Hz. </b><span style="font-weight:400;">Pero es un valor que puede modificarse en caso que lo necesitemos.</span></p>
+<p><span style="font-weight:400;">En la actualidad existen muchos 
+circuitos integrados en los que se implementa la modulación PWM, por 
+ejemplo para lograr circuitos funcionales que puedan controlar fuentes 
+conmutadas, controles de motores, controles de elementos 
+termoeléctricos, choppers para sensores en ambientes ruidosos y algunas 
+otras aplicaciones.</span></p>
+<p><span style="font-weight:400;">Definición de PWM en la web de Arduino: </span><a href="http://arduino.cc/en/Tutorial/PWM"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/PWM</span></a></p>
+<p><span style="font-weight:400;">Para ampliar un poco más de información sobre PWM ver: </span><a href="http://rufianenlared.com/que-es-pwm/"><span style="font-weight:400;">http://rufianenlared.com/que-es-pwm/</span></a></p>
+<h4><b>Función Tone()</b></h4>
+<p><span style="font-weight:400;">No confundir PWM con la función </span><a href="http://arduino.cc/en/Reference/Tone"><span style="font-weight:400;">tone()</span></a><span style="font-weight:400;">
+ que es utilizada para generar una onda cuadrada de ciclo de trabajo 50%
+ y frecuencia variable, con el fin de emitir sonidos audibles, 
+modificando la frecuencia.</span></p>
+<p><span style="font-weight:400;">Más información de tone() en: </span><a href="https://code.google.com/p/rogue-code/wiki/ToneLibraryDocumentation"><span style="font-weight:400;">https://code.google.com/p/rogue-code/wiki/ToneLibraryDocumentation</span></a></p>
+<p><img src="2014-04-29-freq-effect-on-stepper-speed.png"></p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<span class="wpa-about">Anuncios</span>
+				<div class="u">		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-right:5px;margin-top:0px">
+		<div id="atatags-26942-5b407891ba204" style="width: auto; height: auto;"><div style="width: 300px; height: 250px;"><iframe scrolling="no" style="border:none;overflow:hidden;width:300px;height:250px;" width="300" frameborder="0" height="250"></iframe></div><div id="atatags-26942-5b407891ba204__controls" style="width:300px;height:10px;text-align:right;line-height:6px;"><span id="atatags-26942-5b407891ba204__complain-btn" style="font-size: 10px; color: rgb(109, 171, 210); text-decoration: underline; cursor: pointer; display: inline;">Report this ad</span></div></div></div>		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-top:0px">
+		<div id="atatags-114160-5b407891ba208" style="width: auto; height: auto;"><div style="width: 300px; height: 250px;"><iframe scrolling="no" style="border:none;overflow:hidden;width:300px;height:250px;" width="300" frameborder="0" height="250"></iframe></div><div id="atatags-114160-5b407891ba208__controls" style="width:300px;height:10px;text-align:right;line-height:6px;"><span id="atatags-114160-5b407891ba208__complain-btn" style="font-size: 10px; color: rgb(109, 171, 210); text-decoration: underline; cursor: pointer; display: inline;">Report this ad</span></div></div></div></div>
+				
+			</div>
+		</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Esta entrada se publicó en <a href="https://aprendiendoarduino.wordpress.com/category/arduino/" rel="category tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/category/curso-iniciacion-2017/" rel="category tag">Curso Iniciación 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-analogicas/" rel="category tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/pwm/" rel="category tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-analogicas/" rel="category tag">Salidas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/visualino/" rel="category tag">Visualino</a> y está etiquetada con <a href="https://aprendiendoarduino.wordpress.com/tag/analogread/" rel="tag">analogRead</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/analogwrite/" rel="tag">analogWrite</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/arduino/" rel="tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/conversor-analogico-digital/" rel="tag">Conversor Analógico Digital</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/conversor-digital-analogico/" rel="tag">Conversor Digital Analógico</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/curso-iniciacion-2017/" rel="tag">Curso Iniciación 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/" rel="tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/pwm/" rel="tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-analogicas/" rel="tag">Salidas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/tone/" rel="tag">tone</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/visualino/" rel="tag">Visualino</a> en <a href="https://aprendiendoarduino.wordpress.com/2017/10/22/entradas-y-salidas-analogicas-arduino-pwm/" title="10:10 am" rel="bookmark"><time class="entry-date" datetime="2017-10-22T10:10:29+00:00">22 octubre, 2017</time></a><span class="by-author"> por <span class="author vcard"><a class="url fn n" href="https://aprendiendoarduino.wordpress.com/author/jecrespom/" title="Ver todas las entradas de jecrespom" rel="author">jecrespom</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+	<article id="post-2421" class="post-2421 post type-post status-publish format-standard hentry category-arduino category-curso-avanzado-2017 category-entradas-analogicas category-salidas-analogicas tag-adc tag-arduino tag-aref tag-conversor-analogico-digital tag-curso-avanzado-2017 tag-entradas-analogicas tag-registros tag-salidas-analogicas">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://aprendiendoarduino.wordpress.com/2017/09/05/puertos-analogicos-arduino-avanzado/" rel="bookmark">Puertos Analógicos Arduino&nbsp;Avanzado</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://aprendiendoarduino.wordpress.com/2017/09/05/puertos-analogicos-arduino-avanzado/#comments">1 respuesta</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight:400;">Ya hemos visto cómo manejar con 
+registros las entradas y salidas de Arduino, pero nos centrado en las 
+correspondientes a las I/O digitales. Para el caso de las entradas y 
+salidas analógicas hay muchos detalles que no se han visto.</span></p>
+<p><span style="font-weight:400;">Los 6 pines correspondientes a las 
+entradas analógicas A0..A5 del Arduino UNO corresponde al puerto C. 
+Estos 6 pines se pueden usar como entradas y salidas digitales como 
+cualquier otro puerto digital como hemos visto en el apartado anterior. 
+Además de denominarlas A0..A5, también es posible llamarlas como pines 
+14..19.</span></p>
+<p><span style="font-weight:400;">La forma de manejar con registros las 
+entradas analógicas correspondientes al puerto C con PORT, DDR y PIN es 
+para usar esos pines como I/O digitales, puesto que los pines de los 
+microcontroladores son multipropósito como se ha dicho anteriormente.</span></p>
+<p><img class="alignnone size-full" src="FR2B8NPG0AMJ75C.jpg" width="300" height="185"></p>
+<p><span style="font-weight:400;">Tabla de equivalencia:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Pin 14 = Analog in 0</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Pin 15 = Analog in 1</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Pin 16 = Analog in 2</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Pin 17 = Analog in 3</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Pin 18 = Analog in 4</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Pin 19 = Analog in 5</span></li>
+</ul>
+<p><span style="font-weight:400;">Por ejemplo estas tres instrucciones son equivalentes:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead(0);</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead(A0);</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead(14);</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">digitalWrite(A1);</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">digitalWrite(15);</span></li>
+</ul>
+<p><span style="font-weight:400;">Pin mapping ampliado:</span></p>
+<p><img class="alignnone size-full" src="Uno_pinouts-768x517.png" width="768" height="517"></p>
+<h3><b>Entradas Analógicas</b></h3>
+<p><span style="font-weight:400;">En las entradas analógicas entran en juego los conversores Analógico Digital (ADC) </span></p>
+<p><span style="font-weight:400;">Toda la información de ADC para entradas analógicas se encuentra en la página 305 de </span><a href="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf"><span style="font-weight:400;">http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf</span></a></p>
+<h4><b>Conversor analógico digital (ADC)</b></h4>
+<p><span style="font-weight:400;">Un microcontrolador solo entiende 
+señales digitales (1’s y 0’s), por lo tanto para poder leer señales 
+analógicas necesitamos los convertidores Analógico a Digital (ADC).</span></p>
+<p><span style="font-weight:400;">Cómo funciona un conversor analógico a digital:</span></p>
+<ul>
+<li style="font-weight:400;"><a href="http://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital"><span style="font-weight:400;">http://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital</span></a></li>
+</ul>
+<ul>
+<li style="font-weight:400;"><a href="http://en.wikipedia.org/wiki/Analog-to-digital_converter"><span style="font-weight:400;">http://en.wikipedia.org/wiki/Analog-to-digital_converter</span></a></li>
+</ul>
+<p><img class="alignnone size-full" src="710px-Conversor_AD.png" width="710" height="180"></p>
+<p><img class="alignnone size-full" src="5c109-conversion03.gif" width="524" height="308"></p>
+<p><img class="alignnone size-full" src="converters.gif" width="510" height="249"></p>
+<h3><b>ADC en Arduino</b></h3>
+<p><span style="font-weight:400;">El microcontrolador de Arduino UNO 
+contiene internamente un conversor analógico a digital de 6 canales. El 
+conversor tiene una resolución de 10 bits, devolviendo enteros entre 0 y
+ 1023. Los pines analógicos de Arduino también tienen todas las 
+funcionalidades de los pines digitales. Por lo tanto, si necesitamos más
+ pines digitales podemos usar los pines analógicos.</span></p>
+<p><span style="font-weight:400;">En arduino los pines analógicos se definen y tienen las propiedades siguientes: </span><a href="http://arduino.cc/en/Tutorial/AnalogInputPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/AnalogInputPins</span></a></p>
+<p><span style="font-weight:400;">El datasheet de ATmega advierte de 
+hacer lecturas rápidas entre pines analógicos (analogRead). Esto puede 
+causar ruido eléctrico e introducir jitter en el sistema analógico. Se 
+aconseja que después de manipular pines analógicos (en modo digital), 
+añadir un pequeño retraso antes de usar analogRead () para leer otros 
+pines analógicos.</span></p>
+<p><span style="font-weight:400;">Un microcontrolador solo entiende 
+señales digitales (1’s y 0’s), por lo tanto para poder leer señales 
+analógicas necesitamos los convertidores Analógico a Digital (ADC). Esta
+ conversión consiste en la transcripción de </span><a href="https://es.wikipedia.org/wiki/Se%C3%B1al_anal%C3%B3gica"><span style="font-weight:400;">señales analógicas</span></a><span style="font-weight:400;"> en </span><a href="https://es.wikipedia.org/wiki/Se%C3%B1al_digital"><span style="font-weight:400;">señal digital</span></a><span style="font-weight:400;">,
+ con el propósito de facilitar su procesamiento (codificación, 
+compresión, etcétera) y hacer la señal resultante (digital) más inmune 
+al ruido y otras interferencias a las que son más sensibles las señales 
+analógicas.</span></p>
+<p><img class="alignnone size-full" src="Sampling-Holding-and-Quantizing.jpg" width="652" height="482"></p>
+<p><span style="font-weight:400;">Para el ATMega328p toda la información del conversor analógico a digital se encuentra en la página 305 de </span><a href="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf"><span style="font-weight:400;">http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf</span></a></p>
+<p><span style="font-weight:400;">El ATMega328p, al igual que toda la 
+gama ATMega de Atmel y otros microcontroladores, tienen un ADC integrado
+ y no necesita ningún hardware adicional, esto nos permite simplemente 
+conectar un sensor analógico. El ADC interno del microcontrolador tiene 
+una resolución de 10 bits, esto significa que la tensión analógica de 
+entrada se convierte en un valor numérico entre 0 y 1023.</span></p>
+<p><span style="font-weight:400;">NOTA: en el caso de una Raspberry Pi necesitamos de un ADC externo como el MCP3008 </span><a href="https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/overview"><span style="font-weight:400;">https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/overview</span></a></p>
+<p><span style="font-weight:400;">Aunque el ATmega328P tiene 6 pines que
+ son capaces de ser utilizados como pines de entrada analógicos (Port 
+C), sólo hay un ADC en el microcontrolador, pero entre el ADC y los 
+pines hay un multiplexor analógico, esto permite que podamos elegir qué 
+pin está conectado al ADC, es decir, aunque podemos utilizar todos los 
+pines, sólo se puede leer el valor de uno de ellos a la vez, para casi 
+todas las aplicaciones esto es más que suficiente, pero en algunos casos
+ limitados que necesitan lecturas ADC de alta velocidad se podría 
+necesitar el uso de ADC externos. </span><b>En el caso de la ATmega328P los pines que se pueden utilizar una entrada analógica son todos los del puerto C</b><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">También se puede cambiar la tensión 
+máxima (siempre por debajo de Vcc) que utiliza el ADC como referecia, es
+ la &nbsp;llamada tensión de referencia y es la tensión contra la que 
+todas las entradas analógicas hacen las conversiones. Esta tensión de 
+referencia se toma del pin AREF. Reducir el voltaje máximo del ADC tiene
+ sentido para mejorar la resolución del ADC. Con 5V la resolución es de 
+5/1023 = 4,88 mV para cada valor, pero para un sensor que no pasa de 
+3.3V la resolución es de 3.3/1023 = 3.22mV.</span></p>
+<p><span style="font-weight:400;">El ADC interno también se puede 
+utilizar en un modo de 8 bits, donde sólo se utilizan los 8 bits más 
+significativos de la resolución de 10 bits completa, esto podría ser 
+útil cuando se trabaja en ambientes ruidosos y sólo necesita 8 bits de 
+resolución, el uso de este modo es un plus debido a que no es necesario 
+dedicar más tiempo de CPU calculando los 10 bits completos. El ADC 
+también </span><b>puede configurarse para que lleve a cabo una 
+conversión y detenerse o puede ser configurado para funcionar en un modo
+ de funcionamiento libre</b><span style="font-weight:400;">, la primera 
+opción es la mejor opción cuando queremos leer diferentes pines, y el 
+segundo es mejor cuando sólo tenemos que leer un pin y esto puede 
+ahorrar algo de tiempo entre las conversiones.</span></p>
+<p><span style="font-weight:400;">También tenemos que tener cuidado de 
+la frecuencia máxima de trabajo del ADC, este valor se especifica en la 
+ficha técnica y es de 200 kHz, este es el valor del reloj interno de la 
+circuitería del ADC y se genera dividiendo el reloj principal ATmega, 
+que en el caso del UNO es 16 MHz, este divisor del reloj se realiza 
+mediante pre-escaladores y sólo hay un rango limitado de valores, por lo
+ que la frecuencia máxima que podemos utilizar y estar dentro de la 
+frecuencia máxima de trabajo es 125 kHz. El siguiente pre-escalador 
+supone usar el ADC a 250 kHz, en este caso no se puede garantizar la 
+resolución de 10 bits, pero si una resolución de 8 bits. De todas formas
+ en caso de necesitar un ADC más rápido se podría usar uno externo.</span></p>
+<p><span style="font-weight:400;">El ADC puede trabajar en dos modos: </span><b>single conversion mode</b><span style="font-weight:400;"> y </span><b>free running mode</b><span style="font-weight:400;">.
+ En modo single conversion el ADC hace una sola conversión y para, pero 
+en modo free running el ADC está continuamente convirtiendo, es decir, 
+hace una conversión y luego comienza con la siguiente.</span></p>
+<p><span style="font-weight:400;">El ADC en microcontroladores AVR 
+utiliza una técnica conocida como aproximación sucesiva mediante la 
+comparación de la tensión de entrada con la mitad de la tensión de 
+referencia generada internamente. La comparación continúa dividiendo de 
+nuevo la tensión y actualizando cada bit del registro ADC a 1 si el 
+voltaje es HIGH en la comparación o 0 en el otro caso. Este proceso se 
+realiza 10 veces (por cada bit de resolución del ADC) y genera como 
+resultado la salida binaria.</span></p>
+<p><span style="font-weight:400;">Los registros utilizados en el manejo de las entradas analógicas son:</span></p>
+<ul>
+<li style="font-weight:400;"><b>ADMUX</b><span style="font-weight:400;">: ADC Multiplexer Selection Register. Selector del canal del multiplexor del ADC y el voltaje de referencia. Página 317 </span><a href="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf"><span style="font-weight:400;">http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf</span></a></li>
+</ul>
+<p><img class="alignnone size-full" src="oTeg8.png" width="789" height="413"></p>
+<ul>
+<li style="font-weight:400;"><b>ADCSRA</b><span style="font-weight:400;">: ADC Control and Status Register A. Control del ADC y su estado. Página 319.</span></li>
+</ul>
+<p><img class="alignnone size-full" src="AAEAAQAAAAAAAAl0AAAAJDY0YWUzMDNhLWJhNDAtNGJmYi04NjMxLTdhNDR.html" width="2357" height="2241"></p>
+<ul>
+<li style="font-weight:400;"><b>ADCSRB</b><span style="font-weight:400;">: ADC Control and Status Register B.</span></li>
+<li style="font-weight:400;"><b>ADCL</b><span style="font-weight:400;">: ADC Data Register Low. Cuando la conversión ADC ha finalizado, el resultado se deja en estos dos registros.</span></li>
+<li style="font-weight:400;"><b>ADCH</b><span style="font-weight:400;">: Data Register High</span></li>
+</ul>
+<p><img class="alignnone size-full" src="AAEAAQAAAAAAAAdbAAAAJGFiNjI3OGU3LWU3ZTEtNGEyMS1iMDM2LWE3YWV.html" width="2349" height="1941"></p>
+<ul>
+<li style="font-weight:400;"><b>DIDR0</b><span style="font-weight:400;">: Digital Input Disable Register 0. Para deshabilitar la entrada digital de los pines analógicos. Página 326.</span></li>
+</ul>
+<p><img class="alignnone size-full" src="microcontroladores-3-conversor-ad-dsp-13-638.jpg" width="638" height="479"></p>
+<p><span style="font-weight:400;">Diagrama de bloques:</span></p>
+<p><img class="alignnone size-full" src="ADC.html" width="521" height="600"></p>
+<p><span style="font-weight:400;">Más información en:</span></p>
+<ul>
+<li style="font-weight:400;"><a href="https://www.wikinote.org/Main/Savitribai-Phule-Pune-University/MAE/EEE-SE/Unit-6/ADC/"><span style="font-weight:400;">https://www.wikinote.org/Main/Savitribai-Phule-Pune-University/MAE/EEE-SE/Unit-6/ADC/</span></a></li>
+<li style="font-weight:400;"><a href="https://www.linkedin.com/pulse/adc-avr-microcontroller-mohamed-adel-elbahi"><span style="font-weight:400;">https://www.linkedin.com/pulse/adc-avr-microcontroller-mohamed-adel-elbahi</span></a></li>
+</ul>
+<p><span style="font-weight:400;">Entendamos el proceso usado anteriormente para calcular la temperatura interna: </span></p>
+<div><div id="highlighter_922957" class="syntaxhighlighter  cpp"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp comments">// Set the internal reference and mux.</code></div><div class="line number2 index1 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADMUX = (_BV(REFS1) | _BV(REFS0) | _BV(MUX3));</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= _BV(ADEN);&nbsp; </code><code class="cpp comments">// enable the ADC</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">delay(20);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">// wait for voltages to become stable.</code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= _BV(ADSC);&nbsp; </code><code class="cpp comments">// Start the ADC</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp comments">// Detect end-of-conversion</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp keyword bold">while</code> <code class="cpp plain">(bit_is_set(ADCSRA, ADSC));</code></div><div class="line number11 index10 alt2">&nbsp;</div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp comments">// Reading register "ADCW" takes care of how to read ADCL and ADCH.</code></div><div class="line number13 index12 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">word wADC = ADCW;</code></div></div></td></tr></tbody></table></div></div>
+<p><span style="font-weight:400;">Más información:</span></p>
+<ul>
+<li style="font-weight:400;"><a href="https://hekilledmywire.wordpress.com/2011/03/16/using-the-adc-tutorial-part-5/"><span style="font-weight:400;">https://hekilledmywire.wordpress.com/2011/03/16/using-the-adc-tutorial-part-5/</span></a></li>
+<li style="font-weight:400;"><a href="http://www.luisllamas.es/2014/09/entradas-analogicas-en-arduino/"><span style="font-weight:400;">http://www.luisllamas.es/2014/09/entradas-analogicas-en-arduino/</span></a></li>
+<li style="font-weight:400;"><a href="http://microcontrollerslab.com/analog-to-digital-adc-converter-working/"><span style="font-weight:400;">http://microcontrollerslab.com/analog-to-digital-adc-converter-working/</span></a></li>
+<li style="font-weight:400;"><a href="http://www.electroschematics.com/10053/avr-adc/"><span style="font-weight:400;">http://www.electroschematics.com/10053/avr-adc/</span></a></li>
+<li style="font-weight:400;"><a href="https://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital"><span style="font-weight:400;">https://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital</span></a></li>
+</ul>
+<p><span style="font-weight:400;">En caso que el ADC propio de Arduino 
+sea insuficiente para nuestra aplicación, podemos usar Conversores 
+Analógico Digital de alta resolución externos:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Shield </span><a href="http://mayhewlabs.com/products/extended-adc-shield"><span style="font-weight:400;">http://mayhewlabs.com/products/extended-adc-shield</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Chip usado en el shield (100k muestras por segundo): </span><a href="http://www.linear.com/product/LTC1859"><span style="font-weight:400;">http://www.linear.com/product/LTC1859</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Manual de usuario: </span><a href="http://mayhewlabs.com/media/Extended%20ADC%20Shield%20User%20Manual.pdf"><span style="font-weight:400;">http://mayhewlabs.com/media/Extended%20ADC%20Shield%20User%20Manual.pdf</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Breakout board I2C para ADS1115 (860 muestras por segundo): </span><a href="https://www.adafruit.com/product/1085"><span style="font-weight:400;">https://www.adafruit.com/product/1085</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Librería uso: </span><a href="https://github.com/adafruit/Adafruit_ADS1X15"><span style="font-weight:400;">https://github.com/adafruit/Adafruit_ADS1X15</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Información: </span><a href="https://learn.adafruit.com/adafruit-4-channel-adc-breakouts/overview"><span style="font-weight:400;">https://learn.adafruit.com/adafruit-4-channel-adc-breakouts/overview</span></a></li>
+</ul>
+<h3><b>AREF</b></h3>
+<p><span style="font-weight:400;">Una de las características claves del 
+convertidor, es su número de bits, que define la resolución con la que 
+podemos cuantificar esa conversión a digital. &nbsp;En el caso de 
+Arduino, son 10 los bits que maneja en la puertas analógicas, lo que 
+significa que su resolución es 1.024 posibles valores. Cuanto mayor sea 
+esta resolución mejor es la capacidad de aproximación al valor real cuya
+ conversión buscamos.</span></p>
+<p><span style="font-weight:400;">Un ADC compara sucesivamente la señal 
+que queremos cuantificar en la entrada, con una tensión de referencia 
+contra la que hace las comparaciones.</span></p>
+<p><span style="font-weight:400;">Un ADC no proporciona valores 
+absolutos, sino que proporciona una comparación cuantificada con 
+relación a un valor de referencia. Por eso, al usar el sensor de 
+temperatura TMP36 en </span><a href="https://aprendiendoarduino.wordpress.com/2017/06/24/ejemplo-sensor-de-temperatura/"><span style="font-weight:400;">https://aprendiendoarduino.wordpress.com/2017/06/24/ejemplo-sensor-de-temperatura/</span></a><span style="font-weight:400;">
+ hemos calculado la tensión de entrada en uno de los pines Analógicos 
+como la lectura multiplicada por una relación entre el valor de la 
+máxima de la entrada 5V con la máxima medida del conversor 1024.</span></p>
+<p><img class="alignnone size-full" src="Img_15_5.jpg" width="282" height="90"></p>
+<p><span style="font-weight:400;">Como las señales que normalmente 
+manejamos en Arduino están alrededor de los 5V, comparar contra 5V es lo
+ razonable, porque además la industria tiene una gama completa de 
+sensores cuyo valor máximo devuelve 5V. Pero cada vez más, la industria 
+produce electrónica de 3,3V o podemos encontrar sensores con una 
+sensibilidad de menos de 3V, y si usamos el ADC para digitalizar señales
+ de pico 3,3V o menos, estamos perdiendo precisión y resolución, porque 
+estamos desperdiciando una parte de las posibles comparaciones.</span></p>
+<p><span style="font-weight:400;">En el caso de un sensor a 3.3V, al ser
+ 3,3V el máximo de la tensión de entrada compararlo contra 5V supone que
+ nunca tendremos lecturas mayores de 1.024 * 3,3 /5 = 675 y seguiremos 
+teniendo escalones de entrada de 5mV. Como el ADC es un comparador de 
+tensiones, si pudiéramos cambiar el valor de tensión contra el que 
+comparamos por una de 3,3V, los escalones serian de 3,3V/1024 = 
+0,00322265625 o sea 3,2 mV. </span></p>
+<p><span style="font-weight:400;">La tensión de comparación contra la 
+que realizamos la conversión de analógico a digital, debería ser el 
+valor máximo posible de la señal de entrada. Porque es cuándo tendremos 
+la mejor resolución posible. </span></p>
+<p><span style="font-weight:400;">El pin rotulado como AREF (Analog 
+Reference o Referencia Analógica), que no habíamos usado hasta ahora, 
+permite conectar una tensión externa de referencia, contra la que se 
+comparará la señal que leamos en los pines A0 a A5.</span></p>
+<p><img class="alignnone size-full" src="AREFPIN.jpg" width="331" height="114"></p>
+<p><span style="font-weight:400;">Más información: </span><a href="http://www.prometec.net/aref/"><span style="font-weight:400;">http://www.prometec.net/aref/</span></a></p>
+<p><span style="font-weight:400;">Para cambiar la referencia analógica se debe usar el comando AnalogReference(): </span><a href="https://www.arduino.cc/en/Reference/AnalogReference"><span style="font-weight:400;">https://www.arduino.cc/en/Reference/AnalogReference</span></a><span style="font-weight:400;"> que nos permite usar los siguientes valores de referencia:</span></p>
+<ul>
+<li style="font-weight:400;"><b>DEFAULT</b><span style="font-weight:400;">: the default analog reference of 5 volts (on 5V Arduino boards) or 3.3 volts (on 3.3V Arduino boards)</span></li>
+<li style="font-weight:400;"><b>INTERNAL</b><span style="font-weight:400;">:
+ an built-in reference, equal to 1.1 volts on the ATmega168 or ATmega328
+ and 2.56 volts on the ATmega8(not available on the Arduino Mega)</span></li>
+<li style="font-weight:400;"><b>INTERNAL1V1</b><span style="font-weight:400;">: a built-in 1.1V reference (Arduino Mega only)</span></li>
+<li style="font-weight:400;"><b>INTERNAL2V56</b><span style="font-weight:400;">: a built-in 2.56V reference (Arduino Mega only)</span></li>
+<li style="font-weight:400;"><b>EXTERNAL</b><span style="font-weight:400;">: the voltage applied to the AREF pin (0 to 5V only) is used as the reference.</span></li>
+</ul>
+<p><span style="font-weight:400;">El pin AREF dispones de una resistencia interna de 32 Kohms.</span></p>
+<h3><b>Práctica: Entrada Analógica Modo Free Running</b></h3>
+<p><span style="font-weight:400;">Hagamos un sencillo programa de test 
+para ver el funcionamiento del ADC. Para ello usaremos un potenciómetro 
+conectado al puerto 0 del PORT C, es decir, el puerto A0 de la placa 
+Arduino y en en función del valor leido encender o apagar el led 
+conectado al pin 5 del PORT B, el decir el led en el pin 13.</span></p>
+<p><img class="alignnone size-full" src="arduinoPotenciometro_bb.png" width="659" height="306"></p>
+<p><span style="font-weight:400;">Primero debe darse un reloj al ADC 
+para establecer la velocidad de muestreo, pero esta tiene un máximo de 
+200kHz, este valor se establece mediante los prescaler. Estos son 
+configurados por el registro ADCSRA y los bits relacionados que son 
+ADPS2, ADPS1 and ADPS0 con valores de prescaler de 2 a 128. Como el 
+microcontrolador funciona a 16 MHz se usará el prescaler 128 para que el
+ reloj del ADC funcione a 125 KHz.</span></p>
+<p><img class="alignnone size-full" src="data_adc3.png" width="602" height="247"></p>
+<p><span style="font-weight:400;">El siguiente paso es configurar el 
+voltaje de referencia usado por el ADC, este este caso es 5V. El voltaje
+ de referencia es configurado en el registro ADMUX con los bits REFS1 y 
+REFS0. En este caso es el valor por defecto y no hace falta modificar.</span></p>
+<p><span style="font-weight:400;">En el registro ADMUX también podemos 
+seleccionar en qué canal se va a hacer la conversión mediante los bits 
+del MUX3 al MUX0. En este caso es el valor por defecto y no hace falta 
+modificar.</span></p>
+<p><span style="font-weight:400;">El ADC está casi configurado, solo 
+hace falta iniciarlo (por defecto está apagado para consumir menos) y 
+para ello se debe poner a 1 el bit ADEN del registro ADCSRA y luego 
+poner a 1 el bit ADSC para comenzar la conversión en el mismo registro. 
+En el registro ADCSRB los bits ADTS2, ADTS1 and ADTS0 determinan como 
+una nueva conversión comienza, por defecto está en mode free running. 
+También debe ponerse a 1 el bit ADATE para que en modo free running 
+comience la conversión.</span></p>
+<p><img class="alignnone size-full" src="convertidor-analgico-digital-AVR-disparo-automtico.jpg" width="990" height="370"></p>
+<p><span style="font-weight:400;">Ahora solo queda leer el valor devuelto por el ADC en los registros </span><b>ADCH</b><span style="font-weight:400;"> y </span><b>ADCL.</b></p>
+<p><span style="font-weight:400;">Luego encender el led 13 (PORTB 5) si el valor leído es mayor que 512 y sino apagarlo.</span></p>
+<p><b>Solución Ejercicio10</b><span style="font-weight:400;">: </span><a href="https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio10-Entrada_Analogica_Free_Running"><span style="font-weight:400;">https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio10-Entrada_Analogica_Free_Running</span></a></p>
+<p><span style="font-weight:400;">Versión para usar en Atmel Studio (comparar con la versión para IDE Arduino):</span></p>
+<div><div id="highlighter_724414" class="syntaxhighlighter  cpp"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#include &lt;avr/io.h&gt;</code></div><div class="line number2 index1 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">adc_value;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">//Variable used to store the value read from the ADC converter</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;</code>&nbsp;</div><div class="line number4 index3 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">main(</code><code class="cpp keyword bold">void</code><code class="cpp plain">){</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">DDRB |= (1&lt;&lt;PB5);&nbsp;&nbsp; </code><code class="cpp comments">///PB5/digital 13 is an output</code></div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= ((1&lt;&lt;ADPS2)|(1&lt;&lt;ADPS1)|(1&lt;&lt;ADPS0));&nbsp;&nbsp; </code><code class="cpp comments">//Prescaler at 128 so we have an 125Khz clock source</code></div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADMUX |= ~(1&lt;&lt;REFS0);</code></div><div class="line number8 index7 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADMUX &amp;= ~(1&lt;&lt;REFS1);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">//Avcc(+5v) as voltage reference</code></div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRB &amp;= ~((1&lt;&lt;ADTS2)|(1&lt;&lt;ADTS1)|(1&lt;&lt;ADTS0));&nbsp; </code><code class="cpp comments">//ADC in free-running mode</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= (1&lt;&lt;ADATE);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">//Signal source, in this case is the free-running</code></div><div class="line number11 index10 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= (1&lt;&lt;ADEN);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">//Power up the ADC</code></div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= (1&lt;&lt;ADSC); </code><code class="cpp comments">//Start converting for(;;){ //The infinite loop adc_value = ADCW; //Read the ADC value, really that's just it if(adc_value &gt; 512){</code></div><div class="line number13 index12 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">PORTB |= (1&lt;&lt;PB5);&nbsp; </code><code class="cpp comments">//If ADC value is above 512 turn led on</code></div><div class="line number14 index13 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number15 index14 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">else</code> <code class="cpp plain">{</code></div><div class="line number16 index15 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">PORTB &amp;= ~(1&lt;&lt;PB5); </code><code class="cpp comments">//Else turn led off</code></div><div class="line number17 index16 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number18 index17 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number19 index18 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div><div class="line number20 index19 alt1"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p><i><span style="font-weight:400;">}</span></i></p>
+<h3><b>Práctica: Entrada Analógica Modo Single Conversión</b></h3>
+<p><span style="font-weight:400;">En el ejemplo anterior usamos ADATE 
+para activar el auto trigger y el modo free running porque solo estamos 
+leyendo de un pin analógico. En caso que se vaya a leer diferentes 
+pines, no tiene sentido usar el modo free running porque existe una 
+limitación que al cambiar de pin debemos esperar dos conversiones para 
+hacerlo, porque es el tiempo que le cuesta al multiplexor cambiar de un 
+pin a otro. Haciendo una conversión simple poniendo el byte ADATE a 0, 
+no es necesario esperar ese tiempo.</span></p>
+<p><span style="font-weight:400;">Al usar el modo de conversión simple 
+(single conversion) debemos comprobar el bit ADSC hasta que vuelve a 0 
+(cleared) y la conversión está hecha. A cambio no debemos configurar los
+ bits ADTS y ADATE.</span></p>
+<p><span style="font-weight:400;">Luego encender el pin 6 si el valor 
+leído es mayor que 512 o sino encender el pin 7. Poner los LEDs y 
+resistencias correspondientes.</span></p>
+<p><span style="font-weight:400;">En este caso poner el potenciómetro en el pin A5.</span></p>
+<p><img class="alignnone size-full" src="7046b-potentiometer_steckplatine.png"></p>
+<p><b>Solución</b><span style="font-weight:400;">: </span><a href="https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio11-Entrada_Analogica_Single_Conversion"><span style="font-weight:400;">https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio11-Entrada_Analogica_Single_Conversion</span></a></p>
+<p><span style="font-weight:400;">Versión para usar en Atmel Studio (comparar con la versión para IDE Arduino):</span></p>
+<div><div id="highlighter_385426" class="syntaxhighlighter  cpp"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#include &lt;avr/io.h&gt;</code></div><div class="line number2 index1 alt1"><code class="cpp preprocessor">#define PORT_ON(port,pin) port |= (1&lt;&lt;pin)</code></div><div class="line number3 index2 alt2"><code class="cpp preprocessor">#define PORT_OFF(port,pin) port &amp;= ~(1&lt;&lt;pin)</code></div><div class="line number4 index3 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">adc_value;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">//Variable used to store the value read from the ADC converter</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">main(</code><code class="cpp keyword bold">void</code><code class="cpp plain">)</code></div><div class="line number7 index6 alt2"><code class="cpp plain">{</code></div><div class="line number8 index7 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">unsigned </code><code class="cpp color1 bold">int</code> <code class="cpp plain">adc_value; </code><code class="cpp comments">// Variable to hold ADC result</code></div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">DDRD=0xff; </code><code class="cpp comments">// Set Port D as Output</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">PORTD = 0x00;</code></div><div class="line number11 index10 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA = (1&lt;&lt;ADEN) | (1&lt;&lt;ADPS2) | (1&lt;&lt;ADPS0);</code></div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp comments">// ADEN: Set to turn on ADC , by default it is turned off</code></div><div class="line number13 index12 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp comments">//ADPS2: ADPS2 and ADPS0 set to make division factor 32</code></div><div class="line number14 index13 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">ADMUX=0x05; </code><code class="cpp comments">// ADC input channel set to PC5</code></div><div class="line number15 index14 alt2"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp keyword bold">while</code> <code class="cpp plain">(1)</code></div><div class="line number16 index15 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">{</code></div><div class="line number17 index16 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">ADCSRA |= (1&lt;&lt;ADSC); </code><code class="cpp comments">// Start conversion</code></div><div class="line number18 index17 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">while</code> <code class="cpp plain">(ADCSRA &amp; (1&lt;&lt;ADSC)); </code><code class="cpp comments">// wait for conversion to complete</code></div><div class="line number19 index18 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">adc_value = ADCW; </code><code class="cpp comments">//Store ADC value</code></div><div class="line number20 index19 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">if</code> <code class="cpp plain">(adc_value &lt; 512)</code></div><div class="line number21 index20 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">{</code></div><div class="line number22 index21 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">PORT_OFF(PORTD,7); </code><code class="cpp comments">// Toggle LEDs</code></div><div class="line number23 index22 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">PORT_ON (PORTD,6);</code></div><div class="line number24 index23 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number25 index24 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">else</code></div><div class="line number26 index25 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">{</code></div><div class="line number27 index26 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">PORT_ON(PORTD,7); </code><code class="cpp comments">// Toggle LEDs</code></div><div class="line number28 index27 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">PORT_OFF (PORTD,6);</code></div><div class="line number29 index28 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number30 index29 alt1"><code class="cpp spaces">&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number31 index30 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div>
+<h3><b>Salidas Analógicas</b></h3>
+<p><span style="font-weight:400;">Las salidas analógicas puras necesitan
+ de un conversor digital analógico (DAC). Solo unos pocos modelos de 
+Arduino disponen de salida analógica pura como el Arduino DUE, el Zero o
+ el MKR1000.</span></p>
+<p><span style="font-weight:400;">El </span><a href="http://arduino.cc/en/Main/ArduinoBoardDue"><span style="font-weight:400;">arduino due</span></a><span style="font-weight:400;">, posee dos salidas analógicas puras mediante dos conversores digital a analógico.</span></p>
+<p><span style="font-weight:400;">Para manejar las salidas analógicas 
+puras usamos la función analogWrite() pero disponemos de funciones 
+adicionales como AnalogWriteResolution() </span><a href="https://www.arduino.cc/en/Reference/AnalogWriteResolution"><span style="font-weight:400;">https://www.arduino.cc/en/Reference/AnalogWriteResolution</span></a><span style="font-weight:400;"> y la librería audio </span><a href="https://www.arduino.cc/en/Reference/Audio"><span style="font-weight:400;">https://www.arduino.cc/en/Reference/Audio</span></a></p>
+<h4><b>Conversor digital &nbsp;analógico (DAC)</b></h4>
+<p><span style="font-weight:400;">Definición: </span><a href="http://en.wikipedia.org/wiki/Digital-to-analog_converter"><span style="font-weight:400;">http://en.wikipedia.org/wiki/Digital-to-analog_converter</span></a></p>
+<p><span style="font-weight:400;">Al contrario que las señales 
+analógicas, las señales digitales se pueden almacenar y transmitir sin 
+degradación. Los DAC se usan para los altavoces, amplificadores para 
+producir sonido. Ejemplo de la transmisión de la voz por la líneas 
+telefónicas.</span></p>
+<p><img class="alignnone size-full" src="adc-dac.jpg" width="568" height="267"></p>
+<h3><b>PWM</b></h3>
+<p><span style="font-weight:400;">Los Arduino que no tienen DAC y por lo
+ tanto no poseen salidas analógicas puras, usan la técnica de PWM para 
+las salidas analógicas.</span></p>
+<p><span style="font-weight:400;">Toda la información de PWM para salidas analógicas está en la página 125, 149 y 189 de </span><a href="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf"><span style="font-weight:400;">http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf</span></a></p>
+<p><span style="font-weight:400;">Las Salidas PWM (Pulse Width 
+Modulation) permiten generar salidas analógicas desde pines digitales. 
+Arduino Uno no posee salidas analógicas puras.</span></p>
+<p><span style="font-weight:400;">Definición de PWM en la web de Arduino: </span><a href="http://arduino.cc/en/Tutorial/PWM"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/PWM</span></a></p>
+<p><span style="font-weight:400;">La modulación por ancho de pulsos 
+(también conocida como PWM, siglas en inglés de pulse-width modulation) 
+de una señal o fuente de energía es una técnica en la que se modifica el
+ ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, 
+por ejemplo), ya sea para transmitir información a través de un canal de
+ comunicaciones o para controlar la cantidad de energía que se envía a 
+una carga.</span></p>
+<p><span style="font-weight:400;">El ciclo de trabajo de una señal 
+periódica es el ancho relativo de su parte positiva en relación con el 
+período. duty cycle = (tiempo que la salida está a uno o HIGH)/ (periodo
+ de la función)</span></p>
+<p><img class="alignnone size-full" src="duty-cycle.png" width="379" height="75"></p>
+<p><img class="alignnone size-full" src="atmega168a_pwm_02_lrg.jpg" width="1024" height="508"></p>
+<p><b>En Arduino la frecuencia de PWM es de 500Hz.</b><span style="font-weight:400;"> Pero es un valor que puede modificarse en caso que lo necesitemos.</span></p>
+<p><span style="font-weight:400;">PWM tiene varios usos en los microcontroladores:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Dimming un LED</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Obtener una salida analógica</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Ofrecer un voltaje analógico entre el 0% y el 100% de Vcc</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Generar señales de audio</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Controlar velocidad de motores</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Generar una señal modulada, por ejemplo para manejar un LED infrarrojo de un mando a distancia.</span></li>
+</ul>
+<p><span style="font-weight:400;">En las salidas analógicas con PWM se usan los timers de microcontrolador para hacer la forma de onda PWM.</span></p>
+<p><span style="font-weight:400;">Para generar la señal PWM se utiliza 
+los timers configurándose varias formas de trabajo. La forma de onda 
+PWM, en el modo de trabajo más sencillo (Fast PWM), se genera de la 
+&nbsp;forma mostrada en la siguiente gráfica:</span></p>
+<p><img class="alignnone size-full" src="f8375-fast2bpwm.jpg"></p>
+<ol>
+<li style="font-weight:400;"><span style="font-weight:400;">El registro 
+del contador se pone en marcha desde cero y cuenta de modo ascendente. 
+En el momento de empezar la cuenta se activa el pin de salida del PWM.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Cuando el 
+valor de este registro se iguala al de otro registro de comparación se 
+conmuta el pin de salida. El registro del contador sigue contando en 
+forma normal.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Cuando el valor del registro del contador llega al final (TOP) vuelve a comenzar (BOTTOM). El pin de salida vuelve a cambiar.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">El tiempo que tarda el contador en llegar al final fija el periodo de la señal.</span></li>
+</ol>
+<p><span style="font-weight:400;">Los microcontroladores usan varios modos de PWM, uno de ellos el el </span><b>Fast PWM</b><span style="font-weight:400;">
+ que puede ser generado 8 (256), 9 (512) y 10 (1024) bits, una 
+resolución mayor de 8 bits solo es posible usando un timer de 16 bits. 
+Otro modo de PWM es </span><b>Phase Correct PWM</b><span style="font-weight:400;"> que es el que debería usarse para el control de motores. Otro modo es </span><b>Frequency and Phase Correct PWM</b><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">Esta imagen explica cómo funciona el phase correct PWM, en este caso el timer cuenta hacia arriba y luego hacia abajo:</span></p>
+<p><img class="alignnone size-full" src="pwm3.gif" width="247" height="159"></p>
+<p><span style="font-weight:400;">En los microcontroladores AVR, el PWM 
+está disponible con todos los timers. Timer 0 y timer 2 dan una 
+resolución de 8 bit mientras que el timer 1 ofrece una resolución de 16 
+bits. Con 8 bits hay 256 pasos individuales y en 16 bit hay una 
+resolución de 65536 pasos.</span></p>
+<p><span style="font-weight:400;">La forma de generar la onda PWM es diferente en cada uno de los modos y la señal obtenida es diferente.</span></p>
+<p><img class="alignnone size-full" src="pwm2.gif" width="283" height="297"></p>
+<p><span style="font-weight:400;">Puesto que las ondas generadas son 
+diferentes, el centro de la parte en HIGH no es constante en el fast PWM
+ y sí en el phase correct PWM, esa es la principal diferencia entre 
+ambos modos y la razón de porque para </span><b>control de motores es mejor usar el phase correct PWM</b><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">Fast PWM:</span></p>
+<p><img class="alignnone size-full" src="fast_pwm1.png" width="776" height="375"></p>
+<p><span style="font-weight:400;">Phase Correct PWM:</span></p>
+<p><img class="alignnone size-full" src="phase_correct_pwm1.png" width="792" height="376"></p>
+<p><span style="font-weight:400;">Más información en: </span><a href="https://garretlab.web.fc2.com/en/arduino/inside/arduino/wiring_analog.c/analogWrite.html"><span style="font-weight:400;">https://garretlab.web.fc2.com/en/arduino/inside/arduino/wiring_analog.c/analogWrite.html</span></a></p>
+<p><span style="font-weight:400;">El modo PWM en los microcontroladores 
+AVR se controla por hardware. Esto significa que todo se lleva a cabo 
+por la CPU AVR. Todo lo que se necesita hacer es inicializar e iniciar 
+el temporizador y establecer el ciclo de trabajo. El ATmega328p tiene 3 
+timers &nbsp;y cada timer maneja dos salidas A y B, en total tenemos 6 
+salidas PWM. Estos temporizadores generan interrupciones cuando alcanzan
+ el overflow o cuando alcanzan el registro de comparación. Los registros
+ de control del timer/counter n (n va de 0 &nbsp;a 2) son TCCRnA y 
+TCCRnB y tienen los principales controles de los temporizadores.</span></p>
+<p><img class="alignnone size-full" src="07-Timer-Das-Register-TCCR0A-und-TCCR0B.html" width="845" height="231"></p>
+<p><img class="alignnone size-full" src="timer-counter-control-registers.jpg" width="640" height="188"></p>
+<p><span style="font-weight:400;">Estos registros tienen varios grupos de bits:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Waveform 
+Generation Mode bits (WGM): these control the overall mode of the timer.
+ (These bits are split between TCCRnA and TCCRnB.)</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Clock Select bits (CS): these control the clock prescaler</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Compare Match Output A Mode bits (COMnA): these enable/disable/invert output A</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Compare Match Output B Mode bits (COMnB): these enable/disable/invert output B</span></li>
+</ul>
+<p><span style="font-weight:400;">Los registros de comparación de salida
+ OCRnA y OCRnB establece los niveles en los que las salidas A y B se 
+verán afectados. Cuando el valor del temporizador coincide con el valor 
+del registro, la salida correspondiente será modificado como se 
+especifica en el modo.</span></p>
+<p><img class="alignnone size-full" src="OCR0A-and-OCR0B-1024x445.jpg" width="1024" height="445"></p>
+<p><span style="font-weight:400;">Timers relacionados con los pines PWM de Arduino y salidas de los comparadores:</span></p>
+<p><img class="alignnone size-full" src="8215716.jpg" width="478" height="378"></p>
+<p><span style="font-weight:400;">Arduino Uno, Mini y Nano disponen de tres temporizadores.</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Timer0, con una frecuencia de 62500Hz, y preescalados de 1, 8, 64, 256 y 1024.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Timer1, con una frecuencia de 31250Hz, y preescalados de 1, 8, 64, 256, y 1024.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Timer2, con una frecuencia de 31250Hz, y preescalados de 1, 8, 32, 64, 128, 256, y 1024.</span></li>
+</ul>
+<p><span style="font-weight:400;">Los registros para el control de PWM &nbsp;con el timer 0 son TCCR0A y TCCR0B y dentro de ellos los bits WGM02, WGM01 y WGM00:</span></p>
+<p><img class="alignnone size-full" src="pwm4.png" width="500" height="286"></p>
+<p><span style="font-weight:400;">Para utilizar fast PWM hay dos modos 
+para elegir, los modos 3 y 7, la principal diferencia entre estos dos 
+modos es que en el modo 3 TOP se fija en 0xFF y en el modo de 7 TOP es 
+definido por el registro OCRA, esto significa que si existe la 
+necesidad, podemos cambiar el número máximo que el temporizador hará 
+hasta que haga overflow, así que esto significa que podemos controlar la
+ frecuencia y el ciclo de trabajo.</span></p>
+<p><span style="font-weight:400;">Un buen tutorial de PWM: </span><a href="https://www.luisllamas.es/salidas-analogicas-pwm-en-arduino/"><span style="font-weight:400;">https://www.luisllamas.es/salidas-analogicas-pwm-en-arduino/</span></a></p>
+<p><span style="font-weight:400;">Debemos tener en cuenta los efectos 
+que supone la rápida conexión y desconexión de la señal pulsada puede 
+suponer en el dispositivo alimentado. Por ejemplo, en el caso de cargas 
+inductivas (motores, relés, o electroimanes) la desconexión supondrá la 
+generación de voltaje inducido que puede dañar la salida digital o el 
+propio dispositivo, por lo que será necesario disponer de las 
+protecciones oportunas.</span></p>
+<p><span style="font-weight:400;">En cuanto a transistores, en general, 
+los de tipo BJT resultan apropiados para funcionar como amplificación de
+ señales PWM. Esto no suele ser así en los transistores MOS, donde los 
+efectos capacitivos del mismo, unidos a la limitación de corriente de 
+las salidas digitales, frecuentemente harán que necesitemos un driver de
+ amplificación previo para evitar que el transistor trabaje en zona 
+activa.</span></p>
+<p><span style="font-weight:400;">Más información sobre PWM:</span></p>
+<ul>
+<li style="font-weight:400;"><a href="https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM"><span style="font-weight:400;">https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM</span></a></li>
+<li style="font-weight:400;"><a href="http://playground.arduino.cc/Main/TimerPWMCheatsheet"><span style="font-weight:400;">http://playground.arduino.cc/Main/TimerPWMCheatsheet</span></a></li>
+<li style="font-weight:400;"><a href="http://maxembedded.com/2011/08/avr-timers-pwm-mode-part-i/"><span style="font-weight:400;">http://maxembedded.com/2011/08/avr-timers-pwm-mode-part-i/</span></a></li>
+<li style="font-weight:400;"><a href="http://maxembedded.com/2012/01/avr-timers-pwm-mode-part-ii/"><span style="font-weight:400;">http://maxembedded.com/2012/01/avr-timers-pwm-mode-part-ii/</span></a></li>
+<li style="font-weight:400;"><a href="https://hekilledmywire.wordpress.com/2011/08/03/introduction-to-pwm-part-7/"><span style="font-weight:400;">https://hekilledmywire.wordpress.com/2011/08/03/introduction-to-pwm-part-7/</span></a></li>
+<li style="font-weight:400;"><a href="https://maxembedded.wordpress.com/2011/07/14/avr-timers-ctc-mode/"><span style="font-weight:400;">https://maxembedded.wordpress.com/2011/07/14/avr-timers-ctc-mode/</span></a></li>
+<li style="font-weight:400;"><a href="http://www.microcontroller-project.com/generating-variable-frequency-with-arduino.html"><span style="font-weight:400;">http://www.microcontroller-project.com/generating-variable-frequency-with-arduino.html</span></a></li>
+<li style="font-weight:400;"><a href="http://www.ermicro.com/blog/?p=1971"><span style="font-weight:400;">http://www.ermicro.com/blog/?p=1971</span></a></li>
+</ul>
+<p><span style="font-weight:400;">Muy buena explicación en profundidad: </span><a href="https://garretlab.web.fc2.com/en/arduino/inside/arduino/wiring_analog.c/analogWrite.html"><span style="font-weight:400;">https://garretlab.web.fc2.com/en/arduino/inside/arduino/wiring_analog.c/analogWrite.html</span></a></p>
+<h4><b>Incompatibilidades</b></h4>
+<p><span style="font-weight:400;">El uso de los Timer no es exclusivo de
+ las salidas PWM, si no que es compartido con otras funciones. Emplear 
+funciones que requieren el uso de estos Timer supondrá que no podremos 
+emplear de forma simultánea alguno de los pines PWM.</span></p>
+<p><span style="font-weight:400;">Incompatibilidades más frecuentes:</span></p>
+<ul>
+<li style="font-weight:400;"><b>Servo</b><span style="font-weight:400;">:
+ La librería servo hace un uso intensivo de temporizadores por lo que, 
+mientras la estemos usando, no podremos usar algunas de las salidas PWM.
+ En el caso de Arduino Uno, Mini y Nano, la librería servo usa el Timer 
+1, por lo que no podremos usar los pines 9 y 10 mientras usemos un 
+servo.</span></li>
+<li style="font-weight:400;"><b>Comunicación SPI</b><span style="font-weight:400;">: En Arduino Uno, Mini y Nano, el pin 11 se emplea también para la función MOSI de la </span><a href="https://www.luisllamas.es/arduino-spi/"><span style="font-weight:400;">comunicación SPI</span></a><span style="font-weight:400;">. Por lo tanto, no podremos usar ambas funciones de forma simultánea en este pin.</span></li>
+<li style="font-weight:400;"><b>Función Tone</b><span style="font-weight:400;">: La función Tone emplea el Timer 2, por lo que no podremos usar los pines 3 y 11.</span></li>
+</ul>
+<h4><b>Cambiar Frecuencia PWM</b></h4>
+<p><span style="font-weight:400;">Para cambiar la frecuencia de PWM que por defecto en Arduino UNO está a 500 HZ, se puede usar la función definida en </span><a href="http://playground.arduino.cc/Code/PwmFrequency"><span style="font-weight:400;">http://playground.arduino.cc/Code/PwmFrequency</span></a><span style="font-weight:400;">,
+ donde indicando el pin y el divisor de frecuencia. Esta función cambia 
+los registros TCCRnB en el timer correspondiente en función del pin, con
+ el divisor que queramos.</span></p>
+<p><img class="alignnone size-full" src="0e65d-tccr.png"></p>
+<p><span style="font-weight:400;">O simplemente en el setup() del sketch inicializar los bits CS00, CS01 y CS02 como se indica en este enlace: </span><a href="https://arduino-info.wikispaces.com/Arduino-PWM-Frequency"><span style="font-weight:400;">https://arduino-info.wikispaces.com/Arduino-PWM-Frequency</span></a><span style="font-weight:400;">,
+ pero teniendo en cuenta que estos cambios en los timers 0, 1 y 2 puede 
+tener efectos en otras funciones que usen los timers como delay(), 
+millis() o la librería servo: </span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Changes on 
+pins 3, 5, 6, or 11 may cause the delay() and millis() functions to stop
+ working. Other timing-related functions may also be affected.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Changes on pins 9 or 10 will cause the Servo library to function incorrectly.</span></li>
+</ul>
+<p><span style="font-weight:400;">La frecuencia resultante de PWM es la resultante de la división de la frecuencia base entre el divisor.</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">The base frequency for pins 3, 9, 10, and 11 is 31250 Hz.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">The base frequency for pins 5 and 6 is 62500 Hz.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">The divisors available on pins 5, 6, 9 and 10 are: 1, 8, 64, 256, and 1024.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">The divisors available on pins 3 and 11 are: 1, 8, 32, 64, 128, 256, and 1024.</span></li>
+</ul>
+<p><span style="font-weight:400;">También se puede hacer PWM en todos 
+los pins, programando nosotros en lugar de dejarlo a la CPU del 
+microcontrolador y los timers: </span><a href="http://playground.arduino.cc/Main/PWMallPins"><span style="font-weight:400;">http://playground.arduino.cc/Main/PWMallPins</span></a></p>
+<p><img class="alignnone size-full" src="avr_pwm_02.jpg" width="889" height="533"></p>
+<p><span style="font-weight:400;">Muy buena explicación de como cambiar la frecuencia a PWM y en general del funcionamiento de PWM</span></p>
+<ul>
+<li style="font-weight:400;"><a href="http://www.eprojectszone.com/2016/08/07/how-to-modify-the-pwm-frequency-on-the-arduino-part1/"><span style="font-weight:400;">http://www.eprojectszone.com/2016/08/07/how-to-modify-the-pwm-frequency-on-the-arduino-part1/</span></a></li>
+<li style="font-weight:400;"><a href="http://www.eprojectszone.com/2016/08/08/how-to-modify-the-pwm-frequency-on-the-arduino-part2timer-1-and-phase-correct-pwm-mode/"><span style="font-weight:400;">http://www.eprojectszone.com/2016/08/08/how-to-modify-the-pwm-frequency-on-the-arduino-part2timer-1-and-phase-correct-pwm-mode/</span></a></li>
+<li style="font-weight:400;"><a style="font-size:1rem;" href="http://www.eprojectszone.com/2016/08/11/how-to-modify-the-pwm-frequency-on-the-arduino-part3-timer-2-and-ctc-mode/">http://www.eprojectszone.com/2016/08/11/how-to-modify-the-pwm-frequency-on-the-arduino-part3-timer-2-and-ctc-mode/</a></li>
+</ul>
+<h3><b>Práctica: PWM Arduino</b></h3>
+<p><span style="font-weight:400;">El código necesario para encender una 
+salida PWM es muy sencillo gracias a las bibliotecas de Arduino, que 
+configuran por defecto las salidas de PWM en la función Setup, ocultando
+ la dificultad de manipulación de los Timer.</span></p>
+<p><span style="font-weight:400;">Así, en en el ejemplo más básico, 
+simplemente definimos el pin PWM que queremos emplear, y usamos la 
+función analogWrite para escribir el valor del Duty Cycle, medido de 0 a
+ 255.</span></p>
+<p><span style="font-weight:400;">El siguiente código incrementa 
+progresivamente el valor de una señal analógica desde 0 a 255. Al 
+alcanzar el valor máximo el contador pasará a 0, por lo que el ciclo 
+volverá a iniciarse. ¿Ves porque si inicializa el contador?</span></p>
+<div><div id="highlighter_405257" class="syntaxhighlighter  cpp"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp keyword bold">const</code> <code class="cpp color1 bold">int</code> <code class="cpp plain">analogOutPin = 11; </code><code class="cpp comments">// Analog output pin</code></div><div class="line number2 index1 alt1"><code class="cpp plain">byte outputValue = 0;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">// valor del PWM</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="cpp keyword bold">void</code> <code class="cpp plain">setup() {</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">Serial.begin(9600);</code></div><div class="line number6 index5 alt1"><code class="cpp plain">}</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="cpp keyword bold">void</code> <code class="cpp plain">loop() {</code></div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">analogWrite(analogOutPin, outputValue);</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">Serial.println(outputValue);</code></div><div class="line number11 index10 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">delay(10);</code></div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">outputValue++;</code></div><div class="line number13 index12 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p><span style="font-weight:400;">Hacer una versión equivalente a bajo nivel donde ilumine el led conectado en el pin 11 con su resistencia.</span></p>
+<p><span style="font-weight:400;">Pin Mapping: </span><a href="http://brittonkerin.com/cduino/pin_map.html"><span style="font-weight:400;">http://brittonkerin.com/cduino/pin_map.html</span></a></p>
+<p><img class="alignnone size-full" src="ArduinoPinMap2.png" width="600" height="388"></p>
+<p><span style="font-weight:400;">Ver registro TCCR2A en página 203 y TCCR2B en página 206 &nbsp;y OCR2A en página 209 de </span><a href="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf"><span style="font-weight:400;">http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf</span></a></p>
+<p><b>Solución</b><span style="font-weight:400;">: </span><a href="https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio12-PWM_Avanzado"><span style="font-weight:400;">https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio12-PWM_Avanzado</span></a></p>
+<h3><b>Práctica: Fade Arduino</b></h3>
+<p><span style="font-weight:400;">Hacer un encendido y apagado progresivo en un led colocado en el pin 6 con su resistencia usando los registros.</span></p>
+<p><span style="font-weight:400;">Función delay AVR libc </span><a href="http://www.atmel.com/webdoc/avrlibcreferencemanual/group__util__delay_1gad22e7a36b80e2f917324dc43a425e9d3.html"><span style="font-weight:400;">http://www.atmel.com/webdoc/avrlibcreferencemanual/group__util__delay_1gad22e7a36b80e2f917324dc43a425e9d3.html</span></a></p>
+<p><span style="font-weight:400;">TCCR0A</span></p>
+<p><img class="alignnone size-full" src="avr_pwm_04.jpg" width="832" height="603"></p>
+<p><span style="font-weight:400;">TCCR0B</span></p>
+<p><img class="alignnone size-full" src="avr_pwm_05.jpg" width="692" height="486"></p>
+<p><span style="font-weight:400;">OCR0A</span></p>
+<p><img class="alignnone size-full" src="OCR0A-and-OCR0B-1024x445.jpg" width="1024" height="445"></p>
+<p><b>Solución</b><span style="font-weight:400;">: </span><a href="https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio13-PWM_Fade_Avanzado"><span style="font-weight:400;">https://github.com/jecrespo/aprendiendoarduino-Curso_Arduino_Avanzado_2017/tree/master/Ejercicio13-PWM_Fade_Avanzado</span></a></p>
+<p><span style="font-weight:400;">Más información: </span><a href="http://www.ermicro.com/blog/?p=1971"><span style="font-weight:400;">http://www.ermicro.com/blog/?p=1971</span></a></p>
+<div id="atatags-370373-5b407891bfc69">
+        <script type="text/javascript">
+            __ATA.cmd.push(function() {
+                __ATA.initVideoSlot('atatags-370373-5b407891bfc69', {
+                    sectionId: '370373',
+                    format: 'inread'
+                });
+            });
+        </script>
+    </div><div class="iowo-adv" style="max-height: 0px; transition: max-height 0.5s ease 0s;"><div style="width: 625px;" class="iowo-adv__header"><span>Advertisement</span></div><div style="position: relative; width: 625px; height: 0px; overflow: hidden; box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.1) inset;"><div style="position: absolute;"><iframe src="https://imasdk.googleapis.com/js/core/bridge3.218.0_en.html#goog_842568040" allowfullscreen="" style="border: 0px none; opacity: 0; margin: 0px; padding: 0px; position: relative;"></iframe></div><div class="iowo-adv__sound-icon iowo-adv__sound-icon_off"></div><div class="iowo-timeline"><div style="max-width: 0%;" class="iowo-timeline__runner"></div></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Esta entrada se publicó en <a href="https://aprendiendoarduino.wordpress.com/category/arduino/" rel="category tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/category/curso-avanzado-2017/" rel="category tag">Curso Avanzado 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-analogicas/" rel="category tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-analogicas/" rel="category tag">Salidas Analógicas</a> y está etiquetada con <a href="https://aprendiendoarduino.wordpress.com/tag/adc/" rel="tag">ADC</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/arduino/" rel="tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/aref/" rel="tag">AREF</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/conversor-analogico-digital/" rel="tag">Conversor Analógico Digital</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/curso-avanzado-2017/" rel="tag">Curso Avanzado 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/" rel="tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/registros/" rel="tag">registros</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-analogicas/" rel="tag">Salidas Analógicas</a> en <a href="https://aprendiendoarduino.wordpress.com/2017/09/05/puertos-analogicos-arduino-avanzado/" title="7:28 am" rel="bookmark"><time class="entry-date" datetime="2017-09-05T07:28:43+00:00">5 septiembre, 2017</time></a><span class="by-author"> por <span class="author vcard"><a class="url fn n" href="https://aprendiendoarduino.wordpress.com/author/jecrespom/" title="Ver todas las entradas de jecrespom" rel="author">jecrespom</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+	<article id="post-2357" class="post-2357 post type-post status-publish format-standard hentry category-arduino category-curso-avanzado-2017 category-entradas-analogicas category-entradas-digitales category-pwm category-salidas-analogicas category-salidas-digitales tag-arduino tag-curso-avanzado-2017 tag-entradas-analogicas tag-entradas-digitales tag-pwm tag-salidas-analogicas tag-salidas-digitales">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://aprendiendoarduino.wordpress.com/2017/08/11/manejo-arduino-basico/" rel="bookmark">Manejo Arduino Básico</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://aprendiendoarduino.wordpress.com/2017/08/11/manejo-arduino-basico/#comments">1 respuesta</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight:400;">La estructura básica de un sketch 
+de Arduino es bastante simple y se compone de al menos dos partes. Estas
+ dos partes son obligatorios y encierran bloques que contienen 
+declaraciones, estamentos o instrucciones.</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">setup() – </span><a href="http://arduino.cc/en/Reference/Setup"><span style="font-weight:400;">http://arduino.cc/en/Reference/Setup</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">loop() – </span><a href="http://arduino.cc/en/Reference/Loop"><span style="font-weight:400;">http://arduino.cc/en/Reference/Loop</span></a></li>
+</ul>
+<p><img class="alignnone size-full" src="435ee-arduino-sketch-blink-anno-1024x844.png" width="625" height="515"></p>
+<p><b>setup()</b><span style="font-weight:400;"> es la parte encargada de recoger la configuración y </span><b>loop() </b><span style="font-weight:400;">es
+ la que contiene el programa que se ejecuta cíclicamente (de ahí el 
+término loop –bucle-). Ambas funciones son necesarias para que el 
+programa trabaje.</span></p>
+<p><span style="font-weight:400;">La función de configuración (setup) 
+debe contener la inicialización de los elementos y esta función sólo se 
+ejecuta una vez justo después de hacer el reset y no se vuelve a 
+ejecutar hasta que no haya otro reset. Es la primera función a ejecutar 
+en el programa y se utiliza para configurar, inicializar variables, 
+comenzar a usar librerías, etc…</span></p>
+<p><span style="font-weight:400;">La función bucle (loop) contiene el 
+código que se ejecutará continuamente (lectura de entradas, activación 
+de salidas, etc). Esta función es el núcleo de todos los programas de 
+Arduino y se usa para el control activo de la placa. La función loop se 
+ejecuta justo después de setup.</span></p>
+<p><b>La estructura del sketch está definida en el siguiente enlace: </b><a href="http://arduino.cc/en/Tutorial/Sketch"><b>http://arduino.cc/en/Tutorial/Sketch</b></a></p>
+<p><span style="font-weight:400;">Los componentes principales de un sketch de Arduino son:</span></p>
+<ul>
+<li style="font-weight:400;"><b>Variables</b><span style="font-weight:400;">, son un espacio en memoria donde se almacenan datos y estos datos pueden variar.</span></li>
+<li style="font-weight:400;"><b>Funciones</b><span style="font-weight:400;">,
+ son un trozo de código que puede ser usado/llamado desde cualquier 
+parte del sketch. A la función se le puede llamar directamente o pasarle
+ unos parámetros, en función de cómo esté definida.</span></li>
+<li style="font-weight:400;"><b>setup() y loop()</b><span style="font-weight:400;">, son dos funciones especiales que es obligatorio declarar en cualquier sketch.</span></li>
+<li style="font-weight:400;"><b>Comentarios</b><span style="font-weight:400;">, fundamentales para documentar el proyecto</span></li>
+</ul>
+<p><span style="font-weight:400;">Se puede resumir un sketch de Arduino en los siguientes diagramas de flujo:</span></p>
+<p><img class="alignnone size-full" src="arduino_flow_chart2.jpg"></p>
+<p><span style="font-weight:400;">Para más información de como programar Arduino ver: </span><a href="https://aprendiendoarduino.wordpress.com/2016/10/16/programacion-arduino-2/"><span style="font-weight:400;">https://aprendiendoarduino.wordpress.com/2016/10/16/programacion-arduino-2/</span></a></p>
+<h3><b>Cargar un Programa en Arduino</b></h3>
+<p><span style="font-weight:400;">Una vez tenemos el programa hay que compilarlo y mandarlo a Arduino para que se ejecute de forma infinita.</span></p>
+<p><span style="font-weight:400;">Pasos a seguir:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Abrir la aplicación Arduino</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Abrir el sketch que queremos cargar</span></li>
+</ul>
+<p><img class="alignnone size-full" src="blink.png" width="599" height="243"></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Leer el programar y entender lo que está haciendo</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Seleccionar la placa y el puerto adecuado</span></li>
+</ul>
+<p><img class="alignnone size-full" src="blink2.png" width="625" height="339"></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Cargar el 
+programa pulsando el botón “subir”. El programa se compila y luego se 
+verá parpadeando los leds Tx y Rx de Arduino, indicando que se está 
+cargando el fichero binario (.hex) en la flash del Arduino. Cuando 
+aparezca el mensaje “subido” habremos acabado.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Un momento después el programa se está ejecutando el Arduino</span></li>
+</ul>
+<p><span style="font-weight:400;">Cuando cargamos un programa en 
+Arduino, estamos usando el bootloader de Arduino, que es un pequeño 
+programa cargado en el microcontrolador que permite subir el código sin 
+usar hardware adicional. El bootloader está activo unos segundos cuando 
+se resetea la placa, después comienza el programa que tenga cargado el 
+Arduino en su memoria Flash. El led integrado en la placa (pin 13) 
+parpadea cuando el bootloader se ejecuta.</span></p>
+<h3><b>Entradas y Salidas Digitales en Arduino</b></h3>
+<p><span style="font-weight:400;">En arduino los pines digitales se describen y tienen la propiedades siguientes: &nbsp;</span><a href="http://arduino.cc/en/Tutorial/DigitalPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/DigitalPins</span></a></p>
+<p><span style="font-weight:400;">En arduino para tratar las entradas y salidas digitales usamos las siguientes funciones:</span></p>
+<ul>
+<li style="font-weight:400;"><b>pinMode()</b><span style="font-weight:400;"> – configura en el pin especificado si se va a comportar como una entrada o una salida. </span><a href="http://arduino.cc/en/Reference/PinMode"><span style="font-weight:400;">http://arduino.cc/en/Reference/PinMode</span></a></li>
+<li style="font-weight:400;"><b>digitalWrite()</b><span style="font-weight:400;">
+ – Escribe &nbsp;un valor HIGH o LOW en el pin digital especificado. Si 
+el pin está configurado como OUTPUT pone el voltaje correspondiente en 
+el pin seleccionado. Si el pin está configurado como INPUT habilita o 
+deshabilita la resistencia interna de pull up del correspondiente pin. </span><a href="http://arduino.cc/en/Reference/DigitalWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/DigitalWrite</span></a></li>
+<li style="font-weight:400;"><b>digitalRead()</b><span style="font-weight:400;"> – lee el valor del pin correspondiente como HIGH o LOW. </span><a href="http://arduino.cc/en/Reference/DigitalRead"><span style="font-weight:400;">http://arduino.cc/en/Reference/DigitalRead</span></a></li>
+</ul>
+<p><span style="font-weight:400;">En la imagen siguiente se muestra el 
+estado por defecto de una I/O digital en un microcontrolador de Arduino.
+ Se ha simplificado con interruptores la compleja electrónica que hay 
+dentro. </span><b>Por defecto los digital I/O pins están configurados como inputs</b><span style="font-weight:400;">
+ en un estado de alta impedancia (equivalente a una resistencia de 100 
+Mohms en frente del pin), es decir, SW3 a ON y no hace falta llamar a la
+ función pinMode() aunque es recomendable para aclarar el código.</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x, 
+INPUT) –&gt; SW3 = ON (resto a OFF). Los valores leídos serán aleatorios
+ si el pin de Arduino está al aire. El pin está en un estado de alta 
+impedancia (resistencia de 100 Mohms).</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x,INPUT_PULLUP)
+ –&gt; SW3 = ON &amp; SW4 = ON (resto a OFF). Los valores leídos sin 
+nada conectado al pin es HIGH. La Resistencia R1 tiene un valor 
+dependiendo del microcontrolador, pero tiene un valor entre 20kOhm y 
+150kOhm.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x, 
+OUTPUT) &amp; digitalWrite(x,HIGH) –&gt; SW2 = ON &amp; SW1 = +5V (resto
+ a OFF). Estado de baja impedancia, no hay resistencia interna y es 
+necesario poner una resistencia adecuada a la salida el pin para no 
+superar los 40mA (source) máximos admitidos</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x, 
+OUTPUT) &amp; digitalWrite(x,LOW) –&gt; SW2 = ON &amp; SW1 = GND (resto a
+ OFF). Estado de baja impedancia, no hay resistencia interna y es 
+necesario poner una adecuada para no superar los 40mA (sink) máximos 
+admitidos</span></li>
+</ul>
+<p><img class="alignnone size-full" src="p4.gif" width="430" height="315"></p>
+<h3><b>Entradas y Salidas Analógicas en Arduino</b></h3>
+<p><span style="font-weight:400;">Los microcontroladores de Arduino 
+contienen en la placa un conversor analógico a digital de 6 canales. El 
+conversor tiene una resolución de 10 bits, devolviendo enteros entre 0 y
+ 1023. Los pines analógicos de Arduino también tienen todas las 
+funcionalidades de los pines digitales. Por lo tanto, si necesitamos más
+ pines digitales podemos usar los pines analógicos. La nomenclatura para
+ los pines analógicos es A0, A1, etc…</span></p>
+<p><span style="font-weight:400;">En arduino los pines analógicos se definen y tienen las propiedades siguientes: </span><a href="http://arduino.cc/en/Tutorial/AnalogInputPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/AnalogInputPins</span></a></p>
+<p><span style="font-weight:400;">En arduino para tratar las entradas y salidas digitales usamos las siguientes funciones:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogReference() – configura la referencia de voltaje usada para la entrada analógica. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogReference"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReference</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead() – lee el valor del pin analógico especificado. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogRead"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogRead</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogWrite()
+ – escribe un valor analógico (onda PWM) al pin especificado. No en 
+todos los pines digitales se puede aplicar PWM. </span><a href="http://arduino.cc/en/Reference/AnalogWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWrite</span></a></li>
+</ul>
+<p><span style="font-weight:400;">Otras funciones interesantes con entradas/salidas analóicas:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">map(value, fromLow, fromHigh, toLow, toHigh) </span><a href="http://arduino.cc/en/Reference/Map"><span style="font-weight:400;">http://arduino.cc/en/Reference/Map</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">constrain(x, a, b) &nbsp;</span><a href="http://arduino.cc/en/Reference/Constrain"><span style="font-weight:400;">http://arduino.cc/en/Reference/Constrain</span></a></li>
+</ul>
+<h3><b>PWM</b></h3>
+<p><span style="font-weight:400;">Arduino Uno tiene entradas analógicas 
+que gracias a los conversores analógico digital puede entender ese valor
+ el microcontrolador, pero no tiene salidas analógicas puras y para 
+solucionar esto, usa la técnica de PWM.</span></p>
+<p><span style="font-weight:400;">Las Salidas PWM (Pulse Width 
+Modulation) permiten generar salidas analógicas desde pines digitales. 
+Arduino Uno no posee salidas analógicas puras.</span></p>
+<p><span style="font-weight:400;">La modulación por ancho de pulsos 
+(también conocida como PWM, siglas en inglés de pulse-width modulation) 
+de una señal o fuente de energía es una técnica en la que se modifica el
+ ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, 
+por ejemplo), ya sea para transmitir información a través de un canal de
+ comunicaciones o para controlar la cantidad de energía que se envía a 
+una carga.</span></p>
+<p><span style="font-weight:400;">El ciclo de trabajo de una señal 
+periódica es el ancho relativo de su parte positiva en relación con el 
+período. duty cycle = (tiempo que la salida está a uno o HIGH)/ (periodo
+ de la función)</span></p>
+<p><img class="alignnone size-full" src="350px-Duty_cycle_general.png" width="350" height="123"></p>
+<p><img class="alignnone size-full" src="atmega168a_pwm_02_lrg.jpg" width="1024" height="508"></p>
+<p><b>En Arduino la frecuencia de PWM es de 500Hz. </b><span style="font-weight:400;">Pero es un valor que puede modificarse en caso que lo necesitemos. Definición de PWM en la web de Arduino: </span><a href="http://arduino.cc/en/Tutorial/PWM"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/PWM</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Esta entrada se publicó en <a href="https://aprendiendoarduino.wordpress.com/category/arduino/" rel="category tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/category/curso-avanzado-2017/" rel="category tag">Curso Avanzado 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-analogicas/" rel="category tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-digitales/" rel="category tag">Entradas Digitales</a>, <a href="https://aprendiendoarduino.wordpress.com/category/pwm/" rel="category tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-analogicas/" rel="category tag">Salidas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-digitales/" rel="category tag">Salidas Digitales</a> y está etiquetada con <a href="https://aprendiendoarduino.wordpress.com/tag/arduino/" rel="tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/curso-avanzado-2017/" rel="tag">Curso Avanzado 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/" rel="tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-digitales/" rel="tag">Entradas Digitales</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/pwm/" rel="tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-analogicas/" rel="tag">Salidas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-digitales/" rel="tag">Salidas Digitales</a> en <a href="https://aprendiendoarduino.wordpress.com/2017/08/11/manejo-arduino-basico/" title="5:38 pm" rel="bookmark"><time class="entry-date" datetime="2017-08-11T17:38:17+00:00">11 agosto, 2017</time></a><span class="by-author"> por <span class="author vcard"><a class="url fn n" href="https://aprendiendoarduino.wordpress.com/author/jecrespom/" title="Ver todas las entradas de jecrespom" rel="author">jecrespom</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+	<article id="post-1955" class="post-1955 post type-post status-publish format-standard hentry category-arduino category-curso-iniciacion-2017 category-entradas-analogicas category-pwm category-salidas-analogicas tag-arduino tag-curso-iniciacion-2017 tag-entradas-analogicas tag-pwm tag-salidas-analogicas">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://aprendiendoarduino.wordpress.com/2017/06/22/entradas-y-salidas-analogicas-pwm-3/" rel="bookmark">Entradas y salidas analógicas.&nbsp;PWM</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://aprendiendoarduino.wordpress.com/2017/06/22/entradas-y-salidas-analogicas-pwm-3/#respond"><span class="leave-reply">Deja un comentario</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight:400;">Una señal eléctrica analógica es 
+aquella en la que los valores de la tensión o voltaje varían 
+constantemente y pueden tomar cualquier valor. En el caso de la 
+corriente alterna, la señal analógica incrementa su valor con signo 
+eléctrico positivo (+) durante medio ciclo y disminuye a continuación 
+con signo eléctrico negativo (–) en el medio ciclo siguiente.</span></p>
+<p><span style="font-weight:400;">Un sistema de control (como un 
+microcontrolador) no tiene capacidad alguna para trabajar con señales 
+analógicas, de modo que necesita convertir las señales analógicas en 
+señales digitales para poder trabajar con ellas.</span></p>
+<p><span style="font-weight:400;">La señal digital obtenida de una analógica tiene dos propiedades fundamentales:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Valores. Que valor en voltios define 0 y 1. En nuestro caso es tecnología TTL (0 – 5V)</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Resolución analógica: nº de bits que usamos para representar con una notación digital una señal analógica:</span>
+<ul>
+<li style="font-weight:400;"><a href="http://arduino.cc/en/Reference/AnalogReadResolution"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReadResolution</span></a></li>
+<li style="font-weight:400;"><a href="http://arduino.cc/en/Reference/AnalogWriteResolution"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWriteResolution</span></a></li>
+</ul>
+</li>
+</ul>
+<p><span style="font-weight:400;">En el caso de un arduino Uno, el valor
+ de 0 voltios analógico es expresado en digital como B0000000000 (0) y 
+el valor de 5V analógico es expresado en digital como B1111111111 
+(1023). Por lo tanto todo valor analógico intermedio es expresado con un
+ valor entre 0 y 1023, es decir, sumo 1 en binario cada 4,883 mV.</span></p>
+<p><span style="font-weight:400;">Arduino Uno tiene una resolución de 10 bits, es decir, unos valores entre 0 y 1023.</span></p>
+<p><span style="font-weight:400;">Arduino Due tiene una resolución de 12 bits, es decir, unos valores entre 0 y 4095.</span></p>
+<p><span style="font-weight:400;">Diferencia entre señales analógicas y digitales:</span></p>
+<p><img class="alignnone size-full" src="c0c8e-conversoranalogicodigital.jpg" width="492" height="327"></p>
+<h3><b>Entradas Analógicas en Arduino</b></h3>
+<p><span style="font-weight:400;">Los microcontroladores de Arduino 
+contienen en la placa un conversor analógico a digital de 6 canales. El 
+conversor tiene una resolución de 10 bits, devolviendo enteros entre 0 y
+ 1023. Los pines analógicos de Arduino también tienen todas las 
+funcionalidades de los pines digitales. Por lo tanto, si necesitamos más
+ pines digitales podemos usar los pines analógicos. La nomenclatura para
+ los pines analógicos es A0, A1, etc…</span></p>
+<p><img class="alignnone size-full" src="ArduinoUno_R3_AnalogPins.html" width="600" height="395"></p>
+<p><span style="font-weight:400;">En arduino los pines analógicos se definen y tienen las propiedades siguientes: </span><a href="http://arduino.cc/en/Tutorial/AnalogInputPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/AnalogInputPins</span></a></p>
+<p><span style="font-weight:400;">En arduino para tratar las entradas y salidas digitales usamos las siguientes funciones:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogReference() – configura la referencia de voltaje usada para la entrada analógica. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogReference"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReference</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead() – lee el valor del pin analógico especificado. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogRead"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogRead</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogWrite()
+ – escribe un valor analógico (onda PWM) al pin especificado. No en 
+todos los pines digitales se puede aplicar PWM. </span><a href="http://arduino.cc/en/Reference/AnalogWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWrite</span></a></li>
+</ul>
+<p><span style="font-weight:400;">Otras funciones interesantes con entradas/salidas analóicas:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">map(value, fromLow, fromHigh, toLow, toHigh): </span><a href="http://arduino.cc/en/Reference/Map"><span style="font-weight:400;">http://arduino.cc/en/Reference/Map</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">constrain(x, a, b): &nbsp;</span><a href="http://arduino.cc/en/Reference/Constrain"><span style="font-weight:400;">http://arduino.cc/en/Reference/Constrain </span></a></li>
+</ul>
+<h3><b>Salidas Analógicas. PWM</b></h3>
+<p><span style="font-weight:400;">Como hemos dicho Arduino Uno tiene 
+entradas analógicas que gracias a los conversores analógico digital 
+puede entender ese valor el microcontrolador, pero no tiene salidas 
+analógicas puras y para solucionar esto, usa la técnica de PWM.</span></p>
+<p><span style="font-weight:400;">Algunos pines digitales pueden usarse como salidas analógicas PWM:</span></p>
+<p><img class="alignnone size-full" src="Arduino-Uno-Pequeo.jpg" width="663" height="545"></p>
+<p><span style="font-weight:400;">Las Salidas PWM (Pulse Width 
+Modulation) permiten generar salidas analógicas desde pines digitales. 
+Arduino Uno no posee salidas analógicas puras, sin embargo el Arduino 
+Due sí tiene salidas analógicas puras mediante dos DAC. El </span><a href="http://arduino.cc/en/Main/ArduinoBoardDue"><span style="font-weight:400;">arduino due</span></a><span style="font-weight:400;">,
+ posee dos salidas analógicas puras mediante dos conversores digital a 
+analógico. Estos pines pueden usarse para crear salidas de audio usando 
+la </span><a href="http://arduino.cc/en/Reference/Audio"><span style="font-weight:400;">librería correspondiente</span></a><span style="font-weight:400;">.</span></p>
+<p><span style="font-weight:400;">La función para hacer una salida PWM en un pin es:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogWrite()
+ – escribe un valor analógico (onda PWM) al pin especificado. No en 
+todos los pines digitales se puede aplicar PWM. </span><a href="http://arduino.cc/en/Reference/AnalogWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWrite</span></a></li>
+</ul>
+<p><span style="font-weight:400;">La modulación por ancho de pulsos 
+(también conocida como PWM, siglas en inglés de pulse-width modulation) 
+de una señal o fuente de energía es una técnica en la que se modifica el
+ ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, 
+por ejemplo), ya sea para transmitir información a través de un canal de
+ comunicaciones o para controlar la cantidad de energía que se envía a 
+una carga.</span></p>
+<p><span style="font-weight:400;">El ciclo de trabajo de una señal 
+periódica es el ancho relativo de su parte positiva en relación con el 
+período. duty cycle = (tiempo que la salida está a uno o HIGH)/ (periodo
+ de la función)</span></p>
+<p><img class="alignnone size-full" src="350px-Duty_cycle_general.png" width="350" height="123"></p>
+<p><span style="font-weight:400;">Diferentes valores de una señal PWM:</span></p>
+<p><img class="alignnone size-full" src="atmega168a_pwm_02_lrg.jpg" width="1024" height="508"></p>
+<p><span style="font-weight:400;">En este ejemplo se ve cómo simular con PWM una onda sinusoidal analógica.</span></p>
+<p><img class="alignnone size-full" src="300px-Pulse_density_modulation.png" width="300" height="225"></p>
+<p><b>En Arduino la frecuencia de PWM es de 500Hz. </b><span style="font-weight:400;">Pero es un valor que puede modificarse en caso que lo necesitemos.</span></p>
+<p><span style="font-weight:400;">En la actualidad existen muchos 
+circuitos integrados en los que se implementa la modulación PWM, por 
+ejemplo para lograr circuitos funcionales que puedan controlar fuentes 
+conmutadas, controles de motores, controles de elementos 
+termoeléctricos, choppers para sensores en ambientes ruidosos y algunas 
+otras aplicaciones.</span></p>
+<p><span style="font-weight:400;">Definición de PWM en la web de Arduino: </span><a href="http://arduino.cc/en/Tutorial/PWM"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/PWM</span></a></p>
+<p><span style="font-weight:400;">Para ampliar un poco más de información sobre PWM ver: </span><a href="http://rufianenlared.com/que-es-pwm/"><span style="font-weight:400;">http://rufianenlared.com/que-es-pwm/</span></a></p>
+<h4><b>Función Tone()</b></h4>
+<p><span style="font-weight:400;">No confundir PWM con la función </span><a href="http://arduino.cc/en/Reference/Tone"><span style="font-weight:400;">tone()</span></a><span style="font-weight:400;">
+ que es utilizada para generar una onda cuadrada de ciclo de trabajo 50%
+ y frecuencia variable, con el fin de emitir sonidos audibles, 
+modificando la frecuencia.</span></p>
+<p><span style="font-weight:400;">Más información de tone() en:&nbsp;</span><a href="https://code.google.com/p/rogue-code/wiki/ToneLibraryDocumentation"><span style="font-weight:400;">https://code.google.com/p/rogue-code/wiki/ToneLibraryDocumentation</span></a></p>
+<p><img class="alignnone size-full" src="2014-04-29-freq-effect-on-stepper-speed.png" width="635" height="254"></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Esta entrada se publicó en <a href="https://aprendiendoarduino.wordpress.com/category/arduino/" rel="category tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/category/curso-iniciacion-2017/" rel="category tag">Curso Iniciación 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-analogicas/" rel="category tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/pwm/" rel="category tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-analogicas/" rel="category tag">Salidas Analógicas</a> y está etiquetada con <a href="https://aprendiendoarduino.wordpress.com/tag/arduino/" rel="tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/curso-iniciacion-2017/" rel="tag">Curso Iniciación 2017</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/" rel="tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/pwm/" rel="tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-analogicas/" rel="tag">Salidas Analógicas</a> en <a href="https://aprendiendoarduino.wordpress.com/2017/06/22/entradas-y-salidas-analogicas-pwm-3/" title="9:00 pm" rel="bookmark"><time class="entry-date" datetime="2017-06-22T21:00:08+00:00">22 junio, 2017</time></a><span class="by-author"> por <span class="author vcard"><a class="url fn n" href="https://aprendiendoarduino.wordpress.com/author/jecrespom/" title="Ver todas las entradas de jecrespom" rel="author">jecrespom</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+	<article id="post-1526" class="post-1526 post type-post status-publish format-standard hentry category-arduino category-entradas-analogicas category-entradas-digitales category-pwm category-salidas-analogicas category-salidas-digitales tag-arduino tag-entradas-analogicas tag-entradas-digitales tag-pwm tag-salidas-analogicas tag-salidas-digitales">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://aprendiendoarduino.wordpress.com/2016/12/18/entradas-y-salidas-arduino-2/" rel="bookmark">Entradas y Salidas&nbsp;Arduino</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://aprendiendoarduino.wordpress.com/2016/12/18/entradas-y-salidas-arduino-2/#respond"><span class="leave-reply">Deja un comentario</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<h3><b>Entradas y Salidas Digitales</b></h3>
+<p><span style="font-weight:400;">Los sistemas digitales, como por 
+ejemplo un microcontrolador, usan la lógica de dos estados representados
+ por dos niveles de tensión eléctrica, uno alto, H y otro bajo, L (de 
+High y Low, respectivamente, en inglés). Por abstracción, dichos estados
+ se sustituyen por ceros y unos, lo que facilita la aplicación de la 
+lógica y la aritmética binaria. Si el nivel alto se representa por 1 y 
+el bajo por 0, se habla de lógica positiva y en caso contrario de lógica
+ negativa.</span></p>
+<p><b>Flanco vs Pulso</b></p>
+<p><img class="alignnone size-full" src="ondaflanco.gif" alt="" width="420" height="137"></p>
+<h4><b>Periodo, ancho de pulso, flancos</b></h4>
+<p><img class="alignnone size-full" src="flip-flop-periodo.gif" alt="" width="389" height="164"></p>
+<h3><b>Entradas y Salidas Digitales en Arduino</b></h3>
+<p><span style="font-weight:400;">En arduino los pines digitales se describen y tienen la propiedades siguientes:&nbsp;</span><a href="http://arduino.cc/en/Tutorial/DigitalPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/DigitalPins</span></a></p>
+<p><span style="font-weight:400;">En arduino para tratar las entradas y salidas digitales usamos las siguientes funciones:</span></p>
+<ul>
+<li style="font-weight:400;"><b>pinMode()</b><span style="font-weight:400;"> – configura en el pin especificado si se va a comportar como una entrada o una salida. </span><a href="http://arduino.cc/en/Reference/PinMode"><span style="font-weight:400;">http://arduino.cc/en/Reference/PinMode</span></a></li>
+<li style="font-weight:400;"><b>digitalWrite()</b><span style="font-weight:400;">
+ – Escribe &nbsp;un valor HIGH o LOW en el pin digital especificado. Si 
+el pin está configurado como OUTPUT pone el voltaje correspondiente en 
+el pin seleccionado. Si el pin está configurado como INPUT habilita o 
+deshabilita la resistencia interna de pull up del correspondiente pin. </span><a href="http://arduino.cc/en/Reference/DigitalWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/DigitalWrite</span></a></li>
+<li style="font-weight:400;"><b>digitalRead()</b><span style="font-weight:400;"> – lee el valor del pin correspondiente como HIGH o LOW. </span><a href="http://arduino.cc/en/Reference/DigitalRead"><span style="font-weight:400;">http://arduino.cc/en/Reference/DigitalRead</span></a></li>
+</ul>
+<p><span style="font-weight:400;">En la imagen siguiente se muestra el 
+estado por defecto de una I/O digital en un microcontrolador de Arduino.
+ Se ha simplificado con interruptores la compleja electrónica que hay 
+dentro. </span><b>Por defecto los digital I/O pins están configurados como inputs</b><span style="font-weight:400;">
+ en un estado de alta impedancia (equivalente a una resistencia de 100 
+Mohms en frente del pin), es decir, SW3 a ON y no hace falta llamar a la
+ función pinMode() aunque es recomendable para aclarar el código.</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x, 
+INPUT) –&gt; SW3 = ON (resto a OFF). Los valores leídos serán aleatorios
+ si el pin de Arduino está al aire. El pin está en un estado de alta 
+impedancia (resistencia de 100 Mohms).</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x,INPUT_PULLUP)
+ –&gt; SW3 = ON &amp; SW4 = ON (resto a OFF). Los valores leídos sin 
+nada conectado al pin es HIGH. La Resistencia R1 tiene un valor 
+dependiendo del microcontrolador, pero tiene un valor entre 20kOhm y 
+150kOhm.</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x, 
+OUTPUT) &amp; digitalWrite(x,HIGH) –&gt; SW2 = ON &amp; SW1 = +5V (resto
+ a OFF). Estado de baja impedancia, no hay resistencia interna y es 
+necesario poner una resistencia adecuada a la salida el pin para no 
+superar los 40mA (source) máximos admitidos</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">PinMode(x, 
+OUTPUT) &amp; digitalWrite(x,LOW) –&gt; SW2 = ON &amp; SW1 = GND (resto a
+ OFF). Estado de baja impedancia, no hay resistencia interna y es 
+necesario poner una adecuada para no superar los 40mA (sink) máximos 
+admitidos</span></li>
+</ul>
+<p><img class="alignnone size-full" src="p4.gif" alt="" width="430" height="315"></p>
+<h3><b>Entradas y salidas analógicas</b></h3>
+<p><span style="font-weight:400;">Una señal eléctrica analógica es 
+aquella en la que los valores de la tensión o voltaje varían 
+constantemente y pueden tomar cualquier valor.</span></p>
+<p><span style="font-weight:400;">Un sistema de control (como un 
+microcontrolador) no tiene capacidad alguna para trabajar con señales 
+analógicas, de modo que necesita convertir las señales analógicas en 
+señales digitales para poder trabajar con ellas.</span></p>
+<p><span style="font-weight:400;">La señal digital obtenida de una analógica tiene dos propiedades fundamentales:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">Valores. Que valor en voltios define 0 y 1. En nuestro caso es tecnología TTL (0 – 5V)</span></li>
+<li style="font-weight:400;"><span style="font-weight:400;">Resolución analógica: nº de bits que usamos para representar con una notación digital una señal analógica:</span>
+<ul>
+<li style="font-weight:400;"><a href="http://arduino.cc/en/Reference/AnalogReadResolution"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReadResolution</span></a></li>
+<li style="font-weight:400;"><a href="http://arduino.cc/en/Reference/AnalogWriteResolution"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWriteResolution</span></a></li>
+</ul>
+</li>
+</ul>
+<p><span style="font-weight:400;">En el caso de un arduino Uno, el valor
+ de 0 voltios analógico es expresado en digital como B0000000000 (0) y 
+el valor de 5V analógico es expresado en digital como B1111111111 
+(1023). Por lo tanto todo valor analógico intermedio es expresado con un
+ valor entre 0 y 1023, es decir, sumo 1 en binario cada 4,883 mV.</span></p>
+<p><span style="font-weight:400;">Arduino Uno tiene una resolución de 10 bits, es decir, unos valores entre 0 y 1023.</span></p>
+<p><span style="font-weight:400;">Arduino Due tiene una resolución de 12 bits, es decir, unos valores entre 0 y 4095.</span></p>
+<h3><b>Salida Analógica. PWM</b></h3>
+<p><span style="font-weight:400;">Arduino Uno tiene entradas analógicas 
+que gracias a los conversores analógico digital puede entender ese valor
+ el microcontrolador, pero no tiene salidas analógicas puras y para 
+solucionar esto, usa la técnica de PWM.</span></p>
+<p><span style="font-weight:400;">Las Salidas PWM (Pulse Width 
+Modulation) permiten generar salidas analógicas desde pines digitales. 
+Arduino Uno no posee salidas analógicas puras.</span></p>
+<p><span style="font-weight:400;">La modulación por ancho de pulsos 
+(también conocida como PWM, siglas en inglés de pulse-width modulation) 
+de una señal o fuente de energía es una técnica en la que se modifica el
+ ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, 
+por ejemplo), ya sea para transmitir información a través de un canal de
+ comunicaciones o para controlar la cantidad de energía que se envía a 
+una carga.</span></p>
+<p><span style="font-weight:400;">El ciclo de trabajo de una señal 
+periódica es el ancho relativo de su parte positiva en relación con el 
+período. duty cycle = (tiempo que la salida está a uno o HIGH)/ (periodo
+ de la función)</span></p>
+<p><img class="alignnone size-full" src="atmega168a_pwm_02_lrg.jpg" alt="" width="1024" height="508"></p>
+<p><b>En Arduino la frecuencia de PWM es de 500Hz. </b><span style="font-weight:400;">Pero es un valor que puede modificarse en caso que lo necesitemos.</span></p>
+<h3><b>Funciones de I/O Analógicas en Arduino</b></h3>
+<p><span style="font-weight:400;">Los microcontroladores de Arduino 
+contienen en la placa un conversor analógico a digital de 6 canales. El 
+conversor tiene una resolución de 10 bits, devolviendo enteros entre 0 y
+ 1023. Los pines analógicos de Arduino también tienen todas las 
+funcionalidades de los pines digitales. Por lo tanto, si necesitamos más
+ pines digitales podemos usar los pines analógicos. La nomenclatura para
+ los pines analógicos es A0, A1, etc…</span></p>
+<p><span style="font-weight:400;">En arduino los pines analógicos se definen y tienen las propiedades siguientes: </span><a href="http://arduino.cc/en/Tutorial/AnalogInputPins"><span style="font-weight:400;">http://arduino.cc/en/Tutorial/AnalogInputPins</span></a></p>
+<p><span style="font-weight:400;">En arduino para tratar las entradas y salidas digitales usamos las siguientes funciones:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">analogReference() – configura la referencia de voltaje usada para la entrada analógica. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogReference"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogReference</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogRead() – lee el valor del pin analógico especificado. &nbsp;</span><a href="http://arduino.cc/en/Reference/AnalogRead"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogRead</span></a></li>
+<li style="font-weight:400;"><span style="font-weight:400;">analogWrite()
+ – escribe un valor analógico (onda PWM) al pin especificado. No en 
+todos los pines digitales se puede aplicar PWM. </span><a href="http://arduino.cc/en/Reference/AnalogWrite"><span style="font-weight:400;">http://arduino.cc/en/Reference/AnalogWrite</span></a></li>
+</ul>
+<p><span style="font-weight:400;">Otras funciones interesantes con entradas/salidas analóicas:</span></p>
+<ul>
+<li style="font-weight:400;"><span style="font-weight:400;">map(value, fromLow, fromHigh, toLow, toHigh) </span><span style="font-weight:400;"><a href="http://arduino.cc/en/Reference/Map">http://arduino.cc/en/Reference/Map</a></span></li>
+<li style="font-weight:400;">constrain(x, a, b) &nbsp;<a href="http://arduino.cc/en/Reference/Constrain"><span style="font-weight:400;">http://arduino.cc/en/Reference/Constrain</span></a></li>
+</ul>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Esta entrada se publicó en <a href="https://aprendiendoarduino.wordpress.com/category/arduino/" rel="category tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-analogicas/" rel="category tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/entradas-digitales/" rel="category tag">Entradas Digitales</a>, <a href="https://aprendiendoarduino.wordpress.com/category/pwm/" rel="category tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-analogicas/" rel="category tag">Salidas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/category/salidas-digitales/" rel="category tag">Salidas Digitales</a> y está etiquetada con <a href="https://aprendiendoarduino.wordpress.com/tag/arduino/" rel="tag">Arduino</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/" rel="tag">Entradas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/entradas-digitales/" rel="tag">Entradas Digitales</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/pwm/" rel="tag">PWM</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-analogicas/" rel="tag">Salidas Analógicas</a>, <a href="https://aprendiendoarduino.wordpress.com/tag/salidas-digitales/" rel="tag">Salidas Digitales</a> en <a href="https://aprendiendoarduino.wordpress.com/2016/12/18/entradas-y-salidas-arduino-2/" title="8:57 am" rel="bookmark"><time class="entry-date" datetime="2016-12-18T08:57:38+00:00">18 diciembre, 2016</time></a><span class="by-author"> por <span class="author vcard"><a class="url fn n" href="https://aprendiendoarduino.wordpress.com/author/jecrespom/" title="Ver todas las entradas de jecrespom" rel="author">jecrespom</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+		<nav id="nav-below" class="navigation" role="navigation">
+			<h3 class="assistive-text">Navegador de artículos</h3>
+			<div class="nav-previous"><a href="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/page/2/"><span class="meta-nav">←</span> Entradas más antiguas</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- .navigation -->
+	
+		
+		<div id="infinite-handle"><span><button>Entradas antiguas</button></span></div></div><!-- #content -->
+	</section><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+						<aside id="search-4" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://aprendiendoarduino.wordpress.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Buscar:</label>
+					<input name="s" id="s" type="text">
+					<input id="searchsubmit" value="Buscar" type="submit">
+				</div>
+			</form></aside><aside id="text-3" class="widget widget_text"><h3 class="widget-title">AprendiendoArduino</h3>			<div class="textwidget">Dudas y Consultas: 
+<p><a href="mailto:aprendiendoarduino@gmail.com">aprendiendoarduino@gmail.com</a></p>
+
+Web Principal:<br>
+<a href="https://www.aprendiendoarduino.com/" target="_blank">www.aprendiendoarduino.com</a>
+<a href="https://www.aprendiendoarduino.com/" target="_blank"><img src="cropped-aprendiendoarduino_logo.png"></a></div>
+		</aside><aside id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h3 class="widget-title">Social</h3><ul><li><a href="https://twitter.com/jecrespom/" class="genericon genericon-twitter" target="_blank"><span class="screen-reader-text">Ver perfil de jecrespom en Twitter</span></a></li><li><a href="https://www.linkedin.com/in/enriquecrespo/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">Ver perfil de enriquecrespo en LinkedIn</span></a></li><li><a href="https://github.com/jecrespo/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">Ver perfil de jecrespo en GitHub</span></a></li></ul></aside><aside id="text-4" class="widget widget_text"><h3 class="widget-title">Código en GitHub</h3>			<div class="textwidget"><img src="github-mark.png">
+<a href="https://github.com/jecrespo" target="_blank">Repositorio jecrespo</a>
+<br>
+<a href="https://github.com/jecrespo/Aprendiendo-Arduino" target="_blank">Prácticas</a>
+<br>
+<a href="https://github.com/jecrespo/Aprendiendo-Arduino-Proyectos" target="_blank">Proyectos</a>
+<br>
+<a href="https://github.com/jecrespo/Aprendiendo-Arduino/archive/master.zip" target="_blank">Descargar prácticas</a></div>
+		</aside><aside id="text-5" class="widget widget_text"><h3 class="widget-title">Licencia</h3>			<div class="textwidget"><p><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img style="border-width:0;" src="88x31" alt="Licencia de Creative Commons"></a><br>
+Aprendiendo Arduino by <a href="https://aprendiendoarduino.wordpress.com/" rel="cc:attributionURL">Enrique Crespo</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional License</a>.</p></div>
+		</aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title"></h3><div style="overflow: hidden;"><a href="https://aprendiendoarduino.wordpress.com/category/arduino/" style="font-size: 275%; padding: 1px; margin: 1px;" title="Arduino (379)">Arduino</a> <a href="https://aprendiendoarduino.wordpress.com/category/arduino-day/" style="font-size: 110.46195652174%; padding: 1px; margin: 1px;" title="Arduino Day (33)">Arduino Day</a> <a href="https://aprendiendoarduino.wordpress.com/category/avanzado/" style="font-size: 106.18206521739%; padding: 1px; margin: 1px;" title="Avanzado (24)">Avanzado</a> <a href="https://aprendiendoarduino.wordpress.com/category/c/" style="font-size: 104.27989130435%; padding: 1px; margin: 1px;" title="C++ (20)">C++</a> <a href="https://aprendiendoarduino.wordpress.com/category/comunicacion/" style="font-size: 102.85326086957%; padding: 1px; margin: 1px;" title="Comunicación (17)">Comunicación</a> <a href="https://aprendiendoarduino.wordpress.com/category/comunidad/" style="font-size: 102.3777173913%; padding: 1px; margin: 1px;" title="Comunidad (16)">Comunidad</a> <a href="https://aprendiendoarduino.wordpress.com/category/curso-avanzado-2017/" style="font-size: 109.51086956522%; padding: 1px; margin: 1px;" title="Curso Avanzado 2017 (31)">Curso Avanzado 2017</a> <a href="https://aprendiendoarduino.wordpress.com/category/curso-iniciacion-2017/" style="font-size: 125.67934782609%; padding: 1px; margin: 1px;" title="Curso Iniciación 2017 (65)">Curso Iniciación 2017</a> <a href="https://aprendiendoarduino.wordpress.com/category/curso-iniciacion-2018/" style="font-size: 102.85326086957%; padding: 1px; margin: 1px;" title="Curso Iniciación 2018 (17)">Curso Iniciación 2018</a> <a href="https://aprendiendoarduino.wordpress.com/category/curso-programacion-arduino/" style="font-size: 104.27989130435%; padding: 1px; margin: 1px;" title="Curso Programación Arduino (20)">Curso Programación Arduino</a> <a href="https://aprendiendoarduino.wordpress.com/category/entradas-analogicas/" style="font-size: 100%; padding: 1px; margin: 1px;" title="Entradas Analógicas (11)">Entradas Analógicas</a> <a href="https://aprendiendoarduino.wordpress.com/category/entradas-digitales/" style="font-size: 100.47554347826%; padding: 1px; margin: 1px;" title="Entradas Digitales (12)">Entradas Digitales</a> <a href="https://aprendiendoarduino.wordpress.com/category/esp8266/" style="font-size: 102.85326086957%; padding: 1px; margin: 1px;" title="ESP8266 (17)">ESP8266</a> <a href="https://aprendiendoarduino.wordpress.com/category/hardware/" style="font-size: 133.28804347826%; padding: 1px; margin: 1px;" title="Hardware (81)">Hardware</a> <a href="https://aprendiendoarduino.wordpress.com/category/hardware-libre/" style="font-size: 100.95108695652%; padding: 1px; margin: 1px;" title="Hardware Libre (13)">Hardware Libre</a> <a href="https://aprendiendoarduino.wordpress.com/category/ide/" style="font-size: 111.41304347826%; padding: 1px; margin: 1px;" title="IDE (35)">IDE</a> <a href="https://aprendiendoarduino.wordpress.com/category/iot/" style="font-size: 103.32880434783%; padding: 1px; margin: 1px;" title="IoT (18)">IoT</a> <a href="https://aprendiendoarduino.wordpress.com/category/librerias-arduino/" style="font-size: 106.65760869565%; padding: 1px; margin: 1px;" title="Librerías Arduino (25)">Librerías Arduino</a> <a href="https://aprendiendoarduino.wordpress.com/category/microcontrolador/" style="font-size: 100.95108695652%; padding: 1px; margin: 1px;" title="Microcontrolador (13)">Microcontrolador</a> <a href="https://aprendiendoarduino.wordpress.com/category/motores/" style="font-size: 100.95108695652%; padding: 1px; margin: 1px;" title="Motores (13)">Motores</a> <a href="https://aprendiendoarduino.wordpress.com/category/presentacion/" style="font-size: 106.18206521739%; padding: 1px; margin: 1px;" title="Presentacion (24)">Presentacion</a> <a href="https://aprendiendoarduino.wordpress.com/category/programacion/" style="font-size: 133.28804347826%; padding: 1px; margin: 1px;" title="Programación (81)">Programación</a> <a href="https://aprendiendoarduino.wordpress.com/category/programacion-visual/" style="font-size: 102.85326086957%; padding: 1px; margin: 1px;" title="Programación Visual (17)">Programación Visual</a> <a href="https://aprendiendoarduino.wordpress.com/category/proyecto/" style="font-size: 103.80434782609%; padding: 1px; margin: 1px;" title="Proyecto (19)">Proyecto</a> <a href="https://aprendiendoarduino.wordpress.com/category/practica/" style="font-size: 138.99456521739%; padding: 1px; margin: 1px;" title="Práctica (93)">Práctica</a> <a href="https://aprendiendoarduino.wordpress.com/category/puerto-serie/" style="font-size: 101.42663043478%; padding: 1px; margin: 1px;" title="Puerto Serie (14)">Puerto Serie</a> <a href="https://aprendiendoarduino.wordpress.com/category/salidas-digitales/" style="font-size: 100%; padding: 1px; margin: 1px;" title="Salidas Digitales (11)">Salidas Digitales</a> <a href="https://aprendiendoarduino.wordpress.com/category/sensores/" style="font-size: 101.42663043478%; padding: 1px; margin: 1px;" title="Sensores (14)">Sensores</a> <a href="https://aprendiendoarduino.wordpress.com/category/sketch/" style="font-size: 100.95108695652%; padding: 1px; margin: 1px;" title="Sketch (13)">Sketch</a> <a href="https://aprendiendoarduino.wordpress.com/category/software/" style="font-size: 110.46195652174%; padding: 1px; margin: 1px;" title="Software (33)">Software</a> </div></aside><aside id="twitter_timeline-2" class="widget widget_twitter_timeline"><h3 class="widget-title">Sígueme en Twitter</h3><iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: absolute; visibility: hidden; display: inline-block; width: 225px; height: 0px; padding: 0px; border: medium none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px;" data-widget-id="540170807126003712" title="Cronología de Twitter" frameborder="0"></iframe><a class="twitter-timeline" data-width="225" data-height="400" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="15" data-lang="ES" data-partner="jetpack" data-widget-id="540170807126003712" href="https://twitter.com/540170807126003712" data-twitter-extracted-i1530951825136642715="true">Mis tuits</a></aside><aside id="blog_subscription-3" class="widget widget_blog_subscription"><h3 class="widget-title"><label for="subscribe-field">Sigue el blog por Email</label></h3>
+				<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="subscribe-blog">
+											<p>Introduce tu dirección de correo electrónico para seguir 
+este Blog y recibir las notificaciones de las nuevas publicaciones en tu
+ buzón de correo electrónico.</p>
+<p>Únete a otros 369 seguidores</p>
+						<p><input name="email" style="width: 95%; padding: 1px 2px" placeholder="Introduce tu email" id="subscribe-field" type="text"></p>
+					
+					<p>
+						<input name="action" value="subscribe" type="hidden">
+						<input name="blog_id" value="79097838" type="hidden">
+						<input name="source" value="https://aprendiendoarduino.wordpress.com/tag/entradas-analogicas/" type="hidden">
+						<input name="sub-type" value="widget" type="hidden">
+						<input name="redirect_fragment" value="blog_subscription-3" type="hidden">
+						<input id="_wpnonce" name="_wpnonce" value="0394722eab" type="hidden">						<input value="Seguir" type="submit">
+					</p>
+				</form>
+			
+</aside><aside id="authors-4" class="widget widget_authors"><h3 class="widget-title">Autores</h3><ul><li><a href="https://aprendiendoarduino.wordpress.com/author/jecrespom/"> <img alt="" src="09d04cf9ac642c742450e91fd7744e9c.jpg" class="avatar avatar-48 grav-hashed" id="grav-09d04cf9ac642c742450e91fd7744e9c-0" width="48" height="48"> <strong>jecrespom</strong></a></li></ul></aside>		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<span class="wpa-about">Anuncios</span>
+				<div class="u">
+							<div style="padding-bottom:15px;width:300px;height:250px;">
+		<div id="atatags-286348-5b407891d454b" style="width: auto; height: auto;"><div style="width: 300px; height: 250px;"><iframe scrolling="no" style="border:none;overflow:hidden;width:300px;height:250px;" width="300" frameborder="0" height="250"></iframe></div><div id="atatags-286348-5b407891d454b__controls" style="width:300px;height:10px;text-align:right;line-height:6px;"><span id="atatags-286348-5b407891d454b__complain-btn" style="font-size: 10px; color: rgb(109, 171, 210); text-decoration: underline; cursor: pointer; display: inline;">Report this ad</span></div></div></div>
+				</div>
+				
+			</div>
+		</div>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.com/?ref=footer_website">Crea un blog o un sitio web gratuitos con WordPress.com.</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"content","ajaxurl":"https:\/\/aprendiendoarduino.wordpress.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Entradas antiguas","totop":"Ir arriba","currentday":"18.12.16","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"aprendiendoarduino.wordpress.com","path":"\/tag\/entradas-analogicas\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"tag":"entradas-analogicas","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","cat":"","tag_id":360850604,"author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":["entradas-analogicas"],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":5,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2016-12-18 08:57:38","stats":"blog=79097838&v=wpcom&tz=1&user_id=0&subd=aprendiendoarduino&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+		<!--  -->
+<script type="text/javascript" src="gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="wpgroho.js"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Añade tus pensamientos aquí... (opcional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Publicar en</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancelar</a></span>
+				<input name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Rebloguear entrada" type="submit">
+				<input id="carousel-reblog-blog-id" value="79097838" type="hidden">
+				<input id="carousel-reblog-blog-url" value="https://aprendiendoarduino.wordpress.com" type="hidden">
+				<input id="carousel-reblog-blog-title" value="Aprendiendo Arduino" type="hidden">
+				<input id="carousel-reblog-post-url" value="" type="hidden">
+				<input id="carousel-reblog-post-title" value="" type="hidden">
+			</div>
+
+			<input id="_wpnonce" name="_wpnonce" value="20d890071a" type="hidden"><input name="_wp_http_referer" value="/tag/entradas-analogicas/" type="hidden">		</form>
+
+		<div class="arrow"></div>
+	</div>
+<script type="text/javascript" src="a_004.js"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://s1.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://s2.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414h&amp;ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+
+// Infinite scroll support
+jQuery( function( $ ) {
+	$( document.body ).on( 'post-load', function() {
+		SyntaxHighlighter.highlight();
+	} );
+} );
+</script>
+<link rel="stylesheet" id="all-css-0-2" href="a_002.css" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-2-2" href="tiled-gallery.css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"79097838","siteName":"Aprendiendo Arduino","siteURL":"http:\/\/aprendiendoarduino.wordpress.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/bbfc45b79aa1fb3ddff3eb547fd835b3?s=50&d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentytwelve","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/aprendiendoarduino.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Faprendiendoarduino.wordpress.com%2F2017%2F10%2F22%2Fentradas-y-salidas-analogicas-arduino-pwm%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentytwelve\/","xhrURL":"https:\/\/aprendiendoarduino.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"2fc2e1ea48","isSingular":"","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"0394722eab\" \/>","referer":"https:\/\/aprendiendoarduino.wordpress.com\/tag\/entradas-analogicas\/","canFollow":"1","feedID":"26189399","statusMessage":"","customizeLink":"https:\/\/aprendiendoarduino.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Faprendiendoarduino.wordpress.com%2Ftag%2Fentradas-analogicas%2F","i18n":{"view":"Ver sitio","follow":"Seguir","following":"Siguiendo","edit":"Editar","login":"Acceder","signup":"Registrarse","customize":"Personalizar","report":"Denunciar este contenido","themeInfo":"Obtener el tema: Twenty Twelve","shortlink":"Copiar enlace corto","copied":"Copiado","followedText":"Las nuevas publicaciones de este sitio aparecer\u00e1n ahora en tu <a href=\"https:\/\/wordpress.com\/\">Lector<\/a>","foldBar":"Contraer esta barra","unfoldBar":"Expandir esta barra","editSubs":"Gestionar las suscripciones","viewReader":"Ver sitio en el Lector","viewReadPost":"View post in Reader","subscribe":"Suscr\u00edbeme","enterEmail":"Introduce tu email","followers":"\u00danete a otros 369 seguidores","alreadyUser":"\u00bfYa tienes una cuenta de WordPress.com? <a href=\"https:\/\/aprendiendoarduino.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Faprendiendoarduino.wordpress.com%2F2017%2F10%2F22%2Fentradas-y-salidas-analogicas-arduino-pwm%2F\">Accede ahora<\/a>.","stats":"Estad\u00edsticas"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"es","ajaxurl":"https:\/\/aprendiendoarduino.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"9b7ae3d4f2","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comentario","post_comment":"Publicar comentario","write_comment":"Escribir un Comentario...","loading_comments":"Cargando comentarios...","download_original":"Ver tama\u00f1o completo <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Por favor, aseg\u00farate de enviar el texto con tu comentario.","no_comment_email":"Por favor, proporciona una direcci\u00f3n de correo electr\u00f3nico para comentar.","no_comment_author":"Por favor, a\u00f1ade tu nombre al comentario.","comment_post_error":"Lo sentimos, pero hubo un error al publicar tu comentario. Por favor, vuelve a intentarlo m\u00e1s tarde.","comment_approved":"Se aprob\u00f3 tu comentario.","comment_unapproved":"Tu comentario est\u00e1 en moderaci\u00f3n.","camera":"C\u00e1mara","aperture":"Abertura","shutter_speed":"Velocidad de obturaci\u00f3n","focal_length":"Longitud focal","copyright":"Derechos de autor","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/aprendiendoarduino.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Faprendiendoarduino.wordpress.com%2F2016%2F12%2F18%2Fentradas-y-salidas-arduino-2%2F","blog_id":"79097838","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Correo electr\u00f3nico (Obligatorio)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Nombre (Obligatorio)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Web<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Rebloguear","reblogged":"Reblogueado","reblog_add_thoughts":"A\u00f1ade tus pensamientos aqu\u00ed... (opcional)","reblogging":"Reblogueando...","post_reblog":"Reblog de entrada","stats_query_args":"blog=79097838&v=wpcom&tz=1&user_id=0&subd=aprendiendoarduino","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="a_003.js"></script><div class="widget widget_eu_cookie_law_widget" style="display: block;"><div class="hide-on-button ads-active" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
+	<form method="post">
+		<input value="Cerrar y aceptar" class="accept" type="submit">
+
+		Privacidad &amp; Cookies: este sitio usa cookies. Al continuar usando 
+este sitio, estás de acuerdo con su uso. Para saber más, incluyendo como
+ controlar las cookies, mira aquí:
+		<a href="https://automattic.com/cookies">
+			Política de Cookies.		</a>
+ </form>
+</div>
+</div><div id="actionbar" class="actnbr-pub-twentytwelve actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Seguir</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://aprendiendoarduino.wordpress.com/"><img alt="" src="bbfc45b79aa1fb3ddff3eb547fd835b3.jpg" class="avatar avatar-50" width="50" height="50"> Aprendiendo Arduino</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://aprendiendoarduino.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Faprendiendoarduino.wordpress.com%2Ftag%2Fentradas-analogicas%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Personalizar<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Seguir</span></a></li> 					<li class="actnbr-signup"><a href="https://wordpress.com/start/">Registrarse</a></li> 				    <li class="actnbr-login"><a href="https://aprendiendoarduino.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Faprendiendoarduino.wordpress.com%2F2017%2F10%2F22%2Fentradas-y-salidas-analogicas-arduino-pwm%2F">Acceder</a></li> 				     				     				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Denunciar este contenido</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Gestionar las suscripciones</a></li> 				    <li class="actnbr-fold"><a href="">Contraer esta barra</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript" src="widgets.js"></script>
+<script type="text/javascript" src="a.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery-core","jquery-migrate","jquery","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","grofiles-cards","wpgroho","syntaxhighlighter-core","syntaxhighlighter-brush-cpp","devicepx","jetpack_likes_queuehandler","the-neverending-homepage","twentytwelve-navigation","eu-cookie-law-script","jetpack-twitter-timeline","wpcom-masterbar-js","wpcom-masterbar-tracks-js","wpcom-actionbar-bar","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["wpcom-smileys","jetpack_likes","wordads-global","wordads-twentytwelve","the-neverending-homepage","wpcom-core-compat-playlist-styles","wpcom-text-widget-styles","mp6hacks","wpcom-bbpress2-staff-css","twentytwelve-style","twentytwelve-wpcom-style","eu-cookie-law-style","jetpack-widget-social-icons-styles","jetpack_social_media_icons_widget","noticons","geo-location-flair","reblogging","infinity-twentytwelve","wpcom-actionbar-bar","h4-global","twentytwelve-fonts","twentytwelve-ie","genericons","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="w.js" type="text/javascript" async="" defer="defer"></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'79097838','blog_tz':'1','user_lang':'es','blog_lang':'es','user_id':'0'}]);
+_stq.push(['view', {'blog':'79097838','v':'wpcom','tz':'1','user_id':'0','subd':'aprendiendoarduino'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRUmpicH5qamxuMVppeW14OXhHQ0JZbGgxRnx8amhsL0dQai9GOVZ5bzdxN1R0aHRSRHpwQUktW0lYLj1WfDIwaFM4dksvX2RVPTZvMyZtJURlJX4mWG5kSlFjMkxlZnlCKy5nVnE3bnhxRnV1bXloSlpvLnl+R0hHelh0P3VQJkVIZ29XZHA4Y1hwdWxTT043dWxvX2cxdixwNTkzeHF0JUdCd1FDJU5Fa05XY2dtZTJGJWwreXZEQjBBX0JOflNTV3BseWtsMW1Ga3VoUkxBfFE5NFtLTTNdOTFMYktGUUUxcm5YcDd0cEczK1olTnZpVEo0MUYuRkRaY1pTbm5NK3kzNVVCTXB+Tzc9Lj8='}]);
+_stq.push([ 'clickTrackerInit', '79097838', '0' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<iframe scrolling="no" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.bed9e19e565ca3b578705de9e73c29ed.html?origin=https%3A%2F%2Faprendiendoarduino.wordpress.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe><img src="g.gif" alt=":)" id="wpstats"><iframe id="rufous-sandbox" scrolling="no" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium none;" title="Twitter analytics iframe" frameborder="0"></iframe></body></html>
