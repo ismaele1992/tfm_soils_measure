@@ -43,7 +43,7 @@
 \BOOKMARK [2][-]{subsection.5.2.3}{Python 2.7.13}{section.5.2}% 43
 \BOOKMARK [2][-]{subsection.5.2.4}{Scripting}{section.5.2}% 44
 \BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 45
-\BOOKMARK [2][-]{subsection.5.3.1}{Querying methods used in NoSQL databases}{section.5.3}% 46
+\BOOKMARK [2][-]{subsection.5.3.1}{Querying methods used by NoSQL databases}{section.5.3}% 46
 \BOOKMARK [2][-]{subsection.5.3.2}{Methods used to retrieve information from the NoSQL database}{section.5.3}% 47
 \BOOKMARK [2][-]{subsection.5.3.3}{Methods used to obtain graphs with the information of the materials}{section.5.3}% 48
 \BOOKMARK [2][-]{subsection.5.3.4}{Methods based on compaction}{section.5.3}% 49
