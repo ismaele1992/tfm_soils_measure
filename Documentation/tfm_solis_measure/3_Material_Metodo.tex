@@ -249,7 +249,7 @@ If we want to export the information of the database, we can use 3TStudio to ret
 
 %%SEGUIR POR AQUI
 
-Microsoft Excel allows the user to generate graphs and making some calculates of the information that we want to analyze. With Microsoft Excel is really easy to obtain the results in graphs. The user only has to select the information that he wants to analyze and after that, select the graph that he wants to use for interpreting the information.\\
+Microsoft Excel allows the user to generate graphs and making some calculates of the information that we want to analyze. With Microsoft Excel is easy to obtain the results in graphs. The user only has to select the information to analyze and after that, select the graph desired to interpret the information.\\
 
 In this study, we made two analysis. The analysis made in this study is the following.
 
@@ -257,65 +257,65 @@ In this study, we made two analysis. The analysis made in this study is the foll
 
 \item Analysis of the evolution of the floor. With this analysis we look for information related with the drying process of the floor. This information is displayed in 4 graphs using the values registered from the sensors used in this study.\\
 
-The purpose of using this graph is analyzing if the floor gets correct values in the drying process.
+The purpose to select this graph is to analyze if the floor produces valid values in the drying process.
 
-\item Analysis of the results retrieved from the sensors. This analysis allows the interpreter to get information about the working state of the sensors. The sensors show the values along the time.\\
+\item Analysis of the results retrieved by the sensors. This analysis allows the interpreter to get information about the current state of the sensors. The sensors show the values along the time.\\
 
-In this analysis we put the information registered from the 4 sensors used in this study.
+In this analysis it was selected the information registered by the 4 sensors used in this study.
 
 \end{itemize}
 
 \subsection{Methods based on compaction}
 
-\subsection{Methods used for calibrating sensors}
+\subsection{Methods used to calibrate sensors}
 
-This section explain how is made the process of calibrating the measure of the sensors. In this process, is necessary to know the values obtained with the sensors at different conditions. These conditions are the following.
+This section explains how is the process selected to calibrate the measure of the sensors. This process, registered the values obtained with the sensors at different conditions. These conditions are the following.
 
 \begin{itemize}
 
-\item Measure obtained after putting the sensors in water. This method tries to find the lowest value obtained using the sensors.
+\item Measures obtained after allocating the sensors in water. This method registeres the lowest value measured by the sensors. The lowest value links to the lowest voltage.
 
-\item Measure obtained after putting the sensors in a dry place. This method tries to find the highest value measured by the sensors.
+\item Measure obtained after allocating the sensors in a dry place. This method registeres the highest value measured by the sensors. The highest value links to the highest voltage.
 
-\item Measure obtained after putting the sensors in different floors with different values of humidity. With this method we try to obtain the different values of the floor in different conditions.\\
+\item Measure obtained after allocating the sensors in different floors with different values of humidity. This method measures diverse values of floors in different conditions.\\
 
-After measuring the different floors with different humidity, we have to use an oven for heating the materials. This technique allows us to get the exact value of humidity of the different floors analyzed. With this method, we have to wait for a day if we want to have the results.
+When the measures of the soils are done, an oven to heat the soils is required. This technique allows to obtain the precise value of humidity of the different floors analyzed. This process takes a day to produce the expected values.
 
 \end{itemize}
 
-When we got the results of the studies, we realize that the results obtained using the sensors and the results using the oven are really similar. This factor allows us to know that the measure of the sensors is good and can be used for getting more information of the floors.\\
+When the results are produced, the information, which refers to the measures, is linked to the time inverted to dry a specific soil. Also, the percentage of humidity registered when the drying process is finished refers to the value measured by the sensors before drying the soil. These results define how is the behavior of the sensors when they are measuring a specific material. The chosen process allows to know if the selected sensors used to measure the soils are appropriate.\\
 
-After using the 3 techniques described before, we just have to compare the results obtained using the oven and the results obtained using the sensors. With this results, we compare them and we get the average of the results (using the results obtained with the sensors and the results obtained with the oven). This average is used for getting the most exactly measure of the floors.
+After using the 3 techniques described before, the results produced by the sensors are compared to the values registered by the oven used to dry the materials. With this results, a comparison is done to obtain an average of the results. This average is used to produce precise measures of soils.
 
 \section{Resources}
 
-In this section, we are going to explain the resources used for building the system used in this study. We can sort out the resources into two big groups, hardware components and software components. Those two groups are really important in this project, because thanks of them, it is possible to make this study and get some results.
+In this section, the resources used to biuld the system used in this study are explained. The resources are sorted out into two big groups, hardware components and software components. Those two groups are relevant to this project, because with them it is possible to make this study with its results.
 
 \subsection{Hardware}
 
-In this group we have the physical components that form part of the infrastructure of this Information System. The infrastructure is really important, because with the infrastructure we can build our Information System and we monitor the information got from the sensors. It allows us to create our data store and manage the information stored in it.
+This group contains the components which form part of the infrastructure of the Information System. The infrastructure is relevant, because it allows to build the Information System and makes easier to monitor the information registered by the sensors. It allows to create a data store to manage the information stored on it.
 
 \subsubsection{Microcontrollers}
 
-The microcontrollers are the intelligent part of our system. They have capabilities for managing the information retrieved from the sensors and storing it into our databases. In this project, we decided to use two microcontrollers.
+The microcontrollers are the intelligent part of the system. They have features to manage the information retrieved by the sensors and store it into the database. In this project, it was decided to use two microcontrollers.
 
 \begin{itemize}
 
-\item \textit{Arduino Mega}. This device allows the system to get the information coming from the network sensor. The \textit{Arduino Mega} gets the information, packages it, and sends it to the \textit{Raspberry PI 3} using a USB cable. The \textit{Arduino Mega} doesn't have lot of intelligent, it only gets the information and sends it to other device. It has no complex processing.\\
+\item \textit{Arduino Mega}. This device allows the system to register the information coming from the network of the sensors. The \textit{Arduino Mega} obtains the information, packages it, and sends it to the \textit{Raspberry PI 3} using serial communication. The \textit{Arduino Mega} is not an inteligent hardware, it obtains the information and sends it to other microcontroller. It has no complex processing.\\
 
-\item \textit{Raspberry PI 3}. This device is the brain of the system. It gets the information that comes from the \textit{Arduino Mega}. When it receives the information, it analyzes it, it checks if the information is in the correct way, and after that, it stores the correct information into the database. This processing is managed by the backend using a Python program.\\
+\item \textit{Raspberry PI 3}. This device is the brain of the system. It gets the information which comes from the \textit{Arduino Mega}. When it receives the information, it analyzes it, it checks if the information is well formed, and after that, it stores the correct information into the database. This processing is managed by the backend running a Python program.\\
 
-It has the database too. The database managed by the \textit{Raspberry PI 3} is a \textit{NoSQL} database. The \textit{Raspberry PI 3} has installed \textit{MongoDB} that controls the database.\\
+It has the database too. The database managed by the \textit{Raspberry PI 3} is a \textit{NoSQL} database. The \textit{Raspberry PI 3} has installed \textit{MongoDB} which controls the database.\\
 
-The \textit{Raspberry PI 3} has another backend that is used for managing the petitions of the users. The users want to get information and the \textit{Raspberry PI 3} manages their petitions using a \textit{NodeJS} backend. The \textit{NodeJS} backend queries the information asked by the users and send it to them, letting them know the values stored in the database.
+The \textit{Raspberry PI 3} has another backend that is used to manage the petitions of the users. The users want to query information and the \textit{Raspberry PI 3} manages their petitions using a \textit{NodeJS} backend. The \textit{NodeJS} backend queries the information requested by the users and sends it, giving to the user the values stored in the database.
 
 \end{itemize}
 
 \subsubsection{Sensors}
 
-These are one of the most important parts of this project. The sensors are able to get all the information related with the materials that are monitored. The sensors have some electronic capabilities that allow them to get all this information.\\
+These are one of the most important parts of this project. The sensors are able to get all the information related to the materials which are monitored. The sensors have some electronic features that allow them to monitor soils.\\
 
-In this project, the sensors used for the study are really simple and have a really low cost. The price of this sensors is around 0.80\euro . and 1\euro . It is possible to get them easily from the internet. The model used for getting the information of the system is \textit{FC-28}. This model is formed by 2 parts. One of those parts is the device that has the electronics to get the information of the floor, and the other part, is an electrical component that transforms the information retrieved by the sensor in numbers.\\
+In this project, the sensors used for the study are simple and have a low cost. The price of these sensors is around 0.80\euro . and 1\euro . It is possible obtain them via internet. The model used to get the information of the system is \textit{FC-28}. This model is formed by 2 parts. One of those parts is the device that has the electronics to measure the values of the floor, and the other part, is an electrical component which converts the information retrieved by the sensor in numbers.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -324,51 +324,70 @@ In this project, the sensors used for the study are really simple and have a rea
 \end{centering}
 \end{figure}
 
-The information treated by the rectifier uses a numerical structure. This structured has relation with the voltage detected by the sensors. These numerical values has a range between 1024 and 0. The value 1024 corresponds with the driest value measured. The value 0 is the lowest, corresponding with the wettest media analyzed.\\
+The information treated by the rectifier uses a numerical structure. This structured has relation with the voltage detected by the sensors. These numerical values has a range between 1024 and 0. The value 1024 corresponds to the driest value measured. The value 0 is the lowest, corresponding to the wettest media analyzed.\\
 
-The connection used is really simple. The device that gets the information of the media is connected directly to the rectifier using two cables. The rectifier is connected to the \textit{Arduino Mega} using three cables.\\
-
-In this project, we decided to use four sensors with these conditions for building the prototype. There are eight more sensors available for upgrading the system in the future, for example, if the user wants to measure more materials.
-
-\subsubsection{Network devices}
-
-This section is dedicated to explain the network components that form part of the system. These components allow  the communication process between all the devices that are connected to the system.\\ 
-
-These network devices are really important, because thanks of them, it is possible to query the information of the system and managing the system too. The network components used in this project are described in the following points.\\
+The connection used is simple. The device which gets the information of the media is connected directly to the rectifier using two cables. The rectifier is connected to the \textit{Arduino Mega} using three cables. The cables used to measure the materials are the following:
 
 \begin{itemize}
 
-\item \textit{Ethernet cable}. This component is used to communicate the \textit{Raspberry PI 3} with the router of the system. The model of the cable used in this project is a Ethernet cable category \textit{5E}. We decided to use this connection to connect the \textit{Raspberry PI 3} to the router because it is a stable media. We could use a \textit{Wi-Fi} adapter, but sometimes, \textit{WiFi} communication can fail if there are interference in the media.
+\item Positive cable. Provides the positive voltage of the power supply.
+\item Ground cable. Provides the negative voltage of the power supply.
+\item Data cable. Used to read the values of the measured material.
 
-\item \textit{Router Livebox 2}. This router is used to create a network between the \textit{Raspberry PI 3} and the users that want to get information of the \textit{Raspberry PI 3}. This router allows the user to establish a wireless communication to. The user can use a mobile device to connect to the system.
+\end{itemize}
+
+In this project, it was decided to use four sensors with these conditions to build the prototype. The system supports up to twelve sensors in case it is required to measure more materials.
+
+\subsubsection{Network devices}
+
+This section is dedicated to explain the network components which form part of the system. These components provide communication to all the devices which are connected to the system.\\ 
+
+These network devices provide connectivity to the system to query and manage the information stored on it. The network components used in this project are described in the following points.\\
+
+\begin{itemize}
+
+\item \textit{Ethernet cable}. This component is used to communicate the \textit{Raspberry PI 3} with the router of the system. The model of the cable used in this project is a Ethernet cable category \textit{5E}. We decided to use this connection to connect the \textit{Raspberry PI 3} to the router because it is a stable media. Another option is to use a \textit{Wi-Fi} adapter, but \textit{WiFi} communication it is not reliable and it can fail if there are interferences in the media.
+
+\item \textit{Router Livebox 2}. This router is used to create a network between the \textit{Raspberry PI 3} and the users to read information of the \textit{Raspberry PI 3}. This router allows the user to establish a wireless communication too. The user can use a mobile device to connect to the system.
 
 \item \textit{USB cable}. This media is used to communicate the \textit{Arduino Mega} with the \textit{Raspberry PI 3}. We decided to use this communication because it is reliable, stable and easy to manage.
 
 \end{itemize}
 
-We decided to use all these components because they are reliable, stable and easy to manage. It is easy to replace them if it is required. They are really common in systems, it is easy to find them.
+The main feature of these components is their reliability, stability and their easy way to manage. It is easy to replace them if it is required. They are common in systems and it is easy to find them.
 
 \subsection{Software}
 
-This section is dedicated to the Software components that form the Information System. The software components are the intelligent of the system that we've designed. They allow the user to manipulate the information monitored by the sensors network.\\
+This section is dedicated to the Software components which form part of the Information System. The software components are the intelligent of the designed system. They allow the user to manipulate the information monitored by the network of the sensors.\\
 
-They bring to the user some really useful features. These features are the value of the project. All the functions developed follow the requirements defined by the users of the system.\\
+They bring to the user useful features. These features are the value of the project. All the functions developed follow the requirements defined by the users of the system.\\
 
-It is possible to add more features to the system, because the software components allow the developer to design new solutions based on the initial state of this system.\\
+Upgrades are supported by the Information System, the software components allow the developer to design new solutions based on the initial state of this system.\\
 
-Developers can improve the system, because the system is open to new modifications. This is the reason to use the technology described in this document.\\
+Also, developers can improve the system, because the system is scalable. The technology selected for this study provides this feature.\\
 
-One of the epics in Sofware Engineering is the possibility to design customized systems and reusable systems.
+One of the epics in Sofware Engineering is the possibility to design customized and reusable systems.
 
 \subsubsection{3T Studio}
 
-\textit{3T Studio} is the software used as assistant of queries for the \textit{MongoDB's} database. This tool is available in the Internet and it is possible to download it for free purposes. This tool is available for \textit{Windows} systems, \textit{Linux} systems and \textit{MacOs} systems.\\
+\textit{3T Studio} is the software used as assistant of queries for the \textit{MongoDB's} database. This tool is available in the Internet and it is possible to download it for free purposes. This tool is available for \textit{Windows}, \textit{Linux} and \textit{MacOs} operative systems.\\
 
-This tool allows the user to manage the information of the database. The user can build queries for retrieving the desire information of the database. It is possible to visualize the information of the database in lot of ways, like using lists of components, using a \textit{JSON} file or displaying the information in tables (like in \textit{SQL} systems).\\
+This tool allows the user to manage the information of the database. The user can build queries to retrieve the desire information of the database. The information is displayed into several options, providing to the user the possibility to show the results with lists of components, \textit{JSON} files or displaying the information in tables (e.g. \textit{SQL} systems).\\
 
-This tool has to be connected to a \textit{MongoDB} system. It is required to give the program all the information related with the connection used for the database. This connection could be done using a \textit{SSH} tunnel, using a direct connection to the database or using a proxy configuration. \textit{3T Studio} has an assistant to configure the connections to the database used.\\
+This tool has to be connected to a \textit{MongoDB} system. It is required to give the program all the information related to the connection used by the database. The connection to the database is configurable and there are several options to create it:
 
-One of the most important features of this tool is that the user can export the information of the MongoDB database in lot of formats. It is possible to use \textit{JSON} or \textit{CSVs} formats. In this project we use \textit{CSV} format because it is really easy to manage it with Microsoft Excel.
+\begin{enumerate}
+
+\item Over \textit{SSH} tunnel. Based on \textit{SSH} protocol. Provides a higher level of security to the connection in case it is required direct communication to the database.
+\item Direct communication to the database. Simplest way to connect to the dabase but sacrifices security concepts.
+\item Communication via proxy authentication. Complex but adds a new layer to the security of the system. It is used in huge systems where a higher level of security is required.
+
+\end{enumerate}
+
+
+\textit{3T Studio} has an assistant to configure the desired connection to the database. In our use cases, the direct communication to the \textit{Database Manager} is the chosen option bacause of its easy way to communicate to the database.\\
+
+On the other hand, the user can export the information of the MongoDB database in several formats. It is possible to use \textit{JSON}, \textit{CSVs} and excel formats. This project uses \textit{CSV} format because it is the easiest way to automate and manage it with Microsoft Excel.
 
 \begin{figure}[H]
 \begin{centering}
@@ -379,21 +398,21 @@ One of the most important features of this tool is that the user can export the 
 
 \subsubsection{Microsoft Excel}
 
-\textit{Microsoft Excel} is one of the tools that we are going to use for displaying the results obtained after getting the measures of the system. In \textit{Microsoft Excel}, we will be able to load our \textit{CSV} file exported from the \textit{NoSQL} database.\\
+\textit{Microsoft Excel} is one of the tools used to display the results measured by the system. \textit{Microsoft Excel} allows to load \textit{CSV} files exported from the \textit{NoSQL} database.\\
 
-With \textit{Microsoft Excel} it is possible to apply some formulas to the information that we got after monitoring the materials. We can load there the theoretical values obtained after measuring the materials using the sensors network and we can load the reliable information obtained after measuring the materials using the special oven available in the laboratory.\\
+\textit{Microsoft Excel} provides features to apply formulas to the monitored soils. The theoretical values of the measured materials are loaded. The formulas arrange the results obtained with the oven used to calibrate the sensors.\\
 
-With these information, we are able to generate the average of the measures. With these values, we only have to select the sensors that we want to use for doing the study. It is possible to filter the information using a time filter too.\\
+The calculates generate an average of the exported information. To analyze the behavior of the soils it is required to select the desired results. The timestamp of the sensor provides a filter to sort the results of the report.\\
 
-After selecting the information that we want to analyze, we start to create the graphs used for comparing the results obtained with the expected results.\\
+When the information is selected, it is required to select the desire chart to represent the results. The generated chart allows the user to compare the produces results with other studies or ideal models.\\
 
-\textit{Microsoft Excel} graphs allow us to determine if the study has been success or not.
+The graphs provided by \textit{Microsoft Excel} allow us to determine if the study is congruent.
 
 \subsubsection{PyCharm}
 
-All developers have to decide a framework for developing programs or fragments of code. In this study, we decided to use \textit{PyCharm} for developing the Python programs.\\
+PyCharm is a development framework which allows the developer to write \textit{Python} scripts. It was decided to use PyCharm because of its special features to develop \textit{Python} applications. Also, it manages the required packages imported by the generated scripts.
 
-\textit{PyCharm} is available over the Internet and it is a free framework to use. We decided to use this framework because it is one of the most complete tools for developing programs in \textit{Python}. There are some important points that we are going to discuss why we decided to use this framework.
+\textit{PyCharm} is available over the Internet and it is a free framework to use. It is a stark software and it fits to the needs of the developer. The most important features of this framework are listed as it follows.
 
 \begin{figure}[H]
 \begin{centering}
@@ -404,29 +423,29 @@ All developers have to decide a framework for developing programs or fragments o
 
 \begin{itemize}
 
-\item \textbf{\textit{Supports many Python's interpreters}}. \textit{PyCharm} has support for using many interpreters. It has support for \textit{IronPython} and official \textit{Python}.
+\item \textbf{\textit{Supports several Python's interpreters}}. \textit{PyCharm} has support to use an amount of interpreters. It supports \textit{IronPython} and official \textit{Python}.
 
-\item \textbf{\textit{It has support for all Python's versions}}. There are no problems about using different versions of Python. It allows the developer to load all the libraries needed. It has an assistant for searching libraries too.
+\item \textbf{\textit{It supports all Python's versions}}. Using different versions of Python is not risk. It allows the developer to load all the required libraries. It has an assistant to search libraries too.
 
-\item \textbf{\textit{It has a really good assistant for developing}}. It has a really powerful assistant. The assistant is really quick giving information about methods and libraries to the developer. It has a really useful way to access to the documentation of all libraries.
+\item \textbf{\textit{It has a good assistant for development}}. It has a powerful assistant. The assistant has a fair performance when it is required to display the documentation of the methods and libraries imported by the developer.
 
-\item \textbf{\textit{It is a easy way to develop Python's programs}}. It is possible to develop programs really quick. The developer can use lot of shortcuts for developing.
+\item \textbf{\textit{Shortcuts and development from scratch}}. The time invested to develop applications with python is low. Shortcuts and templates are available for the developer.
 
-\item \textbf{\textit{It is free to use. It is not needed to pay for using it}}. Also, there is a version which includes more features, but the community one is enough to start developing solutions.
+\item \textbf{\textit{Community version}}. It provides a free to use version with useful tools. Also, there is a professional version which provides more features.
 
-\item \textbf{\textit{Multiplatform}}. It is possible to use \textit{PyCharm} in Linux systems, Windows systems and MacOS systems.
+\item \textbf{\textit{Multiplatform}}. \textit{PyCharm} is compatible with Linux, Windows and MacOS operative systems.
 
 \end{itemize}
 
 \subsubsection{Arduino IDE}
 
-This software is necessary if we want to develop the part of the system related with sensors. This tool is provided by the manufacturer \textit{Arduino}.\\
+Arduino IDE is the framework use to upload code to Arduino Boards. This tool is provided by the manufacturer, \textit{Arduino}.\\
 
-\textit{Arduino} lets the developer to control all kind of sensors. This IDE allows the user to install the controllers needed to work with different kind of Arduino's boards. It has an assistant to install all necessary libraries and drivers for the boards.\\
+\textit{Arduino} lets the developer to control all kind of sensors. This IDE allows the user to install the controllers needed to work with all available Arduino's boards. It has an assistant to install all the required libraries and drivers for boards.\\
 
-Developing with this \textit{IDE} is really useful because it is not necessary to have high skills with development. The programs are written in \textit{Arduino} using \textit{C} language. \textit{C} allows the developer having a low access to sensors and boards.\\
+The development with this \textit{IDE} from scratch is possible, it is not required wide development skills. The programs are written in \textit{Arduino} using \textit{C} language. \textit{C} is on a low level layer where the developer controls the functions of the sensors.\\
 
-It is possible to use this \textit{IDE} in all kind of operative systems. It is possible to download this software in the official \textit{Arduino's} webpage.\\
+This \textit{IDE} is available for all operative systems. The framework is uploaded to the official site of  \textit{Arduino's} webpage and it is free to use.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -435,19 +454,19 @@ It is possible to use this \textit{IDE} in all kind of operative systems. It is 
 \end{centering}
 \end{figure}
 
-\textit{Arduino} provides to the developer simple instructions and ways to debug programs. It also has a serial console for debugging the information retrieved by sensors.
+\textit{Arduino} provides to the developer simple instructions and tools to debug programs. It also has a serial console to debug the information measured by the sensors.
 
 \subsubsection{Notepad++}
 
-This tool is not mandatory for development but it is recommended. \textit{Notepad++} lets the programmer to use all kind all programming languages for creating all kind of software components.
+This tool is not mandatory for development but it is recommended. \textit{Notepad++} lets the developer to program in all kind of programming languages to create software components.
 
-It is possible to replace this software with other tools like \textit{Sublime}, \textit{Geany} or other programs. We decided to use this program because it is simple to use and because we had an initial knowledge about using it.\\
+There are other tools to replace this software such as \textit{Sublime}, \textit{Geany} or other open source applications. It was decided to use this program because of its simplicity. Also, there is an initial knowledge about this tool.\\
 
-We used Notepad++ for developing the part related with the \textit{NodeJS} \textit{backend}.
+\textit{Notepad++} was used to develop the subsystem related to the \textit{NodeJS} \textit{backend}.
 
 \subsubsection{Filezilla}
 
-\textit{Filezilla} is a program that allows the user to transfer files between two different devices. In our case, we used \textit{Filezilla} to transfer all the software components to the \textit{Raspberry PI 3} instead of typing instructions from the command line.\\
+\textit{Filezilla} is a program which allows the user to transfer files between two different devices using file transfer protocols. \textit{Filezilla} was used to transfer all the software components to the \textit{Raspberry PI 3} instead of typing instructions from the command line.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -456,17 +475,17 @@ We used Notepad++ for developing the part related with the \textit{NodeJS} \text
 \end{centering}
 \end{figure}
 
-Like \textit{Notepad++}, there are lot of programs that can make the same functions like \textit{Filezilla}, but we decided to use it because we are used to use it.\\
+As it was mentioned before, there are other tools which provide similar features. It was decided to work with \textit{Filezilla} because it is multi-platform.\\
 
-\textit{Filezilla} allows the user to connect to devices using network protocols like \textit{FTP} or \textit{SFTP}. In our case, we use for transfers \textit{SFTP} protocol.\\
+\textit{Filezilla} allows the user to connect to devices using network protocols like \textit{FTP} or \textit{SFTP}. All the required transfers were done over \textit{SFTP} protocol. This protocol requests authentication.\\
 
-With \textit{Filezilla} the user has access to the main file system of the connected device.
+With \textit{Filezilla} the user has access to the main file system of the connected device. The access levels are defined by the permissions of the users.
 
 \subsubsection{Putty}
 
-This software is used for managing remote connections to hosts. This program is really used in \textit{Windows} systems. Windows doesn't have support for managing remote connections to host using the \textit{cmd} terminal.\\
+This software is used to manage remote connections to hosts. This program is required for \textit{Windows} systems. Windows does not support remote connections to hosts using the \textit{cmd} terminal.\\
 
-With \textit{Putty}, a \textit{Windows'} user can create a \textit{SSH} or a \textit{Telnet} connection to a remote host. It also has support for serial communications. In our case we use \textit{SSH} communication because it is more secure and it is more reliable.\\
+With \textit{Putty}, a \textit{Windows'} user can create a \textit{SSH} or a \textit{Telnet} connection to a remote host. It also supports serial communications. All the remote connections to the Raspberry PI are established via \textit{SSH} communication. This protocol is reliable and secure.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -475,9 +494,9 @@ With \textit{Putty}, a \textit{Windows'} user can create a \textit{SSH} or a \te
 \end{centering}
 \end{figure}
 
-It is possible to acquire \textit{Putty} from its main webpage. It is a free program and it is easy to use it.\\
+\textit{Putty} is available from its main webpage. It is a free program and it is simple to use.\\
 
-We can omit using this software if we are over \textit{MacOS} or \textit{Linux} systems. Those platforms have support for remote connections using their command lines terminal.
+\textit{MacOS} and \textit{Linux} operative systems do not need this software. These platforms support remote connections from the command line.
 
 \newpage
 
