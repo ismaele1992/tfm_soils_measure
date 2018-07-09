@@ -15,7 +15,7 @@ Also, it will be explained more details we consider which are important in the s
 
 \subsection{How to reboot the full system}
 
-A completely reboot should be likely established. For that purpose, we need to consider we have different subsystems that can lead to executing problems in the full system. Those subsystems are the following.
+A completely reboot should be likely established. For that purpose, we need to consider we have different subsystems that can lead to executing problems in the full system. Those subsystems are the following:
 
 \begin{itemize}
 \item Network system.
@@ -35,7 +35,7 @@ In this case, a restart of the whole network is sometimes required. To do it, it
 \begin{itemize}
 \item Router.
 \item Raspberry PI.
-\item Different devices connected to the router.
+\item Different devices connected to the router:
 \begin{itemize}
 \item Smartphones.
 \item Computer.
@@ -58,16 +58,16 @@ If everything is correct, the router will allow the communication between the di
 
 \subsubsection{Restart the database}
 
-When a restart of the database is required, we need to control the Raspberry Pi which can be done following different options.
+When a restart of the database is required, we need to control the Raspberry Pi which can be done following different options:
 
 \begin{itemize}
-\item Remote access to the Raspberry Pi.
+\item Remote access to the Raspberry Pi:
 \begin{itemize}
 \item Via Linux terminal.
 \item Via Mac terminal.
 \item Via Putty. This software is available to download it, and it is really useful for Windows’ users.
 \end{itemize}
-\item Connecting peripherical devices to the Raspberry Pi.
+\item Connecting peripherical devices to the Raspberry Pi:
 \begin{itemize}
 \item Monitor.
 \item Keyboard.
@@ -81,7 +81,7 @@ In the following sections it will be explained how to create a remote connection
 
 This is the most common way to restart the system. Usually, it is only needed to restart the Raspberry Pi with the Arduino which is connected to the Raspberry Pi.\\
 
-To do it, next, it is required to follow these steps.
+To do it, next, it is required to follow these steps:
 
 \begin{enumerate}
 
@@ -114,7 +114,7 @@ It is recommended to use MongoDB version up to 2.6. If we are under 2.6 version,
 
 In case the system suffers a problem related to a restart or a power off of our system, the services can go down. This is typically a problem we have when we are managing Information Systems.\\
 
-If we need to check if our MongoDB database system is working, we need to follow these steps.
+If we need to check if our MongoDB database system is working, we need to follow these steps:
 
 \begin{itemize}
 \item Open a Linux terminal.
@@ -216,7 +216,7 @@ MongoDB will create all the configuration files in \textit{/etc}. Here, it is po
 
 All this information is stored in \textit{/etc} in one file named \textbf{mongod.conf}. It is possible to edit this file if it is needed to do it, but it is necessary to be careful if we apply any modifications because it is possible after those modifications the system will not run correctly.\\
 
-There is another important folder that is needed to mention in this section. This folder is \textit{init.d} and it is stored in \textit{/etc}. This folder will contain all the different executable shell scripts needed by the system. Obviously, MongoDB will create some files in this folder. The most important file to consider is \textit{mongodb}. It is possible to control all the operations done by MongoDB with this file. The possible operations are start, stop, restart and display status. Those operations are executed as follows.
+There is another important folder that is needed to mention in this section. This folder is \textit{init.d} and it is stored in \textit{/etc}. This folder will contain all the different executable shell scripts needed by the system. Obviously, MongoDB will create some files in this folder. The most important file to consider is \textit{mongodb}. It is possible to control all the operations done by MongoDB with this file. The possible operations are start, stop, restart and display status. Those operations are executed as follows:
 
 \begin{itemize}
 
@@ -302,7 +302,7 @@ To restart the database daemon, it is necessary to apply the different steps des
 
 \subsection{Moving the measure system}
 
-In some situations, it is necessary to turn off the full system because it is needed to do some hardware modifications. To do it, it is important to turn off the different components we have in our system to avoid electrical problems or storage problems (it is possible that after disconnecting some devices in our system, the MongoDB daemon could write corrupt information in the database we are using). To avoid these problems, it is important to do the following steps.
+In some situations, it is necessary to turn off the full system because it is needed to do some hardware modifications. To do it, it is important to turn off the different components we have in our system to avoid electrical problems or storage problems (it is possible that after disconnecting some devices in our system, the MongoDB daemon could write corrupt information in the database we are using). To avoid these problems, it is important to do the following steps:
 
 \begin{itemize}
 
@@ -332,7 +332,7 @@ When this problem happens, it is possible to check the configuration with the fo
 
 \begin{itemize}
 
-\item Direct connection to Raspberry Pi. It is possible to have a direct connection to the Raspberry Pi using a monitor, a keyboard and a mouse. If we decide to use this solution, we need to follow these steps.
+\item Direct connection to Raspberry Pi. It is possible to have a direct connection to the Raspberry Pi using a monitor, a keyboard and a mouse. If we decide to use this solution, we need to follow these steps:
 
 \begin{itemize}
 
@@ -368,7 +368,7 @@ When this problem happens, it is possible to check the configuration with the fo
 \end{centering}
 \end{figure} 
 
-\item After entering in the address displayed in the pictured, it will be shown a login dialog. In the login dialog we need to enter user and the password of the router.
+\item After entering in the address displayed in the pictured, it will be shown a login dialog. In the login dialog we need to enter user and the password of the router:
 
 \begin{itemize}
 
@@ -385,7 +385,7 @@ When this problem happens, it is possible to check the configuration with the fo
 
 \subsubsection{How to proceed when the database is corrupt}
 
-In case we want to move the system and we do not have knowledge about it, we can generate several problems in our database, as storage problems. When it happens, normally, \textbf{MongoDB} cannot run and we will see in \textbf{3TStudio} there are no new information in the database. When we have this problem, it is necessary to remove the corrupt information we have in our database. It is important to know that we will lose the information we have stored in our database.
+In case we want to move the system and we do not have knowledge about it, we can generate several problems in our database, as storage problems. When it happens, normally, \textbf{MongoDB} cannot run and we will see in \textbf{3TStudio} there are no new information in the database. When we have this problem, it is necessary to remove the corrupt information we have in our database. It is important to know that we will lose the information we have stored in our database:
 
 \begin{enumerate}
 
@@ -397,7 +397,7 @@ In case we want to move the system and we do not have knowledge about it, we can
 
 \end{enumerate}
 
-\item We need to move to the folder where the database is saved. To do it, it is necessary to execute the following commands.
+\item We need to move to the folder where the database is saved. To do it, it is necessary to execute the following commands:
 
 \begin{enumerate}
 
@@ -406,7 +406,7 @@ In case we want to move the system and we do not have knowledge about it, we can
 
 \end{enumerate}
 
-\item When we are in the database folder, we need to remove all the information related to the database which is corrupt. To do it, we need to execute.
+\item When we are in the database folder, we need to remove all the information related to the database which is corrupt. To do it, we need to execute:
 
 \begin{enumerate}
 
@@ -428,7 +428,7 @@ In case we want to move the system and we do not have knowledge about it, we can
 
 \section{Limits of the system}
 
-In the following section it will be explained the different things we need to consider about our measure system. All these items should carefully consider if we want to do a new modification in the system.
+In the following section it will be explained the different things we need to consider about our measure system. All these items should carefully consider if we want to do a new modification in the system:
 
 \begin{enumerate}
 
@@ -454,3 +454,5 @@ In the following section it will be explained the different things we need to co
 
 \end{enumerate}
 
+\newpage
+\newpage
