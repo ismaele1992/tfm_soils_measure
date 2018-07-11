@@ -4,94 +4,94 @@
 \contentsline {section}{\numberline {1.2}Objectives}{2}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Secondary objectives}{2}{subsection.1.2.1}
 \contentsline {section}{\numberline {1.3}Organization of the memory}{3}{section.1.3}
-\contentsline {chapter}{\numberline {2}State of the art}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Big Data studies}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Information Systems based on microcontrollers}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}First studies of compaction methods}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Proctor compaction test}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Variables that affect the compaction of floors}{7}{section.2.5}
-\contentsline {section}{\numberline {2.6}Applications of the compaction processes}{7}{section.2.6}
-\contentsline {section}{\numberline {2.7}Objectives of the compaction}{7}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}...}{8}{subsection.2.7.1}
-\contentsline {chapter}{\numberline {3}Requirements}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}User requirements}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Measure requirements}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Access requirements}{12}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Functionality requirements}{12}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Technical requirements}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Hardware requirements}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}System requirements}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Software requirements}{14}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Planning used in this project}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Software development methodology used in this project}{15}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Design}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Architecture of the system}{20}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Data center processor}{22}{subsection.4.1.1}
-\contentsline {subsubsection}{Data center storage}{23}{section*.9}
-\contentsline {subsubsection}{Data center manager}{23}{section*.10}
-\contentsline {subsubsection}{Data center controller}{24}{section*.11}
-\contentsline {subsection}{\numberline {4.1.2}Sensor controller}{24}{subsection.4.1.2}
-\contentsline {subsubsection}{Data structures}{25}{section*.12}
-\contentsline {subsubsection}{Upgrades on sensors}{25}{section*.13}
-\contentsline {section}{\numberline {4.2}Information flow}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Sensor information flow}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Storage information flow}{27}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Query information flow}{28}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Materials and methods of study}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Materials}{30}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Arduino Mega}{30}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Raspberry Pi 3}{32}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Router}{34}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Laptop}{35}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Technology}{36}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}NoSQL database}{36}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}NodeJS}{36}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Python 2.7.13}{37}{subsection.5.2.3}
-\contentsline {subsubsection}{API MongoDB}{38}{section*.14}
-\contentsline {subsubsection}{API Sensor's readings}{39}{section*.15}
-\contentsline {subsection}{\numberline {5.2.4}Scripting}{39}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Methods}{40}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Querying methods used by NoSQL databases}{40}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Methods used to retrieve information from the NoSQL database}{41}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Methods used to obtain graphs with the information of the materials}{42}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Methods based on compaction}{43}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Methods used to calibrate sensors}{43}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Resources}{44}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Hardware}{44}{subsection.5.4.1}
-\contentsline {subsubsection}{Microcontrollers}{45}{section*.16}
-\contentsline {subsubsection}{Sensors}{45}{section*.17}
-\contentsline {subsubsection}{Network devices}{47}{section*.18}
-\contentsline {subsection}{\numberline {5.4.2}Software}{48}{subsection.5.4.2}
-\contentsline {subsubsection}{3T Studio}{48}{section*.19}
-\contentsline {subsubsection}{Microsoft Excel}{50}{section*.20}
-\contentsline {subsubsection}{PyCharm}{51}{section*.21}
-\contentsline {subsubsection}{Arduino IDE}{52}{section*.22}
-\contentsline {subsubsection}{Notepad++}{53}{section*.23}
-\contentsline {subsubsection}{Filezilla}{54}{section*.24}
-\contentsline {subsubsection}{Putty}{55}{section*.25}
-\contentsline {chapter}{\numberline {6}Results}{56}{chapter.6}
-\contentsline {section}{\numberline {6.1}Studied cases}{57}{section.6.1}
-\contentsline {section}{\numberline {6.2}Analysis of the obtained results}{59}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusions and future lines}{63}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusions}{64}{section.7.1}
-\contentsline {section}{\numberline {7.2}Future lines}{65}{section.7.2}
-\contentsline {chapter}{\numberline {A}Appendix}{68}{chapter.1}
-\contentsline {section}{\numberline {A.1}User manual}{69}{section.1.1}
-\contentsline {subsection}{\numberline {A.1.1}How to reboot the full system}{69}{subsection.1.1.1}
-\contentsline {subsubsection}{Restart network system}{70}{section*.26}
-\contentsline {subsubsection}{Restart the database}{71}{section*.27}
-\contentsline {subsubsection}{Restart the sensor system and the Raspberry PI}{71}{section*.28}
-\contentsline {subsection}{\numberline {A.1.2}How to manage MongoDB}{72}{subsection.1.1.2}
-\contentsline {subsubsection}{See the current version of MongoDB}{72}{section*.29}
-\contentsline {subsubsection}{Check mongod service}{72}{section*.30}
-\contentsline {subsubsection}{Start MongoDB service}{74}{section*.31}
-\contentsline {subsubsection}{Stop MongoDB service}{75}{section*.32}
-\contentsline {subsubsection}{How to manage MongoDB with no services installed in the system}{75}{section*.33}
-\contentsline {subsubsection}{Check MongoDB network connection}{77}{section*.34}
-\contentsline {section}{\numberline {A.2}Solution to frequent problems}{78}{section.1.2}
-\contentsline {subsection}{\numberline {A.2.1}Remote access to Raspberry Pi}{78}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Moving the measure system}{81}{subsection.1.2.2}
-\contentsline {subsubsection}{How to see Raspberry Pi\IeC {\textquoteright }s network address}{82}{section*.35}
-\contentsline {subsubsection}{How to proceed when the database is corrupt}{84}{section*.36}
-\contentsline {section}{\numberline {A.3}Limits of the system}{85}{section.1.3}
-\contentsline {chapter}{References and bibliography}{87}{section*.37}
+\contentsline {chapter}{\numberline {2}State of the art}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Big Data studies}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Information Systems based on microcontrollers}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}First studies of compaction methods}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}Proctor compaction test}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Variables that affect the compaction of floors}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Applications of the compaction processes}{8}{section.2.6}
+\contentsline {section}{\numberline {2.7}Objectives of the compaction}{8}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}...}{9}{subsection.2.7.1}
+\contentsline {chapter}{\numberline {3}Requirements}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}User requirements}{12}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Measure requirements}{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Access requirements}{14}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Functionality requirements}{14}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Technical requirements}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Hardware requirements}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}System requirements}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Software requirements}{16}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Planning used in this project}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Software development methodology used in this project}{17}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Design}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Architecture of the system}{22}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Data center processor}{24}{subsection.4.1.1}
+\contentsline {subsubsection}{Data center storage}{25}{section*.9}
+\contentsline {subsubsection}{Data center manager}{25}{section*.10}
+\contentsline {subsubsection}{Data center controller}{26}{section*.11}
+\contentsline {subsection}{\numberline {4.1.2}Sensor controller}{26}{subsection.4.1.2}
+\contentsline {subsubsection}{Data structures}{27}{section*.12}
+\contentsline {subsubsection}{Upgrades on sensors}{27}{section*.13}
+\contentsline {section}{\numberline {4.2}Information flow}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Sensor information flow}{29}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Storage information flow}{29}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Query information flow}{30}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Materials and methods of study}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Materials}{32}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Arduino Mega}{32}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Raspberry Pi 3}{34}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Router}{36}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Laptop}{37}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Technology}{38}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}NoSQL database}{38}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}NodeJS}{38}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Python 2.7.13}{39}{subsection.5.2.3}
+\contentsline {subsubsection}{API MongoDB}{40}{section*.14}
+\contentsline {subsubsection}{API Sensor's readings}{41}{section*.15}
+\contentsline {subsection}{\numberline {5.2.4}Scripting}{41}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Methods}{42}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Querying methods used by NoSQL databases}{42}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Methods used to retrieve information from the NoSQL database}{43}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Methods used to obtain graphs with the information of the materials}{44}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Methods based on compaction}{45}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Methods used to calibrate sensors}{45}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Resources}{46}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Hardware}{46}{subsection.5.4.1}
+\contentsline {subsubsection}{Microcontrollers}{47}{section*.16}
+\contentsline {subsubsection}{Sensors}{47}{section*.17}
+\contentsline {subsubsection}{Network devices}{49}{section*.18}
+\contentsline {subsection}{\numberline {5.4.2}Software}{50}{subsection.5.4.2}
+\contentsline {subsubsection}{3T Studio}{50}{section*.19}
+\contentsline {subsubsection}{Microsoft Excel}{52}{section*.20}
+\contentsline {subsubsection}{PyCharm}{53}{section*.21}
+\contentsline {subsubsection}{Arduino IDE}{54}{section*.22}
+\contentsline {subsubsection}{Notepad++}{55}{section*.23}
+\contentsline {subsubsection}{Filezilla}{56}{section*.24}
+\contentsline {subsubsection}{Putty}{57}{section*.25}
+\contentsline {chapter}{\numberline {6}Results}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Studied cases}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}Analysis of the obtained results}{62}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusions and future lines}{67}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusions}{68}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future lines}{69}{section.7.2}
+\contentsline {chapter}{\numberline {A}Appendix}{73}{chapter.1}
+\contentsline {section}{\numberline {A.1}User manual}{74}{section.1.1}
+\contentsline {subsection}{\numberline {A.1.1}How to reboot the full system}{74}{subsection.1.1.1}
+\contentsline {subsubsection}{Restart network system}{75}{section*.26}
+\contentsline {subsubsection}{Restart the database}{76}{section*.27}
+\contentsline {subsubsection}{Restart the sensor system and the Raspberry PI}{76}{section*.28}
+\contentsline {subsection}{\numberline {A.1.2}How to manage MongoDB}{77}{subsection.1.1.2}
+\contentsline {subsubsection}{See the current version of MongoDB}{77}{section*.29}
+\contentsline {subsubsection}{Check mongod service}{77}{section*.30}
+\contentsline {subsubsection}{Start MongoDB service}{79}{section*.31}
+\contentsline {subsubsection}{Stop MongoDB service}{80}{section*.32}
+\contentsline {subsubsection}{How to manage MongoDB with no services installed in the system}{80}{section*.33}
+\contentsline {subsubsection}{Check MongoDB network connection}{82}{section*.34}
+\contentsline {section}{\numberline {A.2}Solution to frequent problems}{83}{section.1.2}
+\contentsline {subsection}{\numberline {A.2.1}Remote access to Raspberry Pi}{83}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Moving the measure system}{86}{subsection.1.2.2}
+\contentsline {subsubsection}{How to see Raspberry Pi\IeC {\textquoteright }s network address}{87}{section*.35}
+\contentsline {subsubsection}{How to proceed when the database is corrupt}{89}{section*.36}
+\contentsline {section}{\numberline {A.3}Limits of the system}{90}{section.1.3}
+\contentsline {chapter}{References and bibliography}{92}{section*.37}
