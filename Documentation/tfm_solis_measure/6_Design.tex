@@ -32,9 +32,9 @@ All the components are interconnected, using simple communication protocols. The
 
 \begin{enumerate}
 
-\item Serial communication. It is reliable and it is possible to avoid wireless data transfers problems between the Arduino and the Raspberry Pi. Using a serial communication will allow us to get the information without losing measures. The communication is continuous and the delay between the different transfers is from five to ten seconds, avoiding problems in the communication, like flooding or missing information.
+\item Serial communication. It is reliable and it is possible to avoid wireless data transfers problems between the Arduino and the Raspberry Pi \cite{what_is_raspberry_pi, raspberry_pi}. Using a serial communication will allow us to get the information without losing measures. The communication is continuous and the delay between the different transfers is from five to ten seconds, avoiding problems in the communication, like flooding or missing information.
 
-\item Ethernet communication. This communication allows us to connect the Raspberry Pi to an access point. This access point is reliable and will allow us to query the information stored in the system. We chose Ethernet to connect the Raspberry Pi to the router to avoid wireless communication problems in Raspbian (Operative System used by the Raspberry Pi).
+\item Ethernet communication. This communication allows us to connect the Raspberry Pi to an access point. This access point is reliable and will allow us to query the information stored in the system. We chose Ethernet to connect the Raspberry Pi to the router to avoid wireless communication problems in Raspbian \cite{raspbian} (Operative System used by the Raspberry Pi).
 
 \item Wireless communication. We chose wireless communication to connect different devices to the system to query the information of the system. Those devices have to have WiFi interfaces.
 
@@ -70,7 +70,7 @@ It is important to consider that the information has to be controlled to not fil
 
 This part of the system is going to be important in our design. The \textit{Data Center Manager} is going to manage all the information stored in the system. Also, it will manage the serial communication needed to transfer the measures got from the different sensors we have connected to the system.\\
 
-This device has to allow connection in case it is needed to do tasks related to maintain. Its maintain has to be simple and easy because it will have several processes in the background running. All these processes are going to be related to the communication to the sensors, backend of the database and queries to the MongoDB database installed in the system.\\
+This device has to allow connection in case it is needed to do tasks related to maintain. Its maintain has to be simple and easy because it will have several processes in the background running. All these processes are going to be related to the communication to the sensors, backend \cite{backend} of the database and queries to the MongoDB database installed in the system.\\
 
 As it was explained before, it was decided to use a Raspberry Pi 3 to control the main system. This device is going to give us the power needed to control the system, and also, it is going to be a cheap solution to deploy the explained system.
 
@@ -120,7 +120,7 @@ The way the communication is done in the system is the following:
 \item The Raspberry Pi has to listen continuously to the information which is coming from a serial port.
 \item The Raspberry Pi has to receive the information received from the serial port, and after that, it has to parse the received information with its format.
 \item When the Raspberry Pi 3 has processed the information, it has to store it with its correct format and its correct timestamp.
-\item MongoDB's daemon has to manage the query launched by the backend of the Raspberry Pi 3 and it has to store it in the database.
+\item MongoDB's \cite{mongodb, pymongo} daemon has to manage the query launched by the backend of the Raspberry Pi 3 and it has to store it in the database.
 \item MongoDB's daemon will wait for incoming connections where the user or the programmer will launch queries to the database. These queries could store information in the database or display the information stored in the database.
 \end{enumerate}
 

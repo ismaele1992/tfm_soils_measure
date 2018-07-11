@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {5.3.5}Methods used to calibrate sensors}{43}{subsection.5.3.5}
 \contentsline {section}{\numberline {5.4}Resources}{44}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Hardware}{44}{subsection.5.4.1}
-\contentsline {subsubsection}{Microcontrollers}{44}{section*.16}
+\contentsline {subsubsection}{Microcontrollers}{45}{section*.16}
 \contentsline {subsubsection}{Sensors}{45}{section*.17}
 \contentsline {subsubsection}{Network devices}{47}{section*.18}
 \contentsline {subsection}{\numberline {5.4.2}Software}{48}{subsection.5.4.2}

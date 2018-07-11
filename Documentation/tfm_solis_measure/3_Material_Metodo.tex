@@ -143,7 +143,7 @@ In this part of the document, the technology used in this project is explained. 
 
 In this project, it was decided to use NoSQL technology because of its flexibility. With \textit{NoSQL} databases, we can store all kind of information in a system. When it is necessary to store no structural information, \textit{NoSQL} databases work have a good performance. It is not required to indicate to the system which kind of information is desired to store. NoSQL systems do not mind the structure of the information, they just store it.\\
 
-Other important feature of the \textit{NoSQL} databases is the possibility to store information in real time. In this project, one the goals was to store during long time information. This system has an amount of humidity sensors, and those sensors measure information about the materials during long periods of time.\\
+Other important feature of the \textit{NoSQL} databases is the possibility to store information in real time. In this project, one the goals was to store during long time information. This system has an amount of humidity sensors \cite{humidity_system}, and those sensors measure information about the materials during long periods of time.\\
 
 Developers can build fast and easy queries. In \textit{NoSQL} systems the information is stored in documents, instead of using tables or table spaces.\\
 
@@ -151,7 +151,7 @@ The administrator of a \textit{NoSQL} database can build operations to optimize 
 
 \subsection{NodeJS}
 
-Using NodeJS in this project it is a good way to manage information from the database system. NodeJS is used in this project as \textit{backend} for a web service.\\
+NodeJS \cite{node_js, node_js_introduction} offers a solution to manage information from web services. It supports all operations allowed by web services, such as \textit{REST} processes. NodeJS is used in this project as \textit{backend} for a web service.\\
 
 NodeJS works as a process waiting for incoming requests. When NodeJS receives a petition, it processes it and looks for the information in the database. NodeJS works on an asynchronous mode, increasing the performance of a backend. On the other hand, debugging the execution flow of a backed in a hard task to do. If we want to control operations that should work on a synchronous way \textit{callbacks} are required. Callbacks turn the execution flow of NodeJS to a synchronous mode.\\
 
@@ -163,7 +163,7 @@ Performance is one of the goals of this project. The microcontrollers used in th
 
 \textit{Python} is one of the most important components in this project. It is used to control the information which comes from the network of the sensors. Part of the \textit{backend} is developed using \textit{Python}. This part of the backend is a simple program which receives information coming from the \textit{Arduino}. The \textit{Arduino Mega} is directly connected to the \textit{Raspberry PI 3} using an \textit{USB} cable creating a serial communication. It was decided to use this protocol because it is a reliable media used by microcontrollers based on embedded systems.\\
 
-The \textit{Raspberry PI 3} has a process developed in \textit{Python} which is listening to the information coming from the \textit{Serial Port}. \textit{Python} has some libraries to control \textit{Serial} connections. The \textit{Python} program controls the opening, reading and closing operations on the \textit{Serial Port} with a customized \textit{API} we have developed. The \textit{Python} program uses some libraries to store the information transmitted by the \textit{Arduino Mega}. When the \textit{Python} program detects new information in the \textit{Serial Port} it checks the information received and if this information is valid, it stores it in a \textit{NoSQL} database. If the information received is not valid, the program discards the information received. The information sent by the \textit{Arduino Mega} has an special structure. The Python program knows the structure of the messages and it analyzes the messages trying to parse the information received.\\
+The \textit{Raspberry PI 3} has a process developed in \textit{Python} which is listening to the information coming from the \textit{Serial Port}. \textit{Python} has some libraries to control \textit{Serial} connections. The \textit{Python} program controls the opening, reading and closing operations on the \textit{Serial Port} with a customized \textbf{API} \cite{API} (\textit{Application Programming Interface}) we have developed. The \textit{Python} program uses some libraries to store the information transmitted by the \textit{Arduino Mega}. When the \textit{Python} program detects new information in the \textit{Serial Port} it checks the information received and if this information is valid, it stores it in a \textit{NoSQL} database. If the information received is not valid, the program discards the information received. The information sent by the \textit{Arduino Mega} has an special structure. The Python program knows the structure of the messages and it analyzes the messages trying to parse the information received.\\
 
 The information sent by the \textit{Arduino Mega} has the structure \textit{\textbf{sensor-id \# temperature \# humidity \# date}}. As it is possible to see, the information is delimited by the character \textbf{\textit{\#}}.\\
 
@@ -315,7 +315,7 @@ The \textit{Raspberry PI 3} has another backend that is used to manage the petit
 
 These are one of the most important parts of this project. The sensors are able to get all the information related to the materials which are monitored. The sensors have some electronic features that allow them to monitor soils.\\
 
-In this project, the sensors used for the study are simple and have a low cost. The price of these sensors is around 0.80\euro . and 1\euro . It is possible obtain them via internet. The model used to get the information of the system is \textit{FC-28}. This model is formed by 2 parts. One of those parts is the device that has the electronics to measure the values of the floor, and the other part, is an electrical component which converts the information retrieved by the sensor in numbers.\\
+In this project, the sensors used for the study are simple and have a low cost. The price of these sensors is around 0.80\euro . and 1\euro . It is possible obtain them via internet. The model used to get the information of the system is \textit{FC-28} \cite{FC_28}. This model is formed by 2 parts. One of those parts is the device that has the electronics to measure the values of the floor, and the other part, is an electrical component which converts the information retrieved by the sensor in numbers.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -410,7 +410,7 @@ The graphs provided by \textit{Microsoft Excel} allow us to determine if the stu
 
 \subsubsection{PyCharm}
 
-PyCharm is a development framework which allows the developer to write \textit{Python} scripts. It was decided to use PyCharm because of its special features to develop \textit{Python} applications. Also, it manages the required packages imported by the generated scripts.
+PyCharm is a development framework which allows the developer to write \textit{Python} scripts. It was decided to use PyCharm because of its special features to develop \textit{Python} applications. Also, it manages the required packages \cite{install_python_modules, pyserial_package, pip} imported by the generated scripts.
 
 \textit{PyCharm} is available over the Internet and it is a free framework to use. It is a stark software and it fits to the needs of the developer. The most important features of this framework are listed as it follows:
 

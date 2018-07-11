@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: memoria_main.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: portada.aux
 A level-1 auxiliary file: cita.aux
+A level-1 auxiliary file: 8_Agradecimientos.aux
 A level-1 auxiliary file: 0_Resumen.aux
 A level-1 auxiliary file: 1_Introduccion.aux
 A level-1 auxiliary file: 2_Estado_Arte.aux
@@ -11,41 +12,81 @@ A level-1 auxiliary file: 3_Material_Metodo.aux
 A level-1 auxiliary file: 4_Resultados_Discusion.aux
 A level-1 auxiliary file: 7_Conclusiones.aux
 A level-1 auxiliary file: 9_Appendix.aux
-A level-1 auxiliary file: 8_Agradecimientos.aux
 Illegal, another \bibstyle command---line 88 of file memoria_main.aux
  : \bibstyle
  :          {plain}
 I'm skipping whatever remains of this command
 Database file #1: biblio_tfm.bib
-Warning--I didn't find a database entry for "bmw_autonomous_driving"
-Warning--I didn't find a database entry for "what_is_an_API"
-Warning--empty author and editor in noauthor_arduino_nodate-1
-Warning--empty publisher in noauthor_arduino_nodate-1
-Warning--empty year in noauthor_arduino_nodate-1
+Warning--empty author and editor in arduino_mega
+Warning--empty publisher in arduino_mega
+Warning--empty year in arduino_mega
 Warning--empty publisher in jjtorres_hardware_2014
-Warning--empty publisher in ltd_leadership_nodate
-Warning--empty year in ltd_leadership_nodate
-Warning--empty publisher in ltd_-profile_nodate
-Warning--empty year in ltd_-profile_nodate
-Warning--empty author and editor in noauthor_que_2012
-Warning--empty publisher in noauthor_que_2012
-Warning--empty publisher in powerdata_big_nodate
-Warning--empty year in powerdata_big_nodate
-Warning--empty author and editor in noauthor_how_2015
-Warning--empty publisher in noauthor_how_2015
-Warning--empty author and editor in noauthor_concepto_nodate
-Warning--empty publisher in noauthor_concepto_nodate
-Warning--empty year in noauthor_concepto_nodate
-Warning--empty author and editor in noauthor_nosql_2015
-Warning--empty publisher in noauthor_nosql_2015
-Warning--empty author and editor in noauthor_nosql_nodate
-Warning--empty publisher in noauthor_nosql_nodate
-Warning--empty year in noauthor_nosql_nodate
-Warning--empty author and editor in noauthor_chapter_nodate
-Warning--empty publisher in noauthor_chapter_nodate
-Warning--empty year in noauthor_chapter_nodate
-Warning--empty author and editor in noauthor_information_2017
-Warning--empty publisher in noauthor_information_2017
+Warning--empty publisher in arm
+Warning--empty year in arm
+Warning--empty publisher in arm_architecture
+Warning--empty year in arm_architecture
+Warning--empty author and editor in que_es_big_data
+Warning--empty publisher in que_es_big_data
+Warning--empty publisher in importancia_big_data
+Warning--empty year in importancia_big_data
+Warning--empty author and editor in big_data_applications
+Warning--empty publisher in big_data_applications
+Warning--empty author and editor in que_es_no_sql
+Warning--empty publisher in que_es_no_sql
+Warning--empty year in que_es_no_sql
+Warning--empty author and editor in sql_vs_nosql
+Warning--empty publisher in sql_vs_nosql
+Warning--empty author and editor in nosql_databases
+Warning--empty publisher in nosql_databases
+Warning--empty year in nosql_databases
+Warning--empty author and editor in information_system
+Warning--empty publisher in information_system
+Warning--empty year in information_system
+Warning--empty author and editor in information_system_architecture
+Warning--empty publisher in information_system_architecture
+Warning--empty publisher in microcontrollers
+Warning--empty year in microcontrollers
+Warning--empty author and editor in bmw_driving
+Warning--empty publisher in bmw_driving
+Warning--empty year in bmw_driving
+Warning--empty author and editor in what_is_raspberry_pi
+Warning--empty publisher in what_is_raspberry_pi
+Warning--empty author and editor in raspberry_pi
+Warning--empty publisher in raspberry_pi
+Warning--empty year in raspberry_pi
+Warning--empty publisher in raspbian
+Warning--empty year in raspbian
+Warning--empty author and editor in backend
+Warning--empty publisher in backend
+Warning--empty year in backend
+Warning--empty author and editor in mongodb
+Warning--empty publisher in mongodb
+Warning--empty year in mongodb
+Warning--empty author and editor in pymongo
+Warning--empty publisher in pymongo
+Warning--empty year in pymongo
+Warning--empty author and editor in humidity_system
+Warning--empty publisher in humidity_system
+Warning--empty year in humidity_system
+Warning--empty author and editor in node_js
+Warning--empty publisher in node_js
+Warning--empty author and editor in node_js_introduction
+Warning--empty publisher in node_js_introduction
+Warning--empty year in node_js_introduction
+Warning--empty author and editor in API
+Warning--empty publisher in API
+Warning--empty year in API
+Warning--empty author and editor in FC_28
+Warning--empty publisher in FC_28
+Warning--empty year in FC_28
+Warning--empty author and editor in install_python_modules
+Warning--empty publisher in install_python_modules
+Warning--empty year in install_python_modules
+Warning--empty author and editor in pyserial_package
+Warning--empty publisher in pyserial_package
+Warning--empty year in pyserial_package
+Warning--empty publisher in pip
+Warning--empty year in pip
 Warning--empty author and editor in noauthor_metodos_2014
 Warning--empty publisher in noauthor_metodos_2014
 Warning--empty publisher in tuy_compactacion_nodate
@@ -61,76 +102,33 @@ Warning--empty publisher in noauthor_arduino_nodate-2
 Warning--empty year in noauthor_arduino_nodate-2
 Warning--empty publisher in ltd_linux_nodate
 Warning--empty year in ltd_linux_nodate
-Warning--empty author and editor in noauthor_arduino_nodate-3
-Warning--empty publisher in noauthor_arduino_nodate-3
-Warning--empty year in noauthor_arduino_nodate-3
-Warning--empty author and editor in noauthor_reinventando_nodate
-Warning--empty publisher in noauthor_reinventando_nodate
-Warning--empty year in noauthor_reinventando_nodate
-Warning--empty author and editor in noauthor_mongodb_nodate
-Warning--empty publisher in noauthor_mongodb_nodate
-Warning--empty year in noauthor_mongodb_nodate
-Warning--empty author and editor in noauthor_query_nodate
-Warning--empty publisher in noauthor_query_nodate
-Warning--empty year in noauthor_query_nodate
-Warning--empty author and editor in noauthor_tutorial_nodate
-Warning--empty publisher in noauthor_tutorial_nodate
-Warning--empty year in noauthor_tutorial_nodate
-Warning--empty author and editor in noauthor_pyserial_nodate
-Warning--empty publisher in noauthor_pyserial_nodate
-Warning--empty year in noauthor_pyserial_nodate
-Warning--empty author and editor in noauthor_installing_nodate
-Warning--empty publisher in noauthor_installing_nodate
-Warning--empty year in noauthor_installing_nodate
-Warning--empty publisher in developers_pip:_nodate
-Warning--empty year in developers_pip:_nodate
-Warning--empty author and editor in noauthor_products_nodate
-Warning--empty publisher in noauthor_products_nodate
-Warning--empty year in noauthor_products_nodate
-Warning--empty author and editor in noauthor_raspberry_2017
-Warning--empty publisher in noauthor_raspberry_2017
+Warning--empty author and editor in arduino_IDE
+Warning--empty publisher in arduino_IDE
+Warning--empty year in arduino_IDE
+Warning--empty author and editor in gestion_mongodb
+Warning--empty publisher in gestion_mongodb
+Warning--empty year in gestion_mongodb
+Warning--empty author and editor in mongodb_manual
+Warning--empty publisher in mongodb_manual
+Warning--empty year in mongodb_manual
 Warning--empty author and editor in noauthor_raspberry_nodate
 Warning--empty publisher in noauthor_raspberry_nodate
 Warning--empty year in noauthor_raspberry_nodate
-Warning--empty author and editor in noauthor_microcontrollers_nodate
-Warning--empty publisher in noauthor_microcontrollers_nodate
-Warning--empty year in noauthor_microcontrollers_nodate
-Warning--empty publisher in verle_1.1_nodate
-Warning--empty year in verle_1.1_nodate
+Warning--empty author and editor in what_is_micrcontroller
+Warning--empty publisher in what_is_micrcontroller
+Warning--empty year in what_is_micrcontroller
 Warning--empty author and editor in noauthor_frontpage_nodate
 Warning--empty publisher in noauthor_frontpage_nodate
 Warning--empty year in noauthor_frontpage_nodate
-Warning--empty publisher in online_raspbian:_nodate
-Warning--empty year in online_raspbian:_nodate
-Warning--empty author and editor in noauthor_node.js_nodate
-Warning--empty publisher in noauthor_node.js_nodate
-Warning--empty year in noauthor_node.js_nodate
 Warning--empty author and editor in noauthor_build_nodate
 Warning--empty publisher in noauthor_build_nodate
 Warning--empty year in noauthor_build_nodate
-Warning--empty author and editor in noauthor_node.js_2017
-Warning--empty publisher in noauthor_node.js_2017
-Warning--empty author and editor in noauthor_que_nodate
-Warning--empty publisher in noauthor_que_nodate
-Warning--empty year in noauthor_que_nodate
-Warning--empty author and editor in noauthor_todo_nodate
-Warning--empty publisher in noauthor_todo_nodate
-Warning--empty year in noauthor_todo_nodate
-Warning--empty author and editor in noauthor_medir_nodate
-Warning--empty publisher in noauthor_medir_nodate
-Warning--empty year in noauthor_medir_nodate
-Warning--empty author and editor in noauthor_arduino_nodate-4
-Warning--empty publisher in noauthor_arduino_nodate-4
-Warning--empty year in noauthor_arduino_nodate-4
+Warning--empty author and editor in backend_frontend
+Warning--empty publisher in backend_frontend
+Warning--empty year in backend_frontend
 Warning--empty author and editor in noauthor_effects_nodate
 Warning--empty publisher in noauthor_effects_nodate
 Warning--empty year in noauthor_effects_nodate
-Warning--empty author and editor in noauthor_what_nodate
-Warning--empty publisher in noauthor_what_nodate
-Warning--empty year in noauthor_what_nodate
 Warning--empty author and editor in noauthor_17_2014
 Warning--empty publisher in noauthor_17_2014
-Warning--empty author and editor in noauthor_autonomous_nodate
-Warning--empty publisher in noauthor_autonomous_nodate
-Warning--empty year in noauthor_autonomous_nodate
 (There was 1 error message)

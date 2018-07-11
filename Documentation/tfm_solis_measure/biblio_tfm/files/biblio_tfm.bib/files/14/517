@@ -1,7 +1,0 @@
-
-            var trackingScript = document.createElement('script');
-            trackingScript.type = 'text/javascript';
-            trackingScript.src = 'https://v1.api.tooso.ai/ytyerxjutclxquiyiubc/User/productView?language=en_US&storeCode=default&sku=7640152110085&sessionId=sb88g104sg7iu7rrgc4ktjchq2&userId=sb88g104sg7iu7rrgc4ktjchq2&isMobile=0';
-            trackingScript.id = 'tooso-tracking-pixel';
-            document.getElementsByTagName('body')[0].appendChild(trackingScript);
-        

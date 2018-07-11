@@ -1,1 +1,0 @@
-$(document).ready(function(){var tsid=15021;Georiot.amazon.convertToGeoRiotLinks(tsid,false);});

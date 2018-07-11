@@ -1,6 +1,6 @@
 \begin{thebibliography}{10}
 
-\bibitem{noauthor_arduino_nodate-1}
+\bibitem{arduino_mega}
 {\em Arduino {Mega} 2560 {Rev}3}.
 
 \bibitem{jjtorres_hardware_2014}
@@ -8,44 +8,52 @@
   funciona?}
 \newblock Mar. 2014.
 
-\bibitem{ltd_leadership_nodate}
+\bibitem{arm}
 A.~Ltd, {\em Leadership – {Arm}}.
 
-\bibitem{ltd_-profile_nodate}
+\bibitem{arm_architecture}
 A.~Ltd, {\em A-{Profile} {Architectures}}.
 
-\bibitem{noauthor_que_2012}
+\bibitem{que_es_big_data}
 {\em ¿{Qué} es {Big} {Data}?}
 \newblock June 2012.
 
-\bibitem{powerdata_big_nodate}
+\bibitem{importancia_big_data}
 G.~PowerData, {\em Big {Data}: ¿{En} qué consiste? {Su} importancia,
   desafíos y gobernabilidad}.
 
-\bibitem{noauthor_how_2015}
+\bibitem{big_data_applications}
 {\em How {Applications} of {Big} {Data} {Drive} {Industries}}.
 \newblock Oct. 2015.
 
-\bibitem{noauthor_concepto_nodate}
+\bibitem{que_es_no_sql}
 {\em El concepto {NoSQL}, o cómo almacenar tus datos en una base de datos no
   relacional}.
 
-\bibitem{noauthor_nosql_2015}
+\bibitem{sql_vs_nosql}
 {\em {NoSQL} vs {SQL}: {Principales} diferencias y cuándo elegir cada una de
   ellas}.
 \newblock Nov. 2015.
 
-\bibitem{noauthor_nosql_nodate}
+\bibitem{nosql_databases}
 {\em {NoSQL} {Databases} {Explained}}.
 
-\bibitem{noauthor_chapter_nodate}
+\bibitem{information_system}
 {\em Chapter 1: {What} {Is} an {Information} {System}?
   {\textbackslash}textbackslashtextbar {Information} {Systems} for {Business}
   and {Beyond}}.
 
-\bibitem{noauthor_information_2017}
+\bibitem{information_system_architecture}
 {\em Information system}.
 \newblock Sept. 2017.
+
+\bibitem{microcontrollers}
+M.~Verle, {\em 1.1 {What} are microcontrollers and what are they used for?
+  {\textbackslash}textbackslashtextbar {Architecture} and programming of 8051
+  {MCUs}}.
+
+\bibitem{bmw_driving}
+{\em Autonomous {Driving} – five steps to the self-driving car}.
 
 \bibitem{smart_room_controller}
 ``Smart {Room} {Temperature} {Controller} {Atmega} {\textbar}
@@ -60,6 +68,54 @@ N.~Benn, F.~Turlais, V.~Clark, M.~Jones, and S.~Clulow, ``An {Automated}
   {Metrics} {System} to {Measure} and {Improve} the {Success} of {Laboratory}
   {Automation} {Implementation},'' {\em JALA: Journal of the Association for
   Laboratory Automation}, vol.~11, pp.~16--22, Feb. 2006.
+
+\bibitem{what_is_raspberry_pi}
+{\em Raspberry {Pi}}.
+\newblock Sept. 2017.
+
+\bibitem{raspberry_pi}
+{\em Products}.
+
+\bibitem{raspbian}
+h.~online, {\em Raspbian: {Version} {Stretch} auf {Basis} von {Debian} 9
+  veröffentlicht}.
+
+\bibitem{backend}
+{\em Todo lo que necesitás saber sobre backend
+  {\textbackslash}textbackslashtextbar {All} you need to know regarding
+  {Backend}}.
+
+\bibitem{mongodb}
+{\em The {MongoDB} 3.4 {Manual} — {MongoDB} {Manual} 3.4}.
+
+\bibitem{pymongo}
+{\em Tutorial — {PyMongo} 3.5.1 documentation}.
+
+\bibitem{humidity_system}
+{\em Medir la humedad del suelo con {Arduino} e higrómetro {FC}-28}.
+
+\bibitem{node_js}
+{\em Node.js}.
+\newblock Aug. 2017.
+
+\bibitem{node_js_introduction}
+{\em Node.js {Introduction}}.
+
+\bibitem{API}
+{\em What is an {API}? {In} {English}, please. – {freeCodeCamp}}.
+
+\bibitem{FC_28}
+{\em Arduino {Soil} {Moisture} {Sensor}}.
+
+\bibitem{install_python_modules}
+{\em Installing {Python} {Modules} — {Python} 3.6.2 documentation}.
+
+\bibitem{pyserial_package}
+{\em pyserial 2.7 : {Python} {Package} {Index}}.
+
+\bibitem{pip}
+T.~p. developers, {\em pip: {The} {PyPA} recommended tool for installing
+  {Python} packages.}
 
 \bibitem{noauthor_metodos_2014}
 {\em Métodos para compactación de suelos}.
@@ -81,101 +137,45 @@ O.~T.~d. Tuy, {\em {COMPACTACION} {DE} {SUELOS}}.
 \bibitem{ltd_linux_nodate}
 A.~Ltd, {\em Linux and {Android} {Application} {Development} – {Arm}}.
 
-\bibitem{noauthor_arduino_nodate-3}
+\bibitem{arduino_IDE}
 {\em Arduino - {Software}}.
 
-\bibitem{noauthor_reinventando_nodate}
+\bibitem{gestion_mongodb}
 {\em Reinventando la gestión de datos}.
 
-\bibitem{noauthor_mongodb_nodate}
-{\em The {MongoDB} 3.4 {Manual} — {MongoDB} {Manual} 3.4}.
-
-\bibitem{noauthor_query_nodate}
+\bibitem{mongodb_manual}
 {\em Query {Documents} — {MongoDB} {Manual} 3.4}.
-
-\bibitem{noauthor_tutorial_nodate}
-{\em Tutorial — {PyMongo} 3.5.1 documentation}.
-
-\bibitem{noauthor_pyserial_nodate}
-{\em pyserial 2.7 : {Python} {Package} {Index}}.
-
-\bibitem{noauthor_installing_nodate}
-{\em Installing {Python} {Modules} — {Python} 3.6.2 documentation}.
-
-\bibitem{developers_pip:_nodate}
-T.~p. developers, {\em pip: {The} {PyPA} recommended tool for installing
-  {Python} packages.}
-
-\bibitem{noauthor_products_nodate}
-{\em Products}.
-
-\bibitem{noauthor_raspberry_2017}
-{\em Raspberry {Pi}}.
-\newblock Sept. 2017.
 
 \bibitem{noauthor_raspberry_nodate}
 {\em Raspberry {Pi} : {Adafruit} {Industries}, {Unique} \& fun {DIY}
   electronics and kits}.
 
-\bibitem{noauthor_microcontrollers_nodate}
+\bibitem{what_is_micrcontroller}
 {\em Microcontrollers, what is a microcontroller? 8 bit, 16 bit \& 32 bit
   microcontrollers - {Future} {Electronics}}.
-
-\bibitem{verle_1.1_nodate}
-M.~Verle, {\em 1.1 {What} are microcontrollers and what are they used for?
-  {\textbackslash}textbackslashtextbar {Architecture} and programming of 8051
-  {MCUs}}.
 
 \bibitem{noauthor_frontpage_nodate}
 {\em {FrontPage} - {Raspbian}}.
 
-\bibitem{online_raspbian:_nodate}
-h.~online, {\em Raspbian: {Version} {Stretch} auf {Basis} von {Debian} 9
-  veröffentlicht}.
-
-\bibitem{noauthor_node.js_nodate}
-{\em Node.js {Introduction}}.
-
 \bibitem{noauthor_build_nodate}
 {\em Build {Node}.js {Apps} with {VS} {Code}}.
 
-\bibitem{noauthor_node.js_2017}
-{\em Node.js}.
-\newblock Aug. 2017.
-
-\bibitem{noauthor_que_nodate}
+\bibitem{backend_frontend}
 {\em ¿{Que} es {FrontEnd} {Y} {Backend} en la programación web?
   {\textbackslash}textbackslashtextbar {Ser} {Programador}.es}.
-
-\bibitem{noauthor_todo_nodate}
-{\em Todo lo que necesitás saber sobre backend
-  {\textbackslash}textbackslashtextbar {All} you need to know regarding
-  {Backend}}.
-
-\bibitem{noauthor_medir_nodate}
-{\em Medir la humedad del suelo con {Arduino} e higrómetro {FC}-28}.
 
 \bibitem{domone_construction_2010}
 P.~Domone and J.~Illston, {\em Construction {Materials}: {Their} {Nature} and
   {Behaviour}, {Fourth} {Edition}}.
 \newblock CRC Press, June 2010.
 
-\bibitem{noauthor_arduino_nodate-4}
-{\em Arduino {Soil} {Moisture} {Sensor}}.
-
 \bibitem{noauthor_effects_nodate}
 {\em Effects of soil compaction and forest floor removal on soil microbial
   properties and {N} transformations in a boreal forest long-term soil
   productivity study - {ScienceDirect}}.
 
-\bibitem{noauthor_what_nodate}
-{\em What is an {API}? {In} {English}, please. – {freeCodeCamp}}.
-
 \bibitem{noauthor_17_2014}
 {\em 17 important case studies on {Big} {Data}}.
 \newblock Aug. 2014.
-
-\bibitem{noauthor_autonomous_nodate}
-{\em Autonomous {Driving} – five steps to the self-driving car}.
 
 \end{thebibliography}
