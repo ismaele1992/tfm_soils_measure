@@ -6,29 +6,31 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Spiral model }}{18}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces V model }}{19}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Scrum methodology }}{19}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Resources of the project }}{21}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gantt's diagram of the project }}{22}{figure.3.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces System's architecture }}{23}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces System's architecture }}{27}{figure.4.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Arduino Mega }}{33}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Raspberry PI 3 }}{34}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Router Live Box 2 }}{36}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces FC-28 humidity sensor }}{48}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 3T Studio }}{52}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces PyCharm Graphycal Interface }}{53}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Arduino IDE }}{55}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Filezilla's Graphycal Interface }}{56}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Putty Software }}{57}{figure.5.9}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Arduino Mega }}{37}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Raspberry PI 3 }}{38}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Router Live Box 2 }}{40}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces FC-28 humidity sensor }}{52}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 3T Studio }}{56}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces PyCharm Graphycal Interface }}{57}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Arduino IDE }}{59}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Filezilla's Graphycal Interface }}{60}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Putty Software }}{61}{figure.5.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Ideal dried graphic }}{63}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Soil Moisture Evolution in an Earth Dam }}{64}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Ideal dried graphic }}{67}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Soil Moisture Evolution in an Earth Dam }}{68}{figure.6.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces How to display MongoDB service when it is running }}{78}{figure.1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces MongoDB's service is active }}{79}{figure.1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Start MongoDB's service }}{79}{figure.1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Stop MongoDB's service }}{80}{figure.1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Putty's interface }}{84}{figure.1.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Loggin into Raspberry Pi }}{85}{figure.1.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Loggin into Raspberry Pi with its password }}{86}{figure.1.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Network adapters Raspberry Pi }}{88}{figure.1.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces IP address of the router }}{89}{figure.1.9}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces How to display MongoDB service when it is running }}{82}{figure.1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces MongoDB's service is active }}{83}{figure.1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Start MongoDB's service }}{83}{figure.1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Stop MongoDB's service }}{84}{figure.1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Putty's interface }}{88}{figure.1.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Loggin into Raspberry Pi }}{89}{figure.1.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Loggin into Raspberry Pi with its password }}{90}{figure.1.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Network adapters Raspberry Pi }}{92}{figure.1.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces IP address of the router }}{93}{figure.1.9}

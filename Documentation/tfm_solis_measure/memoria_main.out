@@ -23,46 +23,49 @@
 \BOOKMARK [2][-]{subsection.3.2.3}{Software requirements}{section.3.2}% 23
 \BOOKMARK [1][-]{section.3.3}{Planning used in this project}{chapter.3}% 24
 \BOOKMARK [2][-]{subsection.3.3.1}{Software development methodology used in this project}{section.3.3}% 25
-\BOOKMARK [0][-]{chapter.4}{Design}{}% 26
-\BOOKMARK [1][-]{section.4.1}{Architecture of the system}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.1.1}{Data center processor}{section.4.1}% 28
-\BOOKMARK [2][-]{subsection.4.1.2}{Sensor controller}{section.4.1}% 29
-\BOOKMARK [1][-]{section.4.2}{Information flow}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.2.1}{Sensor information flow}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.2}{Storage information flow}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.3}{Query information flow}{section.4.2}% 33
-\BOOKMARK [0][-]{chapter.5}{Materials and methods of study}{}% 34
-\BOOKMARK [1][-]{section.5.1}{Materials}{chapter.5}% 35
-\BOOKMARK [2][-]{subsection.5.1.1}{Arduino Mega}{section.5.1}% 36
-\BOOKMARK [2][-]{subsection.5.1.2}{Raspberry Pi 3}{section.5.1}% 37
-\BOOKMARK [2][-]{subsection.5.1.3}{Router}{section.5.1}% 38
-\BOOKMARK [2][-]{subsection.5.1.4}{Laptop}{section.5.1}% 39
-\BOOKMARK [1][-]{section.5.2}{Technology}{chapter.5}% 40
-\BOOKMARK [2][-]{subsection.5.2.1}{NoSQL database}{section.5.2}% 41
-\BOOKMARK [2][-]{subsection.5.2.2}{NodeJS}{section.5.2}% 42
-\BOOKMARK [2][-]{subsection.5.2.3}{Python 2.7.13}{section.5.2}% 43
-\BOOKMARK [2][-]{subsection.5.2.4}{Scripting}{section.5.2}% 44
-\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 45
-\BOOKMARK [2][-]{subsection.5.3.1}{Querying methods used by NoSQL databases}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.2}{Methods used to retrieve information from the NoSQL database}{section.5.3}% 47
-\BOOKMARK [2][-]{subsection.5.3.3}{Methods used to obtain graphs with the information of the materials}{section.5.3}% 48
-\BOOKMARK [2][-]{subsection.5.3.4}{Methods based on compaction}{section.5.3}% 49
-\BOOKMARK [2][-]{subsection.5.3.5}{Methods used to calibrate sensors}{section.5.3}% 50
-\BOOKMARK [1][-]{section.5.4}{Resources}{chapter.5}% 51
-\BOOKMARK [2][-]{subsection.5.4.1}{Hardware}{section.5.4}% 52
-\BOOKMARK [2][-]{subsection.5.4.2}{Software}{section.5.4}% 53
-\BOOKMARK [0][-]{chapter.6}{Results}{}% 54
-\BOOKMARK [1][-]{section.6.1}{Studied cases}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.2}{Analysis of the obtained results}{chapter.6}% 56
-\BOOKMARK [0][-]{chapter.7}{Conclusions and future lines}{}% 57
-\BOOKMARK [1][-]{section.7.1}{Conclusions}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.2}{Future lines}{chapter.7}% 59
-\BOOKMARK [0][-]{chapter.1}{Appendix}{}% 60
-\BOOKMARK [1][-]{section.1.1}{User manual}{chapter.1}% 61
-\BOOKMARK [2][-]{subsection.1.1.1}{How to reboot the full system}{section.1.1}% 62
-\BOOKMARK [2][-]{subsection.1.1.2}{How to manage MongoDB}{section.1.1}% 63
-\BOOKMARK [1][-]{section.1.2}{Solution to frequent problems}{chapter.1}% 64
-\BOOKMARK [2][-]{subsection.1.2.1}{Remote access to Raspberry Pi}{section.1.2}% 65
-\BOOKMARK [2][-]{subsection.1.2.2}{Moving the measure system}{section.1.2}% 66
-\BOOKMARK [1][-]{section.1.3}{Limits of the system}{chapter.1}% 67
-\BOOKMARK [0][-]{section*.37}{References and bibliography}{}% 68
+\BOOKMARK [1][-]{section.3.4}{Project Management}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.4.1}{Resources}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.2}{Distribution of the tasks}{section.3.4}% 28
+\BOOKMARK [0][-]{chapter.4}{Design}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Architecture of the system}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{Data center processor}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{Sensor controller}{section.4.1}% 32
+\BOOKMARK [1][-]{section.4.2}{Information flow}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.2.1}{Sensor information flow}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.2}{Storage information flow}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.3}{Query information flow}{section.4.2}% 36
+\BOOKMARK [0][-]{chapter.5}{Materials and methods of study}{}% 37
+\BOOKMARK [1][-]{section.5.1}{Materials}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.1.1}{Arduino Mega}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.2}{Raspberry Pi 3}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.3}{Router}{section.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.1.4}{Laptop}{section.5.1}% 42
+\BOOKMARK [1][-]{section.5.2}{Technology}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.2.1}{NoSQL database}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.2}{NodeJS}{section.5.2}% 45
+\BOOKMARK [2][-]{subsection.5.2.3}{Python 2.7.13}{section.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.4}{Scripting}{section.5.2}% 47
+\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 48
+\BOOKMARK [2][-]{subsection.5.3.1}{Querying methods used by NoSQL databases}{section.5.3}% 49
+\BOOKMARK [2][-]{subsection.5.3.2}{Methods used to retrieve information from the NoSQL database}{section.5.3}% 50
+\BOOKMARK [2][-]{subsection.5.3.3}{Methods used to obtain graphs with the information of the materials}{section.5.3}% 51
+\BOOKMARK [2][-]{subsection.5.3.4}{Methods based on compaction}{section.5.3}% 52
+\BOOKMARK [2][-]{subsection.5.3.5}{Methods used to calibrate sensors}{section.5.3}% 53
+\BOOKMARK [1][-]{section.5.4}{Resources}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.4.1}{Hardware}{section.5.4}% 55
+\BOOKMARK [2][-]{subsection.5.4.2}{Software}{section.5.4}% 56
+\BOOKMARK [0][-]{chapter.6}{Results}{}% 57
+\BOOKMARK [1][-]{section.6.1}{Studied cases}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.2}{Analysis of the obtained results}{chapter.6}% 59
+\BOOKMARK [0][-]{chapter.7}{Conclusions and future lines}{}% 60
+\BOOKMARK [1][-]{section.7.1}{Conclusions}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.2}{Future lines}{chapter.7}% 62
+\BOOKMARK [0][-]{chapter.1}{Appendix}{}% 63
+\BOOKMARK [1][-]{section.1.1}{User manual}{chapter.1}% 64
+\BOOKMARK [2][-]{subsection.1.1.1}{How to reboot the full system}{section.1.1}% 65
+\BOOKMARK [2][-]{subsection.1.1.2}{How to manage MongoDB}{section.1.1}% 66
+\BOOKMARK [1][-]{section.1.2}{Solution to frequent problems}{chapter.1}% 67
+\BOOKMARK [2][-]{subsection.1.2.1}{Remote access to Raspberry Pi}{section.1.2}% 68
+\BOOKMARK [2][-]{subsection.1.2.2}{Moving the measure system}{section.1.2}% 69
+\BOOKMARK [1][-]{section.1.3}{Limits of the system}{chapter.1}% 70
+\BOOKMARK [0][-]{section*.37}{References and bibliography}{}% 71
