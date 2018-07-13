@@ -30,43 +30,71 @@
 \BOOKMARK [0][-]{chapter.4}{Design}{}% 30
 \BOOKMARK [1][-]{section.4.1}{Architecture of the system}{chapter.4}% 31
 \BOOKMARK [2][-]{subsection.4.1.1}{Data center processor}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.2}{Sensor controller}{section.4.1}% 33
-\BOOKMARK [1][-]{section.4.2}{Information flow}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.2.1}{Sensor information flow}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.2}{Storage information flow}{section.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.2.3}{Query information flow}{section.4.2}% 37
-\BOOKMARK [0][-]{chapter.5}{Materials and methods of study}{}% 38
-\BOOKMARK [1][-]{section.5.1}{Materials}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.1.1}{Arduino Mega}{section.5.1}% 40
-\BOOKMARK [2][-]{subsection.5.1.2}{Raspberry Pi 3}{section.5.1}% 41
-\BOOKMARK [2][-]{subsection.5.1.3}{Router}{section.5.1}% 42
-\BOOKMARK [2][-]{subsection.5.1.4}{Laptop}{section.5.1}% 43
-\BOOKMARK [1][-]{section.5.2}{Technology}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.2.1}{NoSQL database}{section.5.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.2}{NodeJS}{section.5.2}% 46
-\BOOKMARK [2][-]{subsection.5.2.3}{Python 2.7.13}{section.5.2}% 47
-\BOOKMARK [2][-]{subsection.5.2.4}{Scripting}{section.5.2}% 48
-\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 49
-\BOOKMARK [2][-]{subsection.5.3.1}{Querying methods used by NoSQL databases}{section.5.3}% 50
-\BOOKMARK [2][-]{subsection.5.3.2}{Methods used to retrieve information from the NoSQL database}{section.5.3}% 51
-\BOOKMARK [2][-]{subsection.5.3.3}{Methods used to obtain graphs with the information of the materials}{section.5.3}% 52
-\BOOKMARK [2][-]{subsection.5.3.4}{Methods based on compaction}{section.5.3}% 53
-\BOOKMARK [2][-]{subsection.5.3.5}{Methods used to calibrate sensors}{section.5.3}% 54
-\BOOKMARK [1][-]{section.5.4}{Resources}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.4.1}{Hardware}{section.5.4}% 56
-\BOOKMARK [2][-]{subsection.5.4.2}{Software}{section.5.4}% 57
-\BOOKMARK [0][-]{chapter.6}{Results}{}% 58
-\BOOKMARK [1][-]{section.6.1}{Studied cases}{chapter.6}% 59
-\BOOKMARK [1][-]{section.6.2}{Analysis of the obtained results}{chapter.6}% 60
-\BOOKMARK [0][-]{chapter.7}{Conclusions and future lines}{}% 61
-\BOOKMARK [1][-]{section.7.1}{Conclusions}{chapter.7}% 62
-\BOOKMARK [1][-]{section.7.2}{Future lines}{chapter.7}% 63
-\BOOKMARK [0][-]{chapter.1}{Appendix}{}% 64
-\BOOKMARK [1][-]{section.1.1}{User manual}{chapter.1}% 65
-\BOOKMARK [2][-]{subsection.1.1.1}{How to reboot the full system}{section.1.1}% 66
-\BOOKMARK [2][-]{subsection.1.1.2}{How to manage MongoDB}{section.1.1}% 67
-\BOOKMARK [1][-]{section.1.2}{Solution to frequent problems}{chapter.1}% 68
-\BOOKMARK [2][-]{subsection.1.2.1}{Remote access to Raspberry Pi}{section.1.2}% 69
-\BOOKMARK [2][-]{subsection.1.2.2}{Moving the measure system}{section.1.2}% 70
-\BOOKMARK [1][-]{section.1.3}{Limits of the system}{chapter.1}% 71
-\BOOKMARK [0][-]{section*.37}{References and bibliography}{}% 72
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Data center storage}{subsection.4.1.1}% 33
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Data center manager}{subsection.4.1.1}% 34
+\BOOKMARK [3][-]{subsubsection.4.1.1.3}{Data center controller}{subsection.4.1.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.2}{Sensor controller}{section.4.1}% 36
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Data structures}{subsection.4.1.2}% 37
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Upgrades on sensors}{subsection.4.1.2}% 38
+\BOOKMARK [1][-]{section.4.2}{Information flow}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.2.1}{Sensor information flow}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.2}{Storage information flow}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.3}{Query information flow}{section.4.2}% 42
+\BOOKMARK [0][-]{chapter.5}{Materials and methods of study}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Materials}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.1.1}{Arduino Mega}{section.5.1}% 45
+\BOOKMARK [2][-]{subsection.5.1.2}{Raspberry Pi 3}{section.5.1}% 46
+\BOOKMARK [2][-]{subsection.5.1.3}{Router}{section.5.1}% 47
+\BOOKMARK [2][-]{subsection.5.1.4}{Laptop}{section.5.1}% 48
+\BOOKMARK [1][-]{section.5.2}{Technology}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.2.1}{NoSQL database}{section.5.2}% 50
+\BOOKMARK [2][-]{subsection.5.2.2}{NodeJS}{section.5.2}% 51
+\BOOKMARK [2][-]{subsection.5.2.3}{Python 2.7.13}{section.5.2}% 52
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{API MongoDB}{subsection.5.2.3}% 53
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{API Sensor's readings}{subsection.5.2.3}% 54
+\BOOKMARK [2][-]{subsection.5.2.4}{Scripting}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.3.1}{Querying methods used by NoSQL databases}{section.5.3}% 57
+\BOOKMARK [2][-]{subsection.5.3.2}{Methods used to retrieve information from the NoSQL database}{section.5.3}% 58
+\BOOKMARK [2][-]{subsection.5.3.3}{Methods used to obtain graphs with the information of the materials}{section.5.3}% 59
+\BOOKMARK [2][-]{subsection.5.3.4}{Methods based on compaction}{section.5.3}% 60
+\BOOKMARK [2][-]{subsection.5.3.5}{Methods used to calibrate sensors}{section.5.3}% 61
+\BOOKMARK [1][-]{section.5.4}{Resources}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.4.1}{Hardware}{section.5.4}% 63
+\BOOKMARK [3][-]{subsubsection.5.4.1.1}{Microcontrollers}{subsection.5.4.1}% 64
+\BOOKMARK [3][-]{subsubsection.5.4.1.2}{Sensors}{subsection.5.4.1}% 65
+\BOOKMARK [3][-]{subsubsection.5.4.1.3}{Network devices}{subsection.5.4.1}% 66
+\BOOKMARK [2][-]{subsection.5.4.2}{Software}{section.5.4}% 67
+\BOOKMARK [3][-]{subsubsection.5.4.2.1}{3T Studio}{subsection.5.4.2}% 68
+\BOOKMARK [3][-]{subsubsection.5.4.2.2}{Microsoft Excel}{subsection.5.4.2}% 69
+\BOOKMARK [3][-]{subsubsection.5.4.2.3}{PyCharm}{subsection.5.4.2}% 70
+\BOOKMARK [3][-]{subsubsection.5.4.2.4}{Arduino IDE}{subsection.5.4.2}% 71
+\BOOKMARK [3][-]{subsubsection.5.4.2.5}{Notepad++}{subsection.5.4.2}% 72
+\BOOKMARK [3][-]{subsubsection.5.4.2.6}{Filezilla}{subsection.5.4.2}% 73
+\BOOKMARK [3][-]{subsubsection.5.4.2.7}{Putty}{subsection.5.4.2}% 74
+\BOOKMARK [0][-]{chapter.6}{Results}{}% 75
+\BOOKMARK [1][-]{section.6.1}{Studied cases}{chapter.6}% 76
+\BOOKMARK [1][-]{section.6.2}{Analysis of the obtained results}{chapter.6}% 77
+\BOOKMARK [0][-]{chapter.7}{Conclusions and future lines}{}% 78
+\BOOKMARK [1][-]{section.7.1}{Conclusions}{chapter.7}% 79
+\BOOKMARK [1][-]{section.7.2}{Future lines}{chapter.7}% 80
+\BOOKMARK [0][-]{chapter.1}{Appendix}{}% 81
+\BOOKMARK [1][-]{section.1.1}{User manual}{chapter.1}% 82
+\BOOKMARK [2][-]{subsection.1.1.1}{How to reboot the full system}{section.1.1}% 83
+\BOOKMARK [3][-]{subsubsection.1.1.1.1}{Restart network system}{subsection.1.1.1}% 84
+\BOOKMARK [3][-]{subsubsection.1.1.1.2}{Restart the database}{subsection.1.1.1}% 85
+\BOOKMARK [3][-]{subsubsection.1.1.1.3}{Restart the sensor system and the Raspberry PI}{subsection.1.1.1}% 86
+\BOOKMARK [2][-]{subsection.1.1.2}{How to manage MongoDB}{section.1.1}% 87
+\BOOKMARK [3][-]{subsubsection.1.1.2.1}{See the current version of MongoDB}{subsection.1.1.2}% 88
+\BOOKMARK [3][-]{subsubsection.1.1.2.2}{Check mongod service}{subsection.1.1.2}% 89
+\BOOKMARK [3][-]{subsubsection.1.1.2.3}{Start MongoDB service}{subsection.1.1.2}% 90
+\BOOKMARK [3][-]{subsubsection.1.1.2.4}{Stop MongoDB service}{subsection.1.1.2}% 91
+\BOOKMARK [3][-]{subsubsection.1.1.2.5}{How to manage MongoDB with no services installed in the system}{subsection.1.1.2}% 92
+\BOOKMARK [3][-]{subsubsection.1.1.2.6}{Check MongoDB network connection}{subsection.1.1.2}% 93
+\BOOKMARK [1][-]{section.1.2}{Solution to frequent problems}{chapter.1}% 94
+\BOOKMARK [2][-]{subsection.1.2.1}{Remote access to Raspberry Pi}{section.1.2}% 95
+\BOOKMARK [2][-]{subsection.1.2.2}{Moving the measure system}{section.1.2}% 96
+\BOOKMARK [3][-]{subsubsection.1.2.2.1}{How to see Raspberry Pi\220s network address}{subsection.1.2.2}% 97
+\BOOKMARK [3][-]{subsubsection.1.2.2.2}{How to proceed when the database is corrupt}{subsection.1.2.2}% 98
+\BOOKMARK [1][-]{section.1.3}{Limits of the system}{chapter.1}% 99
+\BOOKMARK [0][-]{section*.9}{References and bibliography}{}% 100
