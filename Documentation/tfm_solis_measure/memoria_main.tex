@@ -15,6 +15,12 @@
 %\usepackage{graphicx, subfigure}
 %para códigos
 \usepackage{xcolor}
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
 \lstset { %
     language=C++,
     backgroundcolor=\color{black!5}, % set backgroundcolor
@@ -46,20 +52,13 @@
 %% instrucci'on antes de \begin{document}.
 \hyperlinking
 \begin{document}
-\renewcommand{\contentsname}{Table of Contents}
-\renewcommand{\chaptername}{Chapter}
-\renewcommand{\tablename}{Table}
-\renewcommand{\bibname}{References and bibliography}
-\renewcommand{\listfigurename}{List of figures}
-\renewcommand{\figurename}{Fig.}
-\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
-\pagenumbering{gobble}
 %% En esta secci'on se describe la estructura del documento de la tesis.
 %% Consulta los reglamentos de tu universidad para determinar el orden
 %% y la cantidad de secciones que debes de incluir.
 
 %% # Portada de la tesis #
 %% Mirar el archivo "titlepage.tex" para los detalles.
+\pagenumbering{gobble}
 \include{portada}
 \chapter*{}
 %\setcounter{tocdepth}{3}
@@ -67,8 +66,17 @@
 %\thispagestyle{empty}}
 \newpage
 \include{cita}
+\pagenumbering{roman}
 \include{8_Agradecimientos}
+\include{0_Resumen}
 
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\chaptername}{Chapter}
+\renewcommand{\tablename}{Table}
+\renewcommand{\bibname}{References and bibliography}
+\renewcommand{\listfigurename}{List of figures}
+\renewcommand{\figurename}{Fig.}
+\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
 %% # 'Indices y listas de contenido #
 %% Quitar los comentarios en las lineas siguientes para obtener listas de
 %% figuras y cuadros/tablas.
@@ -78,10 +86,8 @@
 %% Por cada cap'itulo hay que crear un nuevo archivo e incluirlo aqu'i.
 %% Mirar el archivo "intro.tex" para un ejemplo y recomendaciones para
 %% escribir.
-\pagenumbering{roman}
 
 \thispagestyle{empty}
-\include{0_Resumen}
 
 \tableofcontents
 \newpage
