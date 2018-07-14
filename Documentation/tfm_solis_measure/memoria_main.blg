@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: memoria_main.aux
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: memoria_main.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: portada.aux
 A level-1 auxiliary file: cita.aux
@@ -131,4 +133,45 @@ Warning--empty publisher in noauthor_effects_nodate
 Warning--empty year in noauthor_effects_nodate
 Warning--empty author and editor in noauthor_17_2014
 Warning--empty publisher in noauthor_17_2014
+You've used 53 entries,
+            1876 wiz_defined-function locations,
+            626 strings with 8038 characters,
+and the built_in function-call counts, 6855 in all, are:
+= -- 540
+> -- 112
+< -- 0
++ -- 72
+- -- 19
+* -- 522
+:= -- 731
+add.period$ -- 60
+call.type$ -- 53
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 167
+duplicate$ -- 482
+empty$ -- 1008
+format.name$ -- 19
+if$ -- 1697
+int.to.chr$ -- 0
+int.to.str$ -- 53
+missing$ -- 56
+newline$ -- 173
+num.names$ -- 14
+pop$ -- 395
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 100
+stack$ -- 0
+substring$ -- 24
+swap$ -- 52
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 114
+while$ -- 17
+width$ -- 55
+write$ -- 311
 (There was 1 error message)

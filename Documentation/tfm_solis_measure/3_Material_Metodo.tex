@@ -2,21 +2,21 @@
 \chapter{Materials and methods of study}
 \newpage
 
-This section of the memory explains the aspects related to the materials used to build the project. Additionally, it describes the methods used to obtain results and the technologies applied to develop the system.
+This section of the memory explains the aspects related to the materials used to build the project. Additionally, it describes the methods used to obtain results and the technologies applied to develop the system. Also, it is exposed the consumption of the devices used in this study. 
 
 \section{Materials}
 
 To carry out this project, it was necessary to use numerous components supplied by the \textit{University of Extremadura}. These components are characterized by their diversity and their reduced cost. The prototype designed for the study uses free hardware components. Free hardware components have good features like their flexibility when building a system is required.\\
 
-It was decided to used the aforementioned components since the manufacturer provides a lot of documentation. The documentation of these components allows to develop new features and provide flexibility and customization to the final user.\\
+It was decided to used the aforementioned components since the manufacturer provides a lot of documentation. The documentation of these components allows to develop new features and provide flexibility and customization to the final user. Apart of the documentation provided by the manufacturer, there are users in contact with the system contributing to document the system. The contributed documentation is in continuous growth, where the users of the system document all the described processes to manage and maintain the system. The colaboration between the users of the system is generous, large and strong.\\
 
-There are several components which form part of this study. These components are hardware devices and software features. Also, tools and frameworks are relevant in this project. All of them allow to develop the desired solution. This information is listed in this section.
+There are several components which form part of this study. These components are hardware devices and software features. Also, tools and frameworks are relevant in this project. All of them allow to develop the desired solution. This information is listed in this section. The most important components used in this study are the following: Arduino Mega and Raspberry PI 3.
 
 \subsection{Arduino Mega}
 
 It is more powerful than Arduino Uno, Arduino Nano and Arduino Micro. It has more available connections used as inputs and outputs. Thus, making possible to create more complex systems.\\
 
-In this study we decided to use and Arduino Mega because it is a device which scales better than other models. Having a higher number of available connections allows the developer to extend easily the system.\\
+In this study we decided to use and Arduino Mega because it is a device which scales better than other models. Having a higher number of available connections allows the developer to extend easily the system (figure \ref{Arduino_Mega}).\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -44,6 +44,8 @@ The most important capabilities of the \textit{Arduino Mega} are described in th
 \subsection{Raspberry Pi 3}
 
 It is an ARM-based microcontroller. This device has a processor used in mobile devices like mobile phones, tablets and Chromecasts. It has a good performance and a low energy consumption. It allows the installation of light \textit{Unix} distributions.
+
+The figure \ref{RPI_3} corresponds to the microcontroller Raspberry PI 3 B+, selected component to manage the MongoDB database.
 	
 \begin{figure}[H]
 \begin{centering}
@@ -102,6 +104,8 @@ It is a useful component which creates a network to allow the user to connect to
 
 The brand of the router used is a Livebox 2. Its features are enough to control and access the main system.\\
 
+The figure \ref{Live_Box2} corresponds to the Live Box 2 Router, selected device to interconnect network components.
+
 \begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.3]{IMGS/LIVE_BOX_2.png}
@@ -119,7 +123,7 @@ The router has a direct connection to the \textit{Raspberry PI 3} via an Etherne
 
 The user will use this device to query information from the system. With the laptop, we can use some tools to retrieve some information from the system. It is useful to use because we can generate some graphics after analysing the information of the database.\\
 
-With the laptop, we can create an \textit{SSH} connection to the system to manage its processes. We can use a \textit{SSH} connection to run processes of the database or to control processes related to the backend. This remote connection allows the administrator of the system to manage it directly.\\
+With the laptop, we can create an \textit{SSH} connection (Secure Shell) to the system to manage its processes. We can use a \textit{SSH} connection to run processes of the database or to control processes related to the backend. This remote connection allows the administrator of the system to manage it directly.\\
 
 The user can use several operating systems. The \textit{SSH} connection is independent from the operating system. \\
 
@@ -193,7 +197,7 @@ This library allows the user of the system to connect \textit{N} humidity sensor
 
 \subsection{Scripting}
 
-In other sections of this document we talked about the use of \textit{Python}, \textit{MongoDB} and NodeJS. There is an other important part in this project, scripting. Scripting is important in this project because it allows to automatize the processes used by this system.\\
+In other sections of this document it was explained the use of \textit{Python}, \textit{MongoDB} and NodeJS. There is an other important part in this project, scripting. Scripting allows to automatize the processes used by this system.\\
 
 Normally, the user does realize about this function because it is completely transparent. Scripting allows to control the processes related to the management of the database and the processes which use the network of the sensors. Also, it is possible to manage the information of the database using \textit{NodeJS} as \textit{backend}. It runs queries to retrieve the information of the database\\
 
@@ -202,6 +206,26 @@ In this project was necessary to use \textit{Linux Shell scripting}. \textit{Lin
 There is a script which controls the processes required to run the measure system on the \textit{Raspberry PI 3}. It checks the status of the system and if there is nothing running it loads all required processes.\\
 
 This method uses the \textit{rc.local} configuration file of the Linux System. This file allows the system to call all functions we want to execute at the boot up.
+
+\subsection{Physic scale model}
+
+The materials required were:  
+
+\begin{itemize}
+ \item A rectangular methacrylate urn of 41.5 x 21 x 22 cm where the models are built inside. At the 
+bottom of one side, several small holes were executed to evacuate drained water. 
+ \item Granular material with different particle sizes from 2 mm (gravel) to 0.16 mm (sand), previously 
+sieved (Figure 4). 
+ \item A thin sheet of polypropylene as impermeable material. 
+ \item Water and dye.
+\end{itemize}
+
+
+A similar approach to the construction of real dams has been used for the development  of  the  embankments.  At  first,  the  material  is  reclassified  by  size,  then  it  is  mixed  with water to obtain the most appropriate moisture for the process of compaction, later it is placed in thin 
+layers, and finally, the material is compacted with a little hammer. 
+
+The typology  of  earth  dams  were  constructed  at  a  scale  of  1/100  as the typology on  \textbf{Isotropic  earthfill  dam  with  core,  chimney  drain  and  horizontal  drain}. To ensure the proper behavior of the filter bed avoiding the risk of been clogged by the smallest particle size, it has been disposed a thin sheet of polypropylene over them. Furthermore, a vertical chimney drain join to a core or impermeable layer 
+in the downstream side was added. From a stability point of view, the upstream side of the embankment was also reinforced by a layer of gravel material. 
 
 \section{Methods}
 
@@ -237,7 +261,7 @@ This framework has an assistance that allows the user to create his own queries.
 
 The second option is recommended. Using this option makes more efficient to manage a database with an assistant. The user can build its own queries and check if it is required, the syntax of them. It is possible to see the information of the database in real time too.\\
 
-The fist option I think is more complicated to use because the user needs to be experimented with the MongoDB console.
+The first option is more complicated to use because the user needs to be experimented with the MongoDB console.
 
 \subsection{Methods used to obtain graphs with the information of the materials}
 
@@ -261,11 +285,9 @@ The purpose to select this graph is to analyze if the floor produces valid value
 
 \item Analysis of the results retrieved by the sensors. This analysis allows the interpreter to get information about the current state of the sensors. The sensors show the values along the time.\\
 
-In this analysis it was selected the information registered by the 4 sensors used in this study.
+In this analysis it was selected the information registered by the four sensors used in this study.
 
 \end{itemize}
-
-\subsection{Methods based on compaction}
 
 \subsection{Methods used to calibrate sensors}
 
@@ -277,15 +299,15 @@ This section explains how is the process selected to calibrate the measure of th
 
 \item Measure obtained after allocating the sensors in a dry place. This method registeres the highest value measured by the sensors. The highest value links to the highest voltage.
 
-\item Measure obtained after allocating the sensors in different floors with different values of humidity. This method measures diverse values of floors in different conditions.\\
+\item Measure obtained after allocating the sensors in dispare floors with several values of humidity. This method measures diverse values of floors in different conditions.\\
 
-When the measures of the soils are done, an oven to heat the soils is required. This technique allows to obtain the precise value of humidity of the different floors analyzed. This process takes a day to produce the expected values.
+When the measures of the soils are done, an oven to heat the soils is required. This technique allows to obtain the precise value of humidity of the analyzed floors. This process takes a day to produce the expected values.
 
 \end{itemize}
 
 When the results are produced, the information, which refers to the measures, is linked to the time inverted to dry a specific soil. Also, the percentage of humidity registered when the drying process is finished refers to the value measured by the sensors before drying the soil. These results define how is the behavior of the sensors when they are measuring a specific material. The chosen process allows to know if the selected sensors used to measure the soils are appropriate.\\
 
-After using the 3 techniques described before, the results produced by the sensors are compared to the values registered by the oven used to dry the materials. With this results, a comparison is done to obtain an average of the results. This average is used to produce precise measures of soils.
+After using the three techniques described before, the results produced by the sensors are compared to the values registered by the oven used to dry the materials. With this results, a comparison is done to obtain an average of the results. This average is used to produce precise measures of soils.
 
 \section{Resources}
 
@@ -315,7 +337,9 @@ The \textit{Raspberry PI 3} has another backend that is used to manage the petit
 
 These are one of the most important parts of this project. The sensors are able to get all the information related to the materials which are monitored. The sensors have some electronic features that allow them to monitor soils.\\
 
-In this project, the sensors used for the study are simple and have a low cost. The price of these sensors is around 0.80\euro . and 1\euro . It is possible obtain them via internet. The model used to get the information of the system is \textit{FC-28} \cite{FC_28}. This model is formed by 2 parts. One of those parts is the device that has the electronics to measure the values of the floor, and the other part, is an electrical component which converts the information retrieved by the sensor in numbers.\\
+In this project, the sensors used for the study are simple and have a low cost. The price of these sensors is around 0.80\euro . and 1\euro . It is possible to obtain them via internet. The model used to get the information of the system is \textit{FC-28} \cite{FC_28}. This model is formed by two parts. One of those parts is the device that has the electronics to measure the values of the floor, and the other part, is an electrical component which converts the information retrieved by the sensor in numbers.\\
+
+The figure \ref{FC28} corresponds to the sensor \textit{FC28} selected to measure the humidity of soils.
 
 \begin{figure}[H]
 \begin{centering}
@@ -326,7 +350,7 @@ In this project, the sensors used for the study are simple and have a low cost. 
 
 The information treated by the rectifier uses a numerical structure. This structured has relation with the voltage detected by the sensors. These numerical values has a range between 1024 and 0. The value 1024 corresponds to the driest value measured. The value 0 is the lowest, corresponding to the wettest media analyzed.\\
 
-The connection used is simple. The device which gets the information of the media is connected directly to the rectifier using two cables. The rectifier is connected to the \textit{Arduino Mega} using three cables. The cables used to measure the materials are the following:
+The connection used is without a complex way. The device which gets the information of the media is connected directly to the rectifier using two cables. The rectifier is connected to the \textit{Arduino Mega} using three cables. The cables used to measure the materials are the following:
 
 \begin{itemize}
 
@@ -389,6 +413,8 @@ This tool has to be connected to a \textit{MongoDB} system. It is required to gi
 
 On the other hand, the user can export the information of the MongoDB database in several formats. It is possible to use \textit{JSON}, \textit{CSVs} and excel formats. This project uses \textit{CSV} format because it is the easiest way to automate and manage it with Microsoft Excel.
 
+The figure \ref{3T_STUDIO} exposes the graphical interface of the 3T Studio software (MongoChef).
+
 \begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.4]{IMGS/3T_STUDIO.png}
@@ -400,7 +426,7 @@ On the other hand, the user can export the information of the MongoDB database i
 
 \textit{Microsoft Excel} is one of the tools used to display the results measured by the system. \textit{Microsoft Excel} allows to load \textit{CSV} files exported from the \textit{NoSQL} database.\\
 
-\textit{Microsoft Excel} provides features to apply formulas to the monitored soils. The theoretical values of the measured materials are loaded. The formulas arrange the results obtained with the oven used to calibrate the sensors.\\
+\textit{Microsoft Excel} provides features to apply formulas to the monitored soils. The theoretical values of the measured materials are loaded. The formulas arrange the results obtained with the oven to calibrate the sensors.\\
 
 The calculates generate an average of the exported information. To analyze the behavior of the soils it is required to select the desired results. The timestamp of the sensor provides a filter to sort the results of the report.\\
 
@@ -412,7 +438,7 @@ The graphs provided by \textit{Microsoft Excel} allow us to determine if the stu
 
 PyCharm is a development framework which allows the developer to write \textit{Python} scripts. It was decided to use PyCharm because of its special features to develop \textit{Python} applications. Also, it manages the required packages \cite{install_python_modules, pyserial_package, pip} imported by the generated scripts.
 
-\textit{PyCharm} is available over the Internet and it is a free framework to use. It is a stark software and it fits to the needs of the developer. The most important features of this framework are listed as it follows:
+\textit{PyCharm} is available over the Internet and it is a free framework to use. It is a stark software and it fits to the needs of the developer. The figure \ref{PYCHARM} shows the graphical interface of this software with its available features.
 
 \begin{figure}[H]
 \begin{centering}
@@ -445,7 +471,7 @@ Arduino IDE is the framework use to upload code to Arduino Boards. This tool is 
 
 The development with this \textit{IDE} from scratch is possible, it is not required wide development skills. The programs are written in \textit{Arduino} using \textit{C} language. \textit{C} is on a low level layer where the developer controls the functions of the sensors.\\
 
-This \textit{IDE} is available for all operative systems. The framework is uploaded to the official site of  \textit{Arduino's} webpage and it is free to use.\\
+This \textit{IDE} is available for all operative systems. The framework is uploaded to the official site of  \textit{Arduino's} webpage and it is free to use. The figure \ref{ARDUINO_IDE} includes a snapshot of the Arduino IDE.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -466,7 +492,7 @@ There are other tools to replace this software such as \textit{Sublime}, \textit
 
 \subsubsection{Filezilla}
 
-\textit{Filezilla} is a program which allows the user to transfer files between two different devices using file transfer protocols. \textit{Filezilla} was used to transfer all the software components to the \textit{Raspberry PI 3} instead of typing instructions from the command line.\\
+\textit{Filezilla} is a program which allows the user to transfer files between two different devices using file transfer protocols. \textit{Filezilla} was used to transfer all the software components to the \textit{Raspberry PI 3} instead of typing instructions from the command line. The figure \ref{FILEZILLA} includes a snapshot of the graphical interface of Filezilla with its network functions.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -485,12 +511,12 @@ With \textit{Filezilla} the user has access to the main file system of the conne
 
 This software is used to manage remote connections to hosts. This program is required for \textit{Windows} systems. Windows does not support remote connections to hosts using the \textit{cmd} terminal.\\
 
-With \textit{Putty}, a \textit{Windows'} user can create a \textit{SSH} or a \textit{Telnet} connection to a remote host. It also supports serial communications. All the remote connections to the Raspberry PI are established via \textit{SSH} communication. This protocol is reliable and secure.\\
+With \textit{Putty}, a \textit{Windows'} user can create a \textit{SSH} or a \textit{Telnet} connection to a remote host. It also supports serial communications. All the remote connections to the Raspberry PI are established via \textit{SSH} communication. This protocol is reliable and secure. The figure \ref{PUTTY} corresponds to a snapshot of Putty.\\
 
 \begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.7]{IMGS/PUTTY.PNG}
-\caption{Putty Software \label{PYCHARM}}
+\caption{Putty Software \label{PUTTY}}
 \end{centering}
 \end{figure}
 

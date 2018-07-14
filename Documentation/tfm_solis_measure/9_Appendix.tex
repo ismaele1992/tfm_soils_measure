@@ -17,7 +17,7 @@ Also, it will be explained more details we consider which are important in the s
 
 \subsection{How to reboot the full system}
 
-A completely reboot should be likely established. For that purpose, we need to consider we have different subsystems that can lead to executing problems in the full system. Those subsystems are the following:
+A completely reboot should be likely established. For that purpose, we need to consider we have subsystems which can lead to executing problems in the full system. Those subsystems are the following:
 
 \begin{itemize}
 \item Network system.
@@ -32,12 +32,12 @@ In the following section how to manage with this systems and operation is explai
 
 At first, we are using a system which manages heavy information. In some situations, the system should support a higher number of petitions to queries to the database or intensive transmission of information that can generates failures in the network architecture.\\
 
-In this case, a restart of the whole network is sometimes required. To do it, it is necessary to know the different elements which composed each subsystem. The elements we have in our system are the following:
+In this case, a restart of the whole network is sometimes required. To do it, it is required to know the elements which composed each subsystem. The elements we have in our system are the following:
 
 \begin{itemize}
 \item Router.
 \item Raspberry PI.
-\item Different devices connected to the router:
+\item Devices connected to the router:
 \begin{itemize}
 \item Smartphones.
 \item Computer.
@@ -56,11 +56,11 @@ If we have to restart the network, the steps are:
 \item Wait two minutes until the devices are connected again to the router.
 \end{itemize}
 
-If everything is correct, the router will allow the communication between the different devices of the network again. As the configuration is done by the router, user does not have to care about the configuration of the different devices.\\
+If everything is correct, the router will allow the communication between the devices of the network again. As the configuration is done by the router, user does not have to care about the configuration of the devices.\\
 
 \subsubsection{Restart the database}
 
-When a restart of the database is required, we need to control the Raspberry Pi which can be done following different options:
+When a restart of the database is required, we need to control the Raspberry Pi which can be done following these options:
 
 \begin{itemize}
 \item Remote access to the Raspberry Pi:
@@ -77,7 +77,7 @@ When a restart of the database is required, we need to control the Raspberry Pi 
 \end{itemize}
 \end{itemize}
 
-In the following sections it will be explained how to create a remote connection to the Raspberry Pi and how to access with different peripherical devices to the Raspberry Pi.\\
+In the following sections it will be explained how to create a remote connection to the Raspberry Pi and how to access with several peripherical devices to the Raspberry Pi.\\
 
 \subsubsection{Restart the sensor system and the Raspberry PI}
 
@@ -100,7 +100,7 @@ After applying these steps, we ensure the system has been reset.\\
 
 \subsection{How to manage MongoDB}
 
-To manage databases, it is required to know the status of them. MongoDB is a database system which allows us to store different kind of information. In this section, it will be explained how to know different information about our MongoDB database system.
+To manage databases, it is required to know the status of them. MongoDB is a database system which allows us to store different kind of information. In this section, it will be explained how to query the information related to our MongoDB database system.
 
 \subsubsection{See the current version of MongoDB}
 
@@ -108,7 +108,7 @@ In case we a working with a \textit{Linux} system, the steps after opening a ter
 
 \textit{sudo mongod –version}\\
 
-This command will show the current version used by MongoDB. This operation is useful to know which \textit{API} to use to store, query or maintain the different information we have stored in our database.\\
+This command will show the current version used by MongoDB. This operation is useful to know which \textit{API} to use to store, query or maintain the information stored in our database.\\
 
 It is recommended to use MongoDB version up to 2.6. If we are under 2.6 version, it is recommended to update it to 2.6 or greater versions.
 
@@ -124,7 +124,7 @@ If we need to check if our MongoDB database system is working, we need to follow
 \item Run \textit{ps -ax | grep mongo}.
 \end{itemize}
 
-With these commands, it would be possible to see if MongoDB is running in our system. If we see something like the information described in the following image, it will mean MongoDB is running in our system.\\
+With these commands, it would be possible to see if MongoDB is running in our system. If we see something like the information described in the figure \ref{How to display MongoDB service when it is running}, it will mean MongoDB is running in our system.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -133,11 +133,11 @@ With these commands, it would be possible to see if MongoDB is running in our sy
 \end{centering}
 \end{figure} 
  
-As we can see in the picture displayed before, there are some services running with the name \textbf{mongo}. The last one is irrelevant for us, because it is the result obtained after executing \textit{ps -ax | grep mongo}. The information which is important for us is the different lines displayed before, \textit{sudo mongod and mongod}. These lines are telling us that MongoDB is running properly in our system.\\
+There are several services running with the name \textbf{mongo}. The last one is irrelevant for us, because it is the result obtained after executing \textit{ps -ax | grep mongo}. The information which is important for us is the lines displayed before, \textit{sudo mongod and mongod}. These lines are telling us MongoDB is running properly in our system.\\
 
 The steps described the MongoDB status. There are several ways to check. For example, after the installation of MongoDB using the package manager of Linux, the system will create a new entire into \textit{/etc/init.d} and in services which will allow us to identify if the service is running. This entry is name as service. Linux has lot of services, and it is possible to query if there are services running in our machine.\\
 
-If we have created a service entry in our system, it is possible to query the status of the service using sudo service [name of the service we want to query]. To know if MongoDB is running, we can type \textit{sudo service mongod status}. If the service is installed in our machine, it will be possible to see the following information.\\
+If we have created a service entry in our system, it is possible to query the status of the service using sudo service [name of the service we want to query]. To know if MongoDB is running, we can type \textit{sudo service mongod status}. If the service is installed in our machine, the displayed information will be similar to the figure \ref{MongoDB's service is active}.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -154,7 +154,7 @@ As can be seen, the server is running, showing its \textit{pid} (identification 
 
 This operation is usually useful when there is a problem on the system (for example, MongoDB has not started at the beginning of the booting process) or when there is no configuration to run it automatically.\\
 
-To do it, it is necessary to type in the console \textit{sudo service mongodb start}. With this command we will tell \textit{mongodb} it has to run.\\
+To do it, it is necessary to type in the console \textit{sudo service mongodb start}. With this command we will tell \textit{mongodb} it has to run. The figure \ref{Start MongoDB's service} corresponds to an example to run \textit{Mongodb}.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -171,7 +171,7 @@ Sometimes, it is not only need to start the daemon process. There are several si
 
 To do it, we just only need to type \textit{sudo service mongod stop}. It is useful to check if the service has stopped or not. To do it, we just have to type \textit{sudo service mongod status}. If we see some information like not running, then we can ensure the service has stopped properly.\\
 
-In the following picture there is an example of the execution of this last command.
+The figure \ref{Stop MongoDB's service} is an example of the execution of this last command.
 
 \begin{figure}[H]
 \begin{centering}
@@ -184,23 +184,23 @@ In the following picture there is an example of the execution of this last comma
 
 In some situations, it is possible to see that MongoDB has not a service architecture defined.\\
 
-When there is an installation process in Linux, the system will create different link files, executable files and configuration files. Some of the files created in the installation process will be copied to the folder \textit{/usr} and the files related to configurations will be placed in \textit{/etc}.\\
+When there is an installation process in Linux, the system will create link files, executable files and configuration files. Some of the files created in the installation process will be copied to the folder \textit{/usr} and the files related to configurations will be placed in \textit{/etc}.\\
 
-MongoDB will create all the configuration files in \textit{/etc}. Here, it is possible to define the different parameters needed to start running the system like:
+MongoDB will create all the configuration files in \textit{/etc}. Here, it is possible to define the parameters required to start the system:
 
 \begin{itemize}
 
 \item Path of the executable file to start the database system.
 
-\item Path of the different log files where it is possible to see the debugging status of the database system or problems related to configuration.
+\item Path of the log files where it is possible to see the debugging status of the database system or problems related to configuration.
 
-\item Path of the folder which is going to be used to store the different databases used by MongoDB.
+\item Path of the folder which is going to be used to store the databases used by MongoDB.
 
 \item Configuration of the user.
 
 \item Configuration of the listen port used by MongoDB. This port is used to allow possible incoming connections to the database.
 
-\item Mode of execution of MongoDB. The different modes we have available are the following:
+\item Mode of execution of MongoDB. The available modes of MongoDB are the following:
 
 \begin{itemize}
 
@@ -210,7 +210,7 @@ MongoDB will create all the configuration files in \textit{/etc}. Here, it is po
 
 \end{itemize}
 
-\item Configuration used to authenticate the different user connected to the database.
+\item Configuration used to authenticate the user connected to the database.
 
 \item Allowed IP addresses to access to the database.
 
@@ -218,7 +218,7 @@ MongoDB will create all the configuration files in \textit{/etc}. Here, it is po
 
 All this information is stored in \textit{/etc} in one file named \textbf{mongod.conf}. It is possible to edit this file if it is needed to do it, but it is necessary to be careful if we apply any modifications because it is possible after those modifications the system will not run correctly.\\
 
-There is another important folder that is needed to mention in this section. This folder is \textit{init.d} and it is stored in \textit{/etc}. This folder will contain all the different executable shell scripts needed by the system. Obviously, MongoDB will create some files in this folder. The most important file to consider is \textit{mongodb}. It is possible to control all the operations done by MongoDB with this file. The possible operations are start, stop, restart and display status. Those operations are executed as follows:
+There is another important folder that is needed to mention in this section. This folder is \textit{init.d} and it is stored in \textit{/etc}. This folder will contain all the executable shell scripts required by the system. Obviously, MongoDB will create some files in this folder. The most important file to consider is \textit{mongodb}. It is possible to control all the operations done by MongoDB with this file. The possible operations are start, stop, restart and display status. Those operations are executed as follows:
 
 \begin{itemize}
 
@@ -256,11 +256,11 @@ In the following subsections it will be explained how to deal with all these pro
 
 \subsection{Remote access to Raspberry Pi}
 
-As we explained before, there are several tools to allow remote access to the Raspberry Pi. The Raspberry Pi allows by default demote management, and this is one of the most powerful capabilities it has. Thanks to remote access we can manage the full system.\\
+As we explained before, there are several tools to allow remote access to the Raspberry Pi. The Raspberry Pi allows by default remote management, and this is one of the most powerful capabilities it has. Thanks to remote access we can manage the full system.\\
 
 Then, it would be explained how to connect to Raspberry Pi using \textit{Putty} due to is the most extended protocol for remote connection for Windows' users.
 
-To do it, first it is needed to download this software from its webpage, after we have downloaded it, we have to open \textbf{Putty}.\\
+To do it, first it is needed to download this software from its webpage, after we have downloaded it, we have to open \textbf{Putty}. Putty's interface is displayed in the figure \ref{Putty's interface}.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -269,7 +269,7 @@ To do it, first it is needed to download this software from its webpage, after w
 \end{centering}
 \end{figure} 
  
-As it is possible to see in the picture, we have some fields we have to complete. The different fields we have are the following:
+As it is possible to see in the picture, we have some fields we have to complete. The fields we have are the following:
 
 \begin{enumerate}
 
@@ -279,7 +279,7 @@ As it is possible to see in the picture, we have some fields we have to complete
 
 \end{enumerate}
 
-After filling this information, we have to press Open. When we have pressed Open it will be displayed a console. This console will have the following structure.
+After filling this information, we have to press Open. When we have pressed Open it will be displayed a console. This console will follow the structure represented in the figure \ref{Loggin into Raspberry Pi}.
 
 \begin{figure}[H]
 \begin{centering}
@@ -290,7 +290,7 @@ After filling this information, we have to press Open. When we have pressed Open
  
 Here, Raspberry Pi requires the username of the system. In this step we have to type \textit{pi} (it is important to type it in lowercase).\\
 
-Next, Raspberry Pi will ask us about the password. In the following picture it will be displayed the information related to the password request.
+Next, Raspberry Pi will ask us about the password. In the figure \ref{Loggin into Raspberry Pi with its password} it will be displayed the information related to the password request.
 
 \begin{figure}[H]
 \begin{centering}
@@ -300,11 +300,11 @@ Next, Raspberry Pi will ask us about the password. In the following picture it w
 \end{figure}
  
 Now we have to type raspberry (be careful with uppercase and lowercase), and the prompt of the system will be displayed.
-To restart the database daemon, it is necessary to apply the different steps described in the section Check MongoDB’s status.
+To restart the database daemon, it is necessary to apply the steps described in the section Check MongoDB’s status.
 
 \subsection{Moving the measure system}
 
-In some situations, it is necessary to turn off the full system because it is needed to do some hardware modifications. To do it, it is important to turn off the different components we have in our system to avoid electrical problems or storage problems (it is possible that after disconnecting some devices in our system, the MongoDB daemon could write corrupt information in the database we are using). To avoid these problems, it is important to do the following steps:
+In some situations, it is necessary to turn off the full system because it is needed to do some hardware modifications. To do it, it is important to turn off the components we have in our system to avoid electrical problems or storage problems (it is possible that after disconnecting some devices in our system, the MongoDB daemon could write corrupt information in the database we are using). To avoid these problems, it is important to do the following steps:
 
 \begin{itemize}
 
@@ -340,7 +340,7 @@ When this problem happens, it is possible to check the configuration with the fo
 
 \item Open a Linux terminal going directly to applications and after seeing Terminal.
 
-\item When we have opened the Linux terminal, we have to type \textit{ifconfig} in the terminal. The information displayed in the screen is:
+\item When we have opened the Linux terminal, we have to type \textit{ifconfig} in the terminal. The information displayed in the screen is represented in the figure \ref{Network adapters Raspberry Pi}.
 
 \begin{figure}[H]
 \begin{centering}
@@ -361,7 +361,7 @@ When this problem happens, it is possible to check the configuration with the fo
 
 \begin{itemize}
 
-\item Open a web browser (for example \textbf{Firefox}) and type in the address field \textbf{192.168.1.1}.
+\item Open a web browser (for example \textbf{Firefox}) and type in the address field \textbf{192.168.1.1}. The figure \ref{IP address of the router} refers to the access to the web interface of the router.
 
 \begin{figure}[H]
 \begin{centering}
@@ -430,13 +430,13 @@ In case we want to move the system and we do not have knowledge about it, we can
 
 \section{Limits of the system}
 
-In the following section it will be explained the different things we need to consider about our measure system. All these items should carefully consider if we want to do a new modification in the system:
+The tips to maintain the system are defined in the following section. All these items should carefully consider if we want to do a new modification in the system:
 
 \begin{enumerate}
 
-\item If it is necessary to move the full system, it is important to disconnect the different components described in the points explained before.
+\item If it is necessary to move the full system, it is important to disconnect the components described in the points explained before.
 
-\item To disconnect the different components we have in the measure system, follow the different tips we have explained before.
+\item To disconnect the components we have in the measure system, follow the tips we have explained before.
 
 \item If it is necessary to modify or to replace some components in the system it is recommended to disconnect the system as it was explained before.
 

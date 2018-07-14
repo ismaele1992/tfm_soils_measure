@@ -69,6 +69,21 @@ N.~Benn, F.~Turlais, V.~Clark, M.~Jones, and S.~Clulow, ``An {Automated}
   {Automation} {Implementation},'' {\em JALA: Journal of the Association for
   Laboratory Automation}, vol.~11, pp.~16--22, Feb. 2006.
 
+\bibitem{waterfall}
+E.~Picon, ``Metodologías del {Diseño} de {Sistemas}: {Modelo} en {Cascada},''
+  Oct. 2015.
+
+\bibitem{spiral}
+``What is {Spiral} {Model} in {SDLC}? {\textbar}{Professionalqa}.com.''
+
+\bibitem{vmodel}
+``V-{Model} (software development),'' May 2018.
+\newblock Page Version ID: 842273850.
+
+\bibitem{scrum}
+{benjaGarrido}, ``Nexus: {Introducción} al framework de escalado de
+  {Scrum}.,'' July 2017.
+
 \bibitem{what_is_raspberry_pi}
 {\em Raspberry {Pi}}.
 \newblock Sept. 2017.
@@ -116,6 +131,9 @@ h.~online, {\em Raspbian: {Version} {Stretch} auf {Basis} von {Debian} 9
 \bibitem{pip}
 T.~p. developers, {\em pip: {The} {PyPA} recommended tool for installing
   {Python} packages.}
+
+\bibitem{secado_ideal}
+``procesosbio - {Secado}.''
 
 \bibitem{noauthor_metodos_2014}
 {\em Métodos para compactación de suelos}.

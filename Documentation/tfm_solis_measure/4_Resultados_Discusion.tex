@@ -7,9 +7,11 @@
 \chapter{Results}
 \newpage
 
-The following section is dedicated to expose the different results obtained after using the developed \textit{Measure System}. The validation of the system is determined by the obtained results. In case the results are valid, the system could be applied to future studies.\\
+The following section is dedicated to expose the results obtained after using the developed \textit{Measure System}. The validation of the system is determined by the obtained results. In case the results are valid, the system could be applied to future studies.\\
 
-There is comparison of the results obtained with the ideal model used by this study. The ideal model is the base to determine if the developed system is applicable to future studies. This section explains the selected use case to test the system. With the obtained information it is possible to decide if it is affordable to use the developed system in future studies.
+There is comparison of the results obtained with the ideal model used by this study. The ideal model is the base to determine if the developed system is applicable to future studies.\\
+
+This section explains the selected use case to test the system. With the obtained information it is possible to decide if it is affordable to use the developed system in future studies.
 
 \section{Studied cases}
 
@@ -33,13 +35,11 @@ There are lot of factors which will influence in the produced results. The resul
 
 \end{itemize}
 
-To do this study, it was designed a prototype with different soils. This prototype has filters made by other soils like gravel or soils with different granularity properties. The prototype simulates an inclined terrain where the drying process changes depending on the concentration of the water when the terrain wets.
-
-\newpage
+To do this study, it was designed a prototype to analyze the drying behavior of soils. This prototype has filters made by other soils like gravel or soils with other granularity properties. The prototype simulates an inclined terrain where the drying process changes depending on the concentration of the water when the terrain wets.
 
 \section{Analysis of the obtained results}
 
-After studying the different use cases that could be presented in the system, the obtained results are studied to decide if the system can be used for future studies where materials are involved.\\
+After studying the exposed use cases presented in the system, the obtained results are studied to decide if the system can be used for future studies where materials are involved.\\
 
 To do this study, a representation of the information is requited. This representation has to be done with graphs that can allow us to determine if the measures are reliable or not.\\
 
@@ -48,7 +48,7 @@ The results obtained have to be compared with results obtained by accurate syste
 When the selection is done, it is required to select the desired graph to represent the selected information. The chosen graph allows to compare the results with other studies or measures.\\
 
 %METER AQUI GRÁFICAS DEL SISTEMA NUESTRO
-The following picture represents the ideal dried graphic used as reference. This graph represents how the vales can change in an ideal study.\\
+The figure \ref{Ideal dried graphic} \cite{secado_ideal} represents the ideal dried graphic used as reference. This graph represents how the values can change on an ideal study.\\
 
 \begin{figure}[H]
 \begin{centering}
@@ -59,7 +59,7 @@ The following picture represents the ideal dried graphic used as reference. This
 
 As it is possible to see, this picture allows us to know how is the evolution of the measure when the time changes.\\
 
-In the following picture, it is showed the results obtained after using the developed system.
+Having an overview of the ideal studies, the developed system is compared to the ideal model. The goal of this study is to demonstrate if the developed system fulfills to the theorerical models. The measures obtained by the system are represented in the figure \ref{Soil Moisture Evolution in an Earth Dam}.
 
 \begin{figure}[H]
 \begin{centering}
@@ -68,7 +68,9 @@ In the following picture, it is showed the results obtained after using the deve
 \end{centering}
 \end{figure} 
 
-This graph represents the evolution of the humidity of the soil during the time. There are four humidity sensors connected to the chosen soil. These sensors are allocated in different positions to obtain different values depending on the inclination. The prototype represents a real use case, where the inclination is considered and affects to the measured values. Depending on the inclination, the humidity changes. Higher values are tied to the driest values of the soil, and lower values represent the higher humidity values. The evolution of the humidity of the soil depends on time. Also, the chosen prototype has an amount of soils. These soils are the following:\\
+This graph represents the evolution of the humidity of the soil during the time. There are four humidity sensors connected to the chosen soil. These sensors are allocated in different positions to obtain values depending on the inclination. The prototype represents a real use case, where the inclination is considered and affects to the measured values.\\
+
+Depending on the inclination, the humidity changes. Higher values are tied to the driest values of the soil, and lower values represent the higher humidity values. The evolution of the humidity of the soil depends on time. Also, the chosen prototype has an amount of soils. These soils are the following:\\
 
 \begin{itemize}
 
@@ -81,21 +83,29 @@ This graph represents the evolution of the humidity of the soil during the time.
 
 The behaviour of the drying process depends on the type of the used soil. Soils with filters dry faster than soils without filters. Also, the granularity of the soil influences on the drying process. Soils with more granularity dry faster than soils with few granularity.\\
 
-The prototype has four humidity sensors, which are represented with four different colours. The values associated to the used sensors are described as follows:
+The prototype has four humidity sensors, which are represented with four colours. The values associated to the used sensors are described as follows:
 
 \begin{itemize}
 
-\item Orange sensor. This sensor dries faster than the other sensors although it is located next to the water. The soil measured by this sensor has a bigger granularity which allows a faster drying process.
+\item Orange sensor. This sensor dries faster than the other sensors although it is located next to the water. The soil measured by this sensor has a bigger granularity which allows a faster drying process. The granularity of a soils determines how fast it dries.
 
 \item Green sensor. The core of the prototype is measured by this sensor. This core maintains the humidity better than the other measured parts although it wets slowlier than the other soils.
 
-\item Yellow sensor. The variations represented by this sensor are normal. This soil has a filter composed by gravel. The filter changes the humidity of the sensor drastically.
+\item Yellow sensor. The variations represented by this sensor are normal. This soil has a filter composed by gravel. The filter changes the humidity of the sensor drastically. This variation of the measures done by this sensor are related to the drain process of the measured soil. Soils with a higher drainage properties dry faster.
 
 \item Blue sensor. The soil measured by this sensor dries slowlier than the other sensors because it has no filter to speed-up the drying process.
 
 \end{itemize}
 
-It is possible to see that the represented graph is similar to the one used as model of study. The time slot used to represent the measures of the system is minor than the one used by the ideal model.\\
+Although the curves represented in the chart differ, the evolution of the curves correspond to the theoretical models. The results approach to a logarithmic representation.\\
+
+The variations of the curves refers to the type of soil which is studied, depending on the humidity of the soil too. Although the soils differ, the registered values always approach to the theoretical models. However, the time invest to dry a soil is not relevant, therefore time does not modify the curves of the charts.\\
+
+The inclination of the sensors modifies the measuread values. The distribution of the water depends on the inclination of the terrain, modifying the measures related to the humidity of the soil.\\
+
+It is possible to see that the represented graph is similar to the one used as model of study. The time slot used to represent the measures of the system is minor than the one used by the ideal model. The measures are calculated every five seconds to produce precise charts.\\
+
+Opting to integrate to the system more expensive sensors affects only to their durability. The results are completely valid selecting the \textit{FC-28} sensors. The limitation of these sensors is related to their durability. Despite this inconvenient, the sensors are amortized, considering their price. Unless it is required to place sensors with higher durability, the \textit{FC-28} sensor is completly valid to generate the results of the study.\\
 
 The comparison of the results of the ideal model with the studied model shows the validity of the designed solution. The developed solution is applicable to future studies where it is required to monitor humidity values. The curves of the drying process obtained with the developed system are similar to the graphs obtained by reliable systems.\\
 
